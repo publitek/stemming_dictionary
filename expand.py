@@ -19,7 +19,7 @@ SFX = [
 ## MAIN
 def main():
     dic = OrderedDict()
-    with open('en_US.dic') as f:
+    with open('en_US.dic.orig') as f:
         for line in f:
             try:
                 word, params = line.strip().split('/')
@@ -37,11 +37,11 @@ def main():
                     dic[word] = params
                     for w in words:
                         dic[w] = params
-    with open('en_US.dic.new', 'w') as f:
+    with open('en_US.dic', 'w') as f:
         words = sorted(dic.keys())
         f.write('%d\n'%(len(words)))
         for word in words:
-            f.write('%s/%s\n'%(word, params))
+            f.write('%s/%s\n'%(word, dic[word]))
 
 ## RUN
 if __name__ == "__main__":
