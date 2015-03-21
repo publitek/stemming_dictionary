@@ -2106,8 +2106,7 @@ anchorite/MS
 anchoritism/M
 anchorman/M
 anchormen
-anchorpeople
-anchorperson/S
+anchorpeople/Q
 anchor/SGDM
 anchorwoman
 anchorwomen
@@ -7462,8 +7461,7 @@ buckram/GSDM
 bucksaw/SM
 buckshot/MS
 buckskin/SM
-buckteeth
-bucktooth/DM
+bucktooth/DMQ
 buckwheat/SM
 Bucky/M
 bucolically
@@ -7771,8 +7769,7 @@ businesslike
 businessman/M
 businessmen
 business/MS
-businesspeople
-businessperson/S
+businesspeople/Q
 businesswoman/M
 businesswomen
 busker/M
@@ -11717,8 +11714,7 @@ congressman/M
 congressmen
 Congress/MS
 congress/MSDG
-congresspeople
-congressperson/S
+congresspeople/Q
 congresswoman/M
 congresswomen
 Congreve/M
@@ -12843,7 +12839,7 @@ craft/MRDSG
 craftsman/M
 craftsmanship/SM
 craftsmen
-craftspeople
+craftspeople/Q
 craftspersons
 craftswoman
 craftswomen
@@ -16093,7 +16089,7 @@ dogmatism/SM
 dogmatist/SM
 dogsbody/M
 dog/SM
-dogtooth/M
+dogtooth/MQ
 Dogtown/M
 dogtrot/MS
 dogtrotted
@@ -19594,8 +19590,7 @@ eyeshadow
 eyesight/MS
 eyesore/SM
 eyestrain/MS
-eyeteeth
-eyetooth/M
+eyetooth/MQ
 eyewash/MS
 eyewitness/SM
 Eyre/M
@@ -21341,8 +21336,7 @@ forensics/M
 foreordain/DSG
 forepart/MS
 forepaws
-forepeople
-foreperson/S
+forepeople/Q
 foreplay/MS
 forequarter/SM
 forerunner/MS
@@ -22654,7 +22648,6 @@ geegaw's
 geeing
 geek/SM
 geeky/RT
-geese/M
 geest/M
 gee/TDS
 geezer/MS
@@ -23570,7 +23563,7 @@ goon/SM
 goop/SM
 gooseberry/MS
 goosebumps
-goose/M
+goose/MQ
 goos/SDG
 GOP
 Gopher
@@ -31743,8 +31736,7 @@ Layney/M
 layoff/MS
 layout/SM
 layover/SM
-laypeople
-layperson/S
+laypeople/Q
 lays/AI
 Layton/M
 layup/MS
@@ -36494,7 +36486,7 @@ mongolism/SM
 mongoloid/S
 Mongoloid/S
 Mongol/SM
-mongoose/SM
+mongoose/SMQ
 mongrel/SM
 Monica/M
 monies/M
@@ -41695,7 +41687,7 @@ penury/SM
 peonage/MS
 peon/MS
 peony/SM
-people/SDMG
+people/SDMGQ
 Peoria/M
 Pepe/M
 Pepillo/M
@@ -41950,7 +41942,6 @@ personalized/U
 personalty/MS
 personal/YS
 persona/M
-person/BMS
 personification/M
 personifier/M
 personify/XNGDRS
@@ -48291,8 +48282,7 @@ saleslady/S
 salesman/M
 salesmanship/SM
 salesmen
-salespeople/M
-salesperson/MS
+salespeople/MQ
 salesroom/M
 saleswoman
 saleswomen
@@ -48713,7 +48703,7 @@ sawhorse/MS
 Saw/M
 sawmill/SM
 saw/SMDRG
-sawtooth
+sawtooth/Q
 Sawyere/M
 Sawyer/M
 sawyer/MS
@@ -52341,8 +52331,7 @@ spoken/U
 spokeshave/MS
 spokesman/M
 spokesmen
-spokespeople
-spokesperson/S
+spokespeople/Q
 spokeswoman/M
 spokeswomen
 spoliation/MCS
@@ -55222,7 +55211,6 @@ teethe
 teether/M
 teething/M
 teethmarks
-teeth/RSDJMG
 teetotaler/M
 teetotalism/MS
 teetotal/SRDGZ
@@ -56532,7 +56520,7 @@ tooter/M
 toot/GRDZS
 toothache/SM
 toothbrush/MSG
-tooth/DMG
+tooth/DMGQ
 toothily
 toothless
 toothmarks
@@ -56742,7 +56730,7 @@ townsfolk
 township/MS
 townsman/M
 townsmen
-townspeople/M
+townspeople/MQ
 town/SRM
 townswoman/M
 townswomen
@@ -56810,7 +56798,7 @@ trademark/GSMD
 trader/M
 tradesman/M
 tradesmen
-tradespeople
+tradespeople/Q
 tradespersons
 trade/SRDGZM
 tradeswoman/M
@@ -58475,9 +58463,8 @@ unpalatability
 unpalatable
 unpartizan
 unpatronizing
-unpeople
+unpeople/Q
 unperceptive
-unperson
 unperturbed/Y
 unphysical
 unpick/G
@@ -60014,8 +60001,7 @@ waiter/DMG
 Waiter/M
 wait/GSZJRD
 Wait/MR
-waitpeople
-waitperson/S
+waitpeople/Q
 waitress/GMSD
 waiver/MB
 waive/SRDGZ
