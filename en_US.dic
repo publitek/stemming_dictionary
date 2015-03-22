@@ -1,4 +1,4 @@
-30492
+30724
 0/nm
 0th/pt
 1/n1
@@ -319,6 +319,7 @@ Chihuahua/S
 Chile/S
 Chilean/S
 Chimera/S
+Chinaman/O
 Chinatown/S
 Chinook/S
 Chippewa/S
@@ -435,6 +436,8 @@ DuPont/S
 Dumpster/S
 Dupont/S
 Durham/S
+Dutchman/O
+Dutchwoman/O
 East/ZSR
 Eastern/RZ
 Eb/N
@@ -459,6 +462,8 @@ Eminence/S
 Emmy/S
 Engel/S
 English/GDRS
+Englishman/O
+Englishwoman/O
 Ephesian/S
 Epiphany/S
 Episcopal/S
@@ -528,6 +533,8 @@ Frederick/S
 Freemason/S
 Freemasonry/S
 French/DSG
+Frenchman/O
+Frenchwoman/O
 Freon/S
 Freudian/S
 Friday/S
@@ -667,6 +674,8 @@ Iowan/S
 Iranian/S
 Iraqi/S
 Irish/R
+Irishman/O
+Irishwoman/O
 Iroquoian/S
 Irv/G
 Isaac/S
@@ -1017,6 +1026,7 @@ Noel/S
 Nordic/S
 Norman/S
 Norri/S
+Norseman/O
 Northeast/S
 Northwest/S
 Norwegian/S
@@ -1233,6 +1243,10 @@ Scandinavian/S
 Scorpio/S
 Scot/S
 Scotch/S
+Scotchman/O
+Scotchwoman/O
+Scotsman/O
+Scotswoman/O
 Scottie/S
 Scrabble/S
 Scribner/S
@@ -1451,6 +1465,8 @@ Webb/R
 Webster/S
 Wednesday/S
 Wellington/S
+Welshman/O
+Welshwoman/O
 West/S
 Western/ZRS
 Whig/S
@@ -2122,6 +2138,8 @@ alcoholic/S
 alcoholism/S
 alcove/SD
 alder/S
+alderman/O
+alderwoman/O
 ale/VS
 alehouse/S
 alembic/S
@@ -2380,7 +2398,9 @@ ancestry/S
 anchor/SGD
 anchorage/S
 anchorite/S
-anchorperson/S
+anchorman/O
+anchorpeople/Q
+anchorwoman/O
 anchovy/S
 ancient/SRYTP
 ancientness/S
@@ -2873,6 +2893,7 @@ artifice/ZRS
 artificial/PY
 artificiality/S
 artillery/S
+artilleryman/O
 artiness/S
 artisan/S
 artist/S
@@ -2943,6 +2964,8 @@ assay/SZGRD
 assemblage/S
 assemble/DSRG
 assembler/S
+assemblyman/O
+assemblywoman/O
 assent/SGRD
 assert/DGS
 asserter/S
@@ -3316,6 +3339,7 @@ backwardness/S
 backwash/SDG
 backwater/S
 backwood/S
+backwoodsman/O
 backyard/S
 bacon/SR
 bacteria/S
@@ -3329,6 +3353,7 @@ badge/DSRGZ
 badger/DG
 badinage/DSG
 badland/S
+badman/O
 badminton/S
 badmouth/DG
 badness/S
@@ -3340,6 +3365,7 @@ bagatelle/S
 bagel/S
 bagful/S
 baggage/S
+baggageman/O
 bagger/S
 bagginess/S
 baggy/PRST
@@ -3349,6 +3375,7 @@ bail/GSYDRB
 bailiff/S
 bailiwick/S
 bailout/S
+bailsman/O
 bairn/S
 bait/GSDR
 baize/GDS
@@ -3415,6 +3442,7 @@ bandit/S
 banditry/S
 bandmaster/S
 bandoleer/S
+bandsman/O
 bandstand/S
 bandwagon/S
 bandy/TGRSD
@@ -3479,6 +3507,7 @@ barf/YDSG
 barfly/S
 bargain/ZGSDR
 barge/DSG
+bargeman/O
 barhop/S
 baritone/S
 barium/S
@@ -3487,6 +3516,7 @@ barkeep/SRZ
 barley/S
 barleycorn/S
 barmaid/S
+barman/O
 barn/GDS
 barnacle/DS
 barnstorm/DRGZS
@@ -3525,6 +3555,7 @@ base/GRSDL
 baseball/S
 baseboard/S
 baseline/S
+baseman/O
 basement/S
 baseness/S
 bash/JGDSR
@@ -3569,7 +3600,9 @@ bathtub/S
 bathysphere/S
 batik/DSG
 batiste/S
+batman/O
 baton/S
+batsman/O
 battalion/S
 batten/SDG
 batter/SRDZG
@@ -3753,6 +3786,7 @@ bellicosity/S
 belligerence/S
 belligerency/S
 belligerent/SY
+bellman/O
 bellow/DGS
 bellwether/S
 belly/SDG
@@ -4231,6 +4265,7 @@ boastfulness/S
 boat/DRGZJS
 boathouse/S
 boatload/S
+boatman/O
 boatswain/S
 boatyard/S
 bob/S
@@ -4258,9 +4293,11 @@ bodysuit/S
 bodywork/S
 bog/S
 bogey/SGD
+bogeyman/O
 boggle/SDG
 boggling/Y
 boggy/RT
+bogyman/O
 bohemian/S
 bohemianism/S
 boil/JSGZDR
@@ -4295,6 +4332,9 @@ bonbon/S
 bond/JDRSGZ
 bondage/S
 bondholder/S
+bondman/O
+bondsman/O
+bondwoman/O
 bone/ZDRSG
 bonehead/SD
 bonfire/S
@@ -4426,6 +4466,7 @@ bowl/GZSDR
 bowleg/S
 bowlful/S
 bowline/S
+bowman/O
 bows/R
 bowsprit/S
 bowstring/GSD
@@ -4469,6 +4510,7 @@ brainwave/S
 brainy/RPT
 braise/SDG
 brake/DSG
+brakeman/O
 bramble/DSG
 brambly/RT
 bran/S
@@ -4701,7 +4743,7 @@ buckram/GSD
 bucksaw/S
 buckshot/S
 buckskin/S
-bucktooth/D
+bucktooth/DQ
 buckwheat/S
 bucolic/S
 bud/S
@@ -4848,11 +4890,14 @@ busgirl/S
 bush/JDSRG
 bushel/DJSG
 bushiness/S
+bushman/O
 bushmaster/S
 bushwhack/RDGSZ
 bushy/PTR
 business/S
-businessperson/S
+businessman/O
+businesspeople/Q
+businesswoman/O
 busk/GR
 buskin/S
 buss/D
@@ -5032,6 +5077,8 @@ camel/S
 camellia/S
 cameo/GSD
 camera/S
+cameraman/O
+camerawoman/O
 camisole/S
 camouflage/DRSGZ
 camp/SGD
@@ -5378,6 +5425,7 @@ catnap/S
 catnip/S
 cattail/S
 cattiness/S
+cattleman/O
 catty/PRST
 catwalk/S
 caucus/SDG
@@ -5402,8 +5450,10 @@ cautiousness/S
 cavalcade/S
 cavalier/SGYDP
 cavalry/S
+cavalryman/O
 cave/GRSD
 caveat/S
+caveman/O
 cavern/GSD
 cavernous/Y
 caviar/S
@@ -5531,9 +5581,10 @@ chain/SGD
 chainsaw/SGD
 chair/SGD
 chairlift/S
-chairman/DGS
+chairman/DGSO
 chairmanship/S
 chairperson/S
+chairwoman/O
 chaise/S
 chalcedony/S
 chalet/S
@@ -5624,6 +5675,7 @@ charterer/S
 chartist/S
 chartreuse/S
 chartroom/S
+charwoman/O
 chary/PTR
 chase/DSRGZ
 chasm/S
@@ -5701,6 +5753,7 @@ cherubim/S
 chervil/S
 chess/S
 chessboard/S
+chessman/O
 chest/RDS
 chesterfield/S
 chestful/S
@@ -5875,7 +5928,9 @@ church/DSYG
 churchgoer/S
 churchgoing/S
 churchly/P
+churchman/O
 churchwarden/S
+churchwoman/O
 churchyard/S
 churl/S
 churlish/YP
@@ -5983,6 +6038,7 @@ clank/SGD
 clanking/Y
 clannish/PY
 clannishness/S
+clansman/O
 clap/S
 clapboard/SDG
 clapper/GDS
@@ -6044,6 +6100,8 @@ clement/Y
 clench/D
 clerestory/S
 clergy/S
+clergyman/O
+clergywoman/O
 cleric/S
 clerical/YS
 clericalism/S
@@ -6114,6 +6172,7 @@ cloth/GJSD
 clothe/DSG
 clotheshorse/S
 clothesline/SDG
+clothesman/O
 clothespin/S
 clothier/S
 cloture/DSG
@@ -6149,6 +6208,7 @@ clutter/GSD
 cnidarian/S
 co/DS
 coach/SRDG
+coachman/O
 coadjutor/S
 coagulant/S
 coagulate/GNXSD
@@ -6447,6 +6507,8 @@ commissioner/S
 commit/S
 commitment/S
 committee/S
+committeeman/O
+committeewoman/O
 commode/S
 commodious/YP
 commodity/S
@@ -6741,7 +6803,9 @@ congregationalism/S
 congregationalist/S
 congress/SDG
 congressional/Y
-congressperson/S
+congressman/O
+congresspeople/Q
+congresswoman/O
 congruent/Y
 congruity/S
 congruous/YP
@@ -6763,6 +6827,7 @@ conjuncture/S
 conjuration/S
 conjure/RSDZG
 conk/GS
+conman/O
 conn/GVDR
 connect/DGS
 connective/SY
@@ -7127,6 +7192,7 @@ corporate/NVXS
 corporeal/Y
 corporeality/S
 corps/S
+corpsman/O
 corpulence/S
 corpulent/YP
 corpulentness/S
@@ -7213,8 +7279,10 @@ could/T
 coulomb/S
 coul�e/S
 council/S
+councilman/O
 councilor/S
 councilperson/S
+councilwoman/O
 counsel/GSD
 counselor/S
 count/GRDS
@@ -7234,6 +7302,7 @@ counterfeit/ZSGRD
 counterfoil/S
 counterinsurgency/S
 counterintelligence/S
+counterman/O
 countermand/DSG
 countermeasure/S
 counteroffensive/S
@@ -7255,7 +7324,9 @@ countess/S
 countless/Y
 countrify/D
 country/S
+countryman/O
 countryside/S
+countrywoman/O
 county/S
 coup/SDG
 coupe/S
@@ -7320,6 +7391,7 @@ cowherd/S
 cowhide/GSD
 cowl/SGD
 cowlick/S
+cowman/O
 coworker/S
 cowpoke/S
 cowpox/S
@@ -7354,7 +7426,10 @@ crackup/S
 cradle/SRDG
 craft/RDSG
 craftiness/S
+craftsman/O
 craftsmanship/S
+craftspeople/Q
+craftswoman/O
 crafty/TRP
 crag/S
 cragginess/S
@@ -7448,6 +7523,7 @@ crevice/S
 crew/DGS
 crewel/S
 crewelwork/S
+crewman/O
 crib/S
 cribbage/S
 cribber/S
@@ -7506,6 +7582,7 @@ cross/ZTYSRDPBJG
 crossbar/S
 crossbeam/S
 crossbow/S
+crossbowman/O
 crossbred/S
 crossbreed/SG
 crosscheck/SGD
@@ -7797,6 +7874,8 @@ dainty/TPRS
 daiquiri/S
 dairy/JGS
 dairymaid/S
+dairyman/O
+dairywoman/O
 dais/S
 daisy/S
 dale/SH
@@ -8192,6 +8271,7 @@ deliver/SGD
 deliverance/S
 deliverer/S
 delivery/S
+deliveryman/O
 dell/S
 delouse/SDG
 delphinium/S
@@ -9177,6 +9257,7 @@ dogma/S
 dogmatic/S
 dogmatism/S
 dogmatist/S
+dogtooth/Q
 dogtrot/S
 dogwood/S
 doily/S
@@ -9228,6 +9309,7 @@ door/GDS
 doorbell/S
 doorkeep/RZ
 doorknob/S
+doorman/O
 doormat/S
 doorplate/S
 doorstep/S
@@ -9319,7 +9401,9 @@ draftee/S
 drafter/S
 draftiness/S
 drafting/S
+draftsman/O
 draftsmanship/S
+draftswoman/O
 drafty/PTR
 drag/S
 dragging/Y
@@ -9528,6 +9612,7 @@ dusky/RPT
 dust/RDGZS
 dustbin/S
 dustiness/S
+dustman/O
 dustpan/S
 dusty/RPT
 dutch/S
@@ -10743,6 +10828,7 @@ eyepiece/S
 eyesight/S
 eyesore/S
 eyestrain/S
+eyetooth/Q
 eyewash/S
 eyewitness/S
 f/R
@@ -10992,6 +11078,7 @@ fell/PSGZTRD
 fella/S
 fellatio/S
 fellow/SGDY
+fellowman/O
 fellowship/S
 felon/S
 felonious/PY
@@ -11025,6 +11112,7 @@ ferret/SRDG
 ferrule/GSD
 ferry/SDG
 ferryboat/S
+ferryman/O
 fertile/YP
 fertility/S
 fertilization/S
@@ -11194,6 +11282,7 @@ firefight/JRGZS
 firefly/S
 firehouse/S
 firelight/GZS
+fireman/O
 fireplace/S
 fireplug/S
 firepower/S
@@ -11216,6 +11305,7 @@ fiscal/YS
 fish/JGZSRD
 fishbowl/S
 fishcake/S
+fisherman/O
 fishery/S
 fishhook/S
 fishiness/S
@@ -11262,6 +11352,7 @@ flack/SGD
 flag/S
 flagellate/DSNGX
 flagging/SY
+flagman/O
 flagon/S
 flagpole/S
 flagrance/S
@@ -11539,6 +11630,7 @@ footfall/S
 foothill/S
 foothold/S
 footlocker/S
+footman/O
 footnote/SDG
 footpad/S
 footprint/S
@@ -11591,13 +11683,14 @@ foreknowledge/S
 foreleg/S
 forelimb/S
 forelock/DSG
+foreman/O
 foremast/S
 forename/DS
 forenoon/S
 forensic/S
 foreordain/DSG
 forepart/S
-foreperson/S
+forepeople/Q
 foreplay/S
 forequarter/S
 forerunner/S
@@ -11620,6 +11713,7 @@ foretell/RGS
 forethought/S
 forever/PS
 forewarn/GSJRD
+forewoman/O
 foreword/S
 forfeit/ZGDRS
 forfeiture/S
@@ -11772,6 +11866,7 @@ free/YTDRSP
 freebase/GDS
 freebie/S
 freeboot/ZR
+freedman/O
 freedom/S
 freehand/D
 freehanded/Y
@@ -11779,6 +11874,7 @@ freehold/ZSR
 freeing/S
 freelance/SRDGZ
 freeload/SRDGZ
+freeman/O
 freestone/S
 freestyle/S
 freethinker/S
@@ -11801,6 +11897,7 @@ fresco/DG
 fresh/ZSRNDG
 freshen/SZGDR
 freshet/S
+freshman/O
 freshness/S
 freshwater/S
 fret/S
@@ -11854,6 +11951,7 @@ frizzy/RT
 fro/HS
 frock/SDG
 frog/S
+frogman/O
 frolic/S
 frolicker/S
 frond/S
@@ -11861,6 +11959,7 @@ front/GSRD
 frontage/S
 frontal/SY
 frontier/S
+frontiersman/O
 frontispiece/S
 frontward/S
 frost/DSG
@@ -12100,6 +12199,7 @@ gar/SL
 garage/GSD
 garb/DGS
 garbage/SDG
+garbageman/O
 garbanzo/S
 garble/RSDG
 garden/ZGRDS
@@ -12238,8 +12338,9 @@ gentile/S
 gentility/S
 gentle/PRSDGT
 gentlefolk/S
-gentleman/Y
+gentleman/YO
 gentleness/S
+gentlewoman/O
 gentrify/NSDGX
 gentry/S
 genuflect/GDS
@@ -12535,6 +12636,7 @@ gook/S
 goon/S
 goop/S
 goos/SDG
+goose/Q
 gooseberry/S
 gopher/S
 gore/DSG
@@ -12776,6 +12878,7 @@ groin/GSD
 grok/S
 grommet/GDS
 groom/GZSRD
+groomsman/O
 groove/SRDG
 groovy/TR
 grope/SRDJGZ
@@ -12793,6 +12896,7 @@ groundbreaking/S
 groundhog/S
 groundless/YP
 groundnut/S
+groundsman/O
 groundswell/S
 groundwater/S
 groundwork/S
@@ -12844,6 +12948,7 @@ guardian/S
 guardianship/S
 guardrail/S
 guardroom/S
+guardsman/O
 guava/S
 guernsey/S
 guerrilla/S
@@ -12896,6 +13001,7 @@ gunfight/SRGZ
 gunfire/S
 gunk/S
 gunky/RT
+gunman/O
 gunmetal/S
 gunner/S
 gunnery/S
@@ -13068,6 +13174,7 @@ handgun/S
 handicap/S
 handicapper/S
 handicraft/SR
+handicraftsman/O
 handiness/S
 handiwork/S
 handkerchief/S
@@ -13088,9 +13195,11 @@ handstand/S
 handwork/S
 handwrite/GSJ
 handy/RT
+handyman/O
 hang/GDRZBSJ
 hangar/SGD
 hangdog/S
+hangman/O
 hangnail/S
 hangout/S
 hangover/S
@@ -13174,6 +13283,7 @@ harshen/GD
 harshness/S
 hart/S
 harvest/DRZGS
+harvestman/O
 hash/GSD
 hashish/S
 hasp/GDS
@@ -13248,6 +13358,7 @@ headless/P
 headlight/S
 headline/DRSZG
 headlock/S
+headman/O
 headmaster/S
 headmistress/S
 headphone/S
@@ -13259,6 +13370,7 @@ headroom/S
 headset/S
 headship/S
 headshrinker/S
+headsman/O
 headstall/S
 headstand/S
 headstone/S
@@ -13359,6 +13471,7 @@ hellish/PY
 hellishness/S
 hello/GS
 helmet/GSD
+helmsman/O
 helot/S
 help/GZSJDR
 helpful/Y
@@ -13387,6 +13500,7 @@ hemp/NS
 hemstitch/DSG
 hen/S
 hence/S
+henchman/O
 henna/DSG
 henpeck/GSD
 hep/S
@@ -13404,6 +13518,7 @@ herbicide/S
 herbivore/S
 herbivorous/Y
 herd/DRGZS
+herdsman/O
 here/S
 hereabout/S
 hereafter/S
@@ -13478,6 +13593,7 @@ highness/S
 highroad/S
 hightail/DGS
 highway/S
+highwayman/O
 hijack/JZRDGS
 hike/ZGDSR
 hilarious/YP
@@ -13486,6 +13602,7 @@ hilarity/S
 hill/GSDR
 hillbilly/S
 hilliness/S
+hillman/O
 hillock/S
 hillside/S
 hilltop/S
@@ -13721,6 +13838,7 @@ horseback/S
 horsefly/S
 horsehair/S
 horsehide/S
+horseman/O
 horsemanship/S
 horseplay/SR
 horsepower/S
@@ -13728,6 +13846,7 @@ horseradish/S
 horseshoe/RSD
 horsetail/S
 horsewhip/S
+horsewoman/O
 horticulture/S
 horticulturist/S
 hos/GDS
@@ -13778,6 +13897,7 @@ household/ZRS
 househusband/S
 housekeep/JRGZ
 housemaid/S
+houseman/O
 housemother/S
 houseparent/S
 houseplant/S
@@ -13869,6 +13989,7 @@ hunker/DG
 hunky/RST
 hunt/GZJDRS
 huntress/S
+huntsman/O
 hurdle/JZGRSD
 hurl/DRGZJS
 hurray/SDG
@@ -13880,6 +14001,7 @@ hurtfulness/S
 hurting/Y
 hurtle/SDG
 husband/GSDRY
+husbandman/O
 husbandry/S
 hush/DSG
 husk/SGZDR
@@ -13996,6 +14118,7 @@ iceboat/S
 icebox/S
 icebreaker/S
 icecap/S
+iceman/O
 icepick/S
 ichthyologist/S
 ichthyology/S
@@ -14628,6 +14751,7 @@ infancy/S
 infant/S
 infanticide/S
 infantry/S
+infantryman/O
 infarct/S
 infarction/S
 infatuate/XNGSD
@@ -15477,6 +15601,7 @@ journalism/S
 journalist/S
 journalize/DRSGZ
 journey/DRZSGJ
+journeyman/O
 joust/ZSRDG
 jovial/Y
 joviality/S
@@ -15546,6 +15671,8 @@ jurisprudential/Y
 jurist/S
 juror/S
 jury/S
+juryman/O
+jurywoman/O
 just/PY
 justice/S
 justify/GDRSXZN
@@ -15678,6 +15805,8 @@ kinkiness/S
 kinky/PRT
 kinsfolk/S
 kinship/S
+kinsman/O
+kinswoman/O
 kiosk/S
 kip/S
 kipper/DSG
@@ -15857,6 +15986,7 @@ landowning/S
 landscape/GZSRD
 landslid/G
 landslide/S
+landsman/O
 landward/S
 lane/S
 language/S
@@ -15947,6 +16077,8 @@ laundress/S
 laundrette/S
 laundromat/S
 laundry/S
+laundryman/O
+laundrywoman/O
 laureate/DSNG
 laureateship/S
 laurel/SGD
@@ -15968,6 +16100,7 @@ lawless/PY
 lawlessness/S
 lawmaker/S
 lawmaking/S
+lawman/O
 lawn/S
 lawnmower/S
 lawrencium/S
@@ -15982,11 +16115,13 @@ layabout/S
 layaway/S
 layer/GJD
 layette/S
+layman/O
 layoff/S
 layout/S
 layover/S
-layperson/S
+laypeople/Q
 layup/S
+laywoman/O
 laze/DSG
 laziness/S
 lazy/PTSRDG
@@ -15995,6 +16130,7 @@ leach/SDG
 lead/SGZXJRDN
 leaden/PGDY
 leadership/S
+leadsman/O
 leaf/GSD
 leafage/S
 leaflet/SDG
@@ -16078,6 +16214,7 @@ legitimate/SDNGY
 legitimatize/SDG
 legitimization/S
 legitimize/RSDG
+legman/O
 legroom/S
 legume/S
 legwork/S
@@ -16126,6 +16263,7 @@ lethargy/S
 letter/JSZGRD
 letterbox/S
 letterhead/S
+letterman/O
 letterpress/S
 letting/S
 lettuce/S
@@ -16280,8 +16418,10 @@ linear/Y
 linearity/S
 linearize/SDGNB
 linebacker/S
+lineman/O
 linen/S
 liner/S
+linesman/O
 lineup/S
 ling/ZR
 linger/ZGJRD
@@ -16374,6 +16514,7 @@ liver/SGD
 liverwort/S
 liverwurst/S
 livery/S
+liveryman/O
 livestock/S
 livid/YP
 living/YP
@@ -16472,6 +16613,7 @@ longhorn/S
 longing/Y
 longitude/S
 longitudinal/Y
+longshoreman/O
 longueur/S
 longword/S
 look/GZRDS
@@ -16591,6 +16733,7 @@ lumbago/S
 lumbar/S
 lumber/RDGZSJ
 lumberjack/S
+lumberman/O
 lumberyard/S
 luminary/S
 luminescence/S
@@ -16694,9 +16837,11 @@ maddening/Y
 madder/S
 mademoiselle/S
 madhouse/S
+madman/O
 madness/S
 madras/S
 madrigal/SG
+madwoman/O
 maelstrom/S
 maestro/S
 mafia/S
@@ -16749,6 +16894,7 @@ mail/BSJGZRD
 mailbag/S
 mailbox/S
 maillot/S
+mailman/O
 maim/SGZRD
 maimed/P
 main/S
@@ -16955,6 +17101,7 @@ market/GSRDJBZ
 marketability/S
 marketeer/S
 marketplace/S
+marksman/O
 marksmanship/S
 markup/S
 marl/DSG
@@ -17255,6 +17402,7 @@ mercer/S
 mercerize/SDG
 merchandise/SRDJZG
 merchant/SBDG
+merchantman/O
 merciful/YP
 merciless/YP
 mercilessness/S
@@ -17274,6 +17422,7 @@ meritocracy/S
 meritorious/PY
 meritoriousness/S
 mermaid/S
+merman/O
 merriment/S
 merriness/S
 merry/RPT
@@ -17398,6 +17547,7 @@ midday/S
 midden/S
 middle/GJRSD
 middlebrow/S
+middleman/O
 middleweight/S
 middling/Y
 middy/S
@@ -17413,6 +17563,7 @@ midpoint/S
 midrib/S
 midriff/S
 midship/S
+midshipman/O
 midst/S
 midstream/S
 midsummer/S
@@ -17454,9 +17605,11 @@ militarization/S
 militarize/SDG
 militate/SDG
 militia/S
+militiaman/O
 milk/GZSRD
 milkiness/S
 milkmaid/S
+milkman/O
 milkshake/S
 milksop/S
 milkweed/S
@@ -17557,6 +17710,7 @@ minuet/S
 minus/S
 minuscule/S
 minute/RSDPTYG
+minuteman/O
 minuteness/S
 minx/S
 miracle/S
@@ -17831,7 +17985,7 @@ moneymaking/S
 monger/SGD
 mongolism/S
 mongoloid/S
-mongoose/S
+mongoose/SQ
 mongrel/S
 moniker/S
 monism/S
@@ -18001,6 +18155,7 @@ motorcyclist/S
 motorist/S
 motorization/S
 motorize/DSG
+motorman/O
 motorway/S
 mottle/GSRD
 moue/DSG
@@ -18365,6 +18520,7 @@ needle/GZRSD
 needlepoint/S
 needless/YP
 needlessness/S
+needlewoman/O
 needlework/RS
 needy/TPR
 nefarious/YP
@@ -18464,13 +18620,17 @@ newsflash/S
 newsgirl/S
 newsgroup/S
 newsletter/S
+newsman/O
 newspaper/SGD
+newspaperman/O
+newspaperwoman/O
 newsprint/S
 newsreader/S
 newsreel/S
 newsroom/S
 newsstand/S
 newsweekly/S
+newswoman/O
 newsworthiness/S
 newsworthy/RPT
 newsy/TRS
@@ -18553,7 +18713,9 @@ nob/Y
 nobelium/S
 nobility/S
 noble/TPSR
+nobleman/O
 nobleness/S
+noblewoman/O
 nobody/S
 nocturnal/SY
 nocturne/S
@@ -18806,6 +18968,7 @@ nuptial/S
 nurse/SRDJGZ
 nursemaid/S
 nursery/S
+nurseryman/O
 nurture/SRDGZ
 nut/S
 nutate/NGSD
@@ -18838,6 +19001,8 @@ oak/SN
 oakum/S
 oar/GSD
 oarlock/S
+oarsman/O
+oarswoman/O
 oat/SNR
 oatcake/S
 oatmeal/S
@@ -19024,6 +19189,7 @@ oho/S
 oil/DRSZG
 oilfield/S
 oiliness/S
+oilman/O
 oilseed/S
 oilskin/S
 oily/TPR
@@ -19043,6 +19209,7 @@ oligarchy/S
 oligopoly/S
 olive/SR
 om/XN
+ombudsman/O
 omega/S
 omelet/S
 omen/DG
@@ -19919,6 +20086,8 @@ patriot/S
 patriotism/S
 patristic/S
 patrol/S
+patrolman/O
+patrolwoman/O
 patron/YS
 patronage/S
 patroness/S
@@ -20079,6 +20248,7 @@ penitent/SY
 penitential/YS
 penitentiary/S
 penlight/S
+penman/O
 penmanship/S
 pennant/S
 pennon/S
@@ -20108,7 +20278,7 @@ penury/S
 peon/S
 peonage/S
 peony/S
-people/SDG
+people/SDGQ
 pep/S
 pepper/SGRD
 peppercorn/S
@@ -20234,7 +20404,6 @@ persimmon/S
 persist/DRSG
 persistence/S
 persistent/Y
-person/BS
 personable/P
 personage/S
 personal/YS
@@ -20585,6 +20754,7 @@ pitapat/S
 pitch/RSDZG
 pitchblende/S
 pitchfork/GDS
+pitchman/O
 piteous/YP
 piteousness/S
 pitfall/S
@@ -20631,7 +20801,9 @@ plagiary/S
 plague/GRSD
 plaid/DSG
 plain/SPTGRDY
+plainclothesman/O
 plainness/S
+plainsman/O
 plainsong/S
 plaint/VS
 plaintiff/S
@@ -20741,6 +20913,7 @@ plot/S
 plotter/DSG
 plover/S
 plow/SGZDR
+plowman/O
 plowshare/S
 ploy/SDG
 pluck/SGRD
@@ -20829,6 +21002,8 @@ polemicist/S
 polestar/S
 poleward/S
 police/SDG
+policeman/O
+policewoman/O
 policy/S
 policyholder/S
 policymaker/S
@@ -21028,6 +21203,7 @@ posthaste/S
 posthumous/YP
 postilion/S
 postlude/S
+postman/O
 postmark/GSD
 postmaster/S
 postmistress/S
@@ -21316,6 +21492,7 @@ presort/GDS
 press/DSG
 presser/S
 pressing/YS
+pressman/O
 pressure/DSG
 pressurization/S
 pressurize/DSRGZ
@@ -21974,6 +22151,7 @@ quarrel/SZDRG
 quarrelsome/PY
 quarrelsomeness/S
 quarry/RSDG
+quarryman/O
 quart/RSZ
 quarter/DRYG
 quarterback/SGD
@@ -22128,6 +22306,7 @@ radioisotope/S
 radiological/Y
 radiologist/S
 radiology/S
+radioman/O
 radiometer/S
 radiometry/S
 radiophone/S
@@ -22965,6 +23144,7 @@ repack/G
 repackage/RSDG
 repaint/DRZGS
 repair/BZGR
+repairman/O
 reparation/S
 repartee/DS
 repartition/Z
@@ -23417,6 +23597,7 @@ riff/GSD
 riffle/SDG
 riffraff/S
 rifle/GZDSR
+rifleman/O
 rift/GSD
 rig/S
 rigger/S
@@ -23818,8 +23999,10 @@ sale/BS
 salesclerk/S
 salesgirl/S
 saleslady/S
+salesman/O
 salesmanship/S
-salesperson/S
+salespeople/Q
+saleswoman/O
 salience/S
 salient/SY
 saline/S
@@ -23878,6 +24061,7 @@ sandhog/S
 sandiness/S
 sandlot/S
 sandlotter/S
+sandman/O
 sandpaper/DGS
 sandpiper/S
 sandstone/S
@@ -23974,6 +24158,7 @@ sawdust/DSG
 sawfly/S
 sawhorse/S
 sawmill/S
+sawtooth/Q
 sawyer/S
 sax/S
 saxifrage/S
@@ -24368,6 +24553,7 @@ select/PDSVGB
 selection/S
 selective/YP
 selectivity/S
+selectman/O
 selectness/S
 selector/S
 selenium/S
@@ -24520,6 +24706,8 @@ serve/GDSR
 service/GSRD
 serviceability/S
 serviceable/P
+serviceman/O
+servicewoman/O
 serviette/S
 servility/S
 serving/S
@@ -24700,6 +24888,7 @@ ship/SL
 shipboard/S
 shipbuild/RGZJ
 shipload/S
+shipman/O
 shipmate/S
 shipment/S
 shipowner/S
@@ -24783,6 +24972,7 @@ shower/GD
 showery/TR
 showgirl/S
 showiness/S
+showman/O
 showmanship/S
 showoff/S
 showpiece/S
@@ -24859,6 +25049,7 @@ sidecar/S
 sidekick/S
 sidelight/S
 sideline/GDRS
+sideman/O
 sidepiece/S
 sidesaddle/S
 sideshow/S
@@ -24891,6 +25082,7 @@ sign/GRDS
 signaler/S
 signalization/S
 signalize/GSD
+signalman/O
 signatory/S
 signature/S
 signboard/S
@@ -25358,6 +25550,7 @@ snowfall/S
 snowfield/S
 snowflake/S
 snowiness/S
+snowman/O
 snowmobile/GDRS
 snowplow/SGD
 snowshoe/RS
@@ -25589,10 +25782,12 @@ spa/S
 space/DSRGZJ
 spacecraft/S
 spaceflight/S
+spaceman/O
 spaceport/S
 spaceship/S
 spacesuit/S
 spacewalk/GSD
+spacewoman/O
 spacious/PY
 spaciousness/S
 spade/DSRG
@@ -25782,7 +25977,9 @@ spoilage/S
 spoilsport/S
 spoke/DSG
 spokeshave/S
-spokesperson/S
+spokesman/O
+spokespeople/Q
+spokeswoman/O
 spoliation/S
 sponge/GZRSD
 sponginess/S
@@ -25809,8 +26006,9 @@ sportiness/S
 sporting/Y
 sportive/PY
 sportscast/RSGZ
-sportsman/Y
+sportsman/YO
 sportsmanship/S
+sportswoman/O
 sportswriter/S
 sporty/PRT
 spot/S
@@ -25919,6 +26117,7 @@ stabilization/S
 stabilize/GSD
 stabilizer/S
 stable/RSDGTP
+stableman/O
 staccato/S
 stack/SDG
 stadium/S
@@ -26013,8 +26212,9 @@ stateliness/S
 stately/PRT
 statement/S
 stateroom/S
-statesman/Y
+statesman/YO
 statesmanship/S
+stateswoman/O
 static/S
 statical/Y
 station/SZGDR
@@ -26070,6 +26270,7 @@ steeplejack/S
 steepness/S
 steer/SGBRDJ
 steerage/S
+steersman/O
 stegosaurus/S
 stein/SGZRD
 stem/S
@@ -26323,6 +26524,7 @@ stroll/GZSDR
 strong/YRT
 strongbox/S
 stronghold/S
+strongman/O
 strongroom/S
 strontium/S
 strop/S
@@ -26707,6 +26909,7 @@ superintendent/S
 superior/SY
 superiority/S
 superlative/PYS
+superman/O
 supermarket/S
 supermom/S
 supernatural/SPY
@@ -26736,6 +26939,7 @@ supervene/GSD
 supervention/S
 supervise/SDGNX
 supervisor/S
+superwoman/O
 supine/PSY
 supp/YDRGZ
 supper/DG
@@ -26907,6 +27111,7 @@ switch/GBZRSDJ
 switchback/GDS
 switchblade/S
 switchboard/S
+switchman/O
 swivel/GDS
 swizzle/RDG
 swoon/GSRD
@@ -26916,6 +27121,7 @@ swoosh/GSD
 sword/DSG
 swordfish/S
 swordplay/RS
+swordsman/O
 swordsmanship/S
 swot/S
 sybarite/S
@@ -27252,7 +27458,6 @@ teeny/RT
 teenybopper/S
 teeshirt/S
 teeter/GDS
-teeth/RSDJG
 teetotal/SRDGZ
 teetotalism/S
 tektite/S
@@ -27819,7 +28024,7 @@ tooler/S
 toolkit/S
 toolmake/ZRG
 toot/GRDZS
-tooth/DG
+tooth/DGQ
 toothache/S
 toothbrush/SG
 toothpaste/S
@@ -27933,6 +28138,9 @@ town/SR
 townhouse/S
 townie/S
 township/S
+townsman/O
+townspeople/Q
+townswoman/O
 towrope/S
 toxemia/S
 toxic/S
@@ -27959,6 +28167,9 @@ traction/S
 tractor/S
 trade/SRDGZ
 trademark/GSD
+tradesman/O
+tradespeople/Q
+tradeswoman/O
 tradition/S
 traditionalism/S
 traditionalist/S
@@ -27979,6 +28190,7 @@ train/SDG
 trainee/S
 trainer/S
 training/S
+trainman/O
 trainspotter/S
 traipse/DSG
 trait/S
@@ -28132,6 +28344,7 @@ trench/GSD
 trenchancy/S
 trenchant/Y
 trencher/S
+trencherman/O
 trend/SDG
 trendiness/S
 trendy/PTRS
@@ -28152,6 +28365,8 @@ triathlon/S
 tribal/Y
 tribalism/S
 tribe/S
+tribesman/O
+tribeswoman/O
 tribulate/NX
 tribunal/S
 tribune/S
@@ -28626,6 +28841,7 @@ underbrush/SDG
 undercarriage/S
 undercharge/GSD
 underclass/S
+underclassman/O
 underclothing/S
 undercoat/JDGS
 undercount/S
@@ -28890,6 +29106,7 @@ unorganized/YP
 unoriginal/S
 unpack/G
 unpacker/S
+unpeople/Q
 unperturbed/Y
 unpick/G
 unpin/S
@@ -29054,6 +29271,7 @@ uplift/SJDRG
 upload/GSD
 upper/S
 uppercase/GSD
+upperclassman/O
 uppercut/S
 upraise/GDS
 uprear/DSG
@@ -29292,6 +29510,7 @@ venerate/XNGSD
 vengeance/S
 vengeful/PY
 venial/YP
+venireman/O
 venison/S
 venom/SGD
 venomous/YP
@@ -29366,6 +29585,7 @@ vestigial/Y
 vesting/S
 vestment/S
 vestry/S
+vestryman/O
 vesture/SDG
 vet/SR
 vetch/S
@@ -29658,7 +29878,7 @@ waistcoat/GDS
 waistline/S
 wait/GSZJRD
 waiter/DG
-waitperson/S
+waitpeople/Q
 waitress/GSD
 waive/SRDGZ
 waiver/B
@@ -29740,6 +29960,7 @@ washbasin/S
 washboard/S
 washbowl/S
 washer/GDS
+washerwoman/O
 washing/S
 washout/S
 washrag/S
@@ -29768,6 +29989,7 @@ watchdog/S
 watchful/PY
 watchfulness/S
 watchmake/JRGZ
+watchman/O
 watchtower/S
 watchword/S
 water/JGSRD
@@ -29842,6 +30064,7 @@ weasel/SGDY
 weather/DRYJGS
 weathercock/SDG
 weatherize/GSD
+weatherman/O
 weatherperson/S
 weatherproof/SGPD
 weatherstrip/S
@@ -30102,6 +30325,7 @@ winegrower/S
 winery/S
 wing/GZRD
 wingding/S
+wingman/O
 wingspan/S
 wingspread/S
 wingtip/S
@@ -30123,6 +30347,7 @@ wipe/DRSZG
 wire/D
 wirehair/S
 wireless/SDG
+wireman/O
 wiretap/S
 wiretapper/S
 wiriness/S
@@ -30223,10 +30448,12 @@ woodgrain/G
 woodiness/S
 woodland/SR
 woodlot/S
+woodman/O
 woodpecker/S
 woodpile/S
 woods/R
 woodshed/S
+woodsman/O
 woodsy/TRP
 woodwind/S
 woodwork/SRGZJ
@@ -30256,8 +30483,10 @@ workfare/S
 workforce/S
 workhorse/S
 workhouse/S
+workingman/O
+workingwoman/O
 workload/S
-workman/Y
+workman/YO
 workmanship/S
 workmate/S
 workout/S
@@ -30355,6 +30584,8 @@ xylem/S
 xylophone/S
 xylophonist/S
 yacht/ZGJSD
+yachtsman/O
+yachtswoman/O
 yahoo/S
 yak/S
 yam/S
@@ -30365,6 +30596,7 @@ yap/S
 yard/SDG
 yardage/S
 yardarm/S
+yardman/O
 yardmaster/S
 yardstick/S
 yarmulke/S
@@ -30389,7 +30621,7 @@ yellow/TGPSRD
 yellowness/S
 yelp/GSDR
 yen/S
-yeoman/Y
+yeoman/YO
 yeomanry/S
 yep/S
 yes/S
