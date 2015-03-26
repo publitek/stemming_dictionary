@@ -1,4 +1,4 @@
-30724
+30719
 0/nm
 0th/pt
 1/n1
@@ -1046,7 +1046,6 @@ Ojibwa/S
 Okinawan/S
 Oklahoman/S
 Ole/V
-Olive/ZR
 Olivie/R
 Olympia/S
 Olympiad/S
@@ -1237,7 +1236,6 @@ Saturday/S
 Saudi/S
 Saunder/S
 Saxon/S
-Say/ZR
 Sayre/S
 Scandinavian/S
 Scorpio/S
@@ -1995,7 +1993,7 @@ affront/GSD
 afghan/S
 aficionado/S
 aforethought/S
-aft/ZR
+after/
 afterburner/S
 aftercare/S
 aftereffect/S
@@ -4421,7 +4419,6 @@ botanical/SY
 botanist/S
 botany/S
 botch/SRDGZ
-both/ZR
 bother/DG
 bottle/GZSRD
 bottleneck/GSD
@@ -4688,7 +4685,6 @@ brooklet/S
 broom/SDG
 broomstick/S
 bros/S
-broth/ZR
 brothel/S
 brother/DYG
 brotherhood/S
@@ -10530,7 +10526,7 @@ evoke/SDG
 evolute/NXS
 evolutionist/S
 evolve/SDG
-ewe/ZRS
+ewe/S
 ex/S
 exacerbate/NGXDS
 exact/TGSPRDY
@@ -13907,7 +13903,6 @@ housewife/Y
 housewifely/P
 housework/ZSR
 housing/S
-hove/ZR
 hovel/GSD
 hover/GRD
 how/S
@@ -13984,7 +13979,7 @@ hundredweight/S
 hunger/SDG
 hungriness/S
 hungry/RTP
-hunk/ZRS
+hunk/S
 hunker/DG
 hunky/RST
 hunt/GZJDRS
@@ -15058,7 +15053,6 @@ insurgency/S
 insurgent/S
 insurrection/S
 insurrectionist/S
-int/ZR
 intact/P
 intaglio/GDS
 intangibility/S
@@ -16167,7 +16161,7 @@ lecture/RSDZG
 lectureship/S
 ledge/SRZ
 ledger/DG
-lee/ZRS
+lee/S
 leech/SDG
 leek/S
 leer/DG
@@ -16423,7 +16417,6 @@ linen/S
 liner/S
 linesman/O
 lineup/S
-ling/ZR
 linger/ZGJRD
 lingerie/S
 lingering/Y
@@ -17090,7 +17083,8 @@ marina/S
 marinade/GDS
 marinara/S
 marinate/NGXDS
-marine/ZRS
+marine/S
+mariner/S
 marionette/S
 marital/Y
 maritime/R
@@ -18123,7 +18117,6 @@ mot/SV
 mote/SN
 motel/S
 motet/S
-moth/ZR
 mothball/DGS
 mother/RDYZG
 motherboard/S
@@ -18216,7 +18209,8 @@ muenster/S
 muezzin/S
 muff/GDS
 muffin/S
-muffle/ZRSDG
+muffle/SDG
+muffler/S
 mufti/S
 mug/S
 mugger/S
@@ -18594,7 +18588,6 @@ neurosurgeon/S
 neurosurgery/S
 neurotic/S
 neurotransmitter/S
-neut/ZR
 neuter/JZGRD
 neutral/PYS
 neutralism/S
@@ -26176,7 +26169,8 @@ standpoint/S
 standstill/S
 stank/S
 stanza/S
-staple/ZRSDG
+staple/SDG
+stapler/S
 star/DRGZS
 starboard/SDG
 starch/DSG
@@ -27370,7 +27364,7 @@ tatterdemalion/S
 tatting/S
 tattle/RSDZG
 tattletale/S
-tattoo/ZRDGS
+tattoo/SDG
 tattooist/S
 tatty/R
 tau/S
@@ -27602,6 +27596,7 @@ terrazzo/S
 terrestrial/YS
 terrible/P
 terribleness/S
+terrier/S
 terrific/Y
 terrify/GDS
 terrifying/Y
@@ -27611,7 +27606,7 @@ terror/S
 terrorism/S
 terrorist/S
 terrorize/RSDZG
-terry/ZRS
+terry/S
 terse/RTYP
 terseness/S
 tertiary/S
