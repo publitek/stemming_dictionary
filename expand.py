@@ -72,7 +72,8 @@ def main():
                         dic[w] = params
     for add_word in ADD_WORDS:
         word, params = add_word.split('/')
-        dic[word] = params
+        if params:
+            dic[word] = params
     with open('en_US.dic', 'w') as f:
         words = sorted(dic.keys())
         f.write('%d\n'%(len(words)))
