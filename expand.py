@@ -45,7 +45,7 @@ ADJUSTMENTS = {
 def main():
     dictionary = {}
     ## OPEN ORIGINAL DICTIONARY
-    with open('en_US.dic.orig2') as f:
+    with open('en_US.dic.orig') as f:
         for line in f:
             try:
                 ## SPLIT ENTIRES INTO WORDS AND PARAMS
