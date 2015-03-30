@@ -1,5 +1,3 @@
-from collections import OrderedDict
-
 ## PREFIXES
 PFX = {
     'A': 're',
@@ -49,7 +47,7 @@ ADD_WORDS = [
 
 ## MAIN
 def main():
-    dic = OrderedDict()
+    dic = {}
     with open('en_US.dic.orig') as f:
         for line in f:
             try:
