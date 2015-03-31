@@ -1,4 +1,4 @@
-30705
+30701
 0/nm
 0th/pt
 1/n1
@@ -648,6 +648,7 @@ Hun/S
 Hungarian/S
 Hunt/R
 Huron/S
+Hyman/O
 ICBM/S
 IRA/S
 IUD/S
@@ -1528,7 +1529,7 @@ abbess/S
 abbey/S
 abbot/S
 abbreviate/XDSNG
-abb�/S
+abbé/S
 abdicate/NGDSX
 abdomen/S
 abdominal/YS
@@ -1855,6 +1856,7 @@ adjust/DRLGSB
 adjuster/S
 adjustment/S
 adjutant/S
+adman/O
 administer/GDJS
 administrate/XSDVNG
 administrative/Y
@@ -2097,6 +2099,7 @@ airlift/DSG
 airline/SRZ
 airlock/S
 airmail/DSG
+airman/O
 airplane/S
 airplay/S
 airport/S
@@ -2678,7 +2681,7 @@ applicate/V
 applicative/Y
 applicator/S
 applier/S
-appliqu�/SG
+appliqué/SG
 apply/GSDXN
 appoint/LSDG
 appointee/S
@@ -3070,7 +3073,7 @@ atrophy/DSG
 atropine/S
 attach/BLGZDRS
 attachment/S
-attach�/S
+attaché/S
 attack/GBZSDR
 attain/GSD
 attainder/S
@@ -4451,7 +4454,7 @@ bourbon/S
 bourgeoisie/S
 bout/S
 boutique/S
-boutonni�re/S
+boutonnière/S
 bovine/YS
 bow/SZGNDR
 bowdlerization/S
@@ -4993,7 +4996,7 @@ caesura/S
 cafeteria/S
 caffeine/S
 caftan/S
-caf�/S
+café/S
 cage/ZGDRS
 cagey/P
 caginess/S
@@ -5094,7 +5097,7 @@ can/DRSZGJ
 canal/SGD
 canalization/S
 canalize/GSD
-canap�/S
+canapé/S
 canard/S
 canary/S
 canasta/S
@@ -5935,7 +5938,7 @@ chute/DSG
 chutney/S
 chutzpa/S
 chyme/S
-ch�telaine/S
+châtelaine/S
 ciao/S
 cicada/S
 cicatrice/S
@@ -6106,10 +6109,10 @@ clever/RYPT
 cleverness/S
 clevis/S
 clew/DGS
-clich�/S
+cliché/S
 click/GZSRD
 client/S
-client�le/S
+clientèle/S
 cliff/S
 cliffhanger/S
 climacteric/S
@@ -6776,7 +6779,7 @@ confounded/Y
 confraternity/S
 confront/RSZDG
 confrontation/S
-confr�re/S
+confrère/S
 confuse/BDGSRZ
 confused/PY
 confusing/Y
@@ -6887,7 +6890,7 @@ console/ZBG
 consolidate/NGDSX
 consolidator/S
 consoling/Y
-consomm�/S
+consommé/S
 consonant/YS
 consort/SRDG
 conspectus/S
@@ -7222,7 +7225,7 @@ corset/GDS
 cortical/Y
 corticosteroid/S
 cortisone/S
-cort�ge/S
+cortège/S
 corundum/S
 coruscate/XSDGN
 corvette/S
@@ -7272,7 +7275,7 @@ cougar/S
 cough/RDG
 could/T
 coulomb/S
-coul�e/S
+coulée/S
 council/S
 councilman/O
 councilor/S
@@ -7423,7 +7426,6 @@ craft/RDSG
 craftiness/S
 craftsman/O
 craftsmanship/S
-craftspeople/Q
 craftswoman/O
 crafty/TRP
 crag/S
@@ -7605,7 +7607,7 @@ crowbar/S
 crowd/RDSG
 crowded/P
 crown/RDSJG
-cro�ton/S
+croûton/S
 crucial/Y
 crucible/S
 crucifix/S
@@ -7660,7 +7662,7 @@ crystallite/S
 crystallization/S
 crystallize/SRDZG
 crystallographer/S
-cr�che/S
+crèche/S
 cu/DG
 cub/DRSZG
 cubbyhole/S
@@ -8458,7 +8460,7 @@ dermis/S
 derogate/XDSNGV
 derrick/SDG
 derringer/S
-derri�re/S
+derrière/S
 dervish/S
 desalinate/NGSDX
 desalinization/S
@@ -9197,7 +9199,7 @@ divisiveness/S
 divisor/S
 divorce/GSDL
 divorcement/S
-divorc�e/S
+divorcée/S
 divot/S
 divulge/GSD
 divvy/GSD
@@ -9250,7 +9252,6 @@ dogma/S
 dogmatic/S
 dogmatism/S
 dogmatist/S
-dogtooth/Q
 dogtrot/S
 dogwood/S
 doily/S
@@ -9639,9 +9640,9 @@ dyslexic/S
 dyspepsia/S
 dyspeptic/S
 dysprosium/S
-d�butante/S
-d�colletage/S
-d�railleur/S
+débutante/S
+décolletage/S
+dérailleur/S
 e/DS
 eager/TSPRY
 eagerness/S
@@ -10247,7 +10248,7 @@ entropy/S
 entrust/DSG
 entry/S
 entryway/S
-entr�e/S
+entrée/S
 entwine/DSG
 enumerate/N
 enumeration/S
@@ -11022,7 +11023,7 @@ fawning/Y
 fax/GDS
 fay/DRGS
 faze/DSG
-fa�ence/S
+faïence/S
 fealty/S
 fear/RDSG
 fearful/YP
@@ -11146,8 +11147,8 @@ feverishness/S
 few/PTRS
 fewness/S
 fey/RT
-fianc�/S
-fianc�e/S
+fiancé/S
+fiancée/S
 fiat/S
 fib/SZR
 fibber/S
@@ -11364,7 +11365,7 @@ flam/RNDJGZ
 flamboyance/S
 flamboyancy/S
 flamboyant/YS
-flamb�/D
+flambé/D
 flame/SGDR
 flamenco/S
 flameproof/DGS
@@ -12100,7 +12101,7 @@ futz/GSD
 fuzz/SDG
 fuzziness/S
 fuzzy/PRT
-f�te/S
+fête/S
 g/VBX
 gab/S
 gabardine/S
@@ -12217,7 +12218,7 @@ garrulity/S
 garrulous/PY
 garrulousness/S
 garter/SGD
-gar�on/S
+garçon/S
 gasbag/S
 gaseous/YP
 gash/GTSRD
@@ -12459,7 +12460,7 @@ gizzard/S
 glacial/Y
 glaciate/XNGDS
 glacier/S
-glac�/DGS
+glacé/DGS
 glad/YSP
 gladden/GDS
 glade/S
@@ -13061,7 +13062,7 @@ habitat/S
 habitual/SYP
 habitualness/S
 habituate/SDNGX
-habitu�/S
+habitué/S
 hacienda/S
 hack/GZSDRBJ
 hackle/RSDG
@@ -13276,7 +13277,6 @@ harshen/GD
 harshness/S
 hart/S
 harvest/DRZGS
-harvestman/O
 hash/GSD
 hashish/S
 hasp/GDS
@@ -14837,7 +14837,7 @@ ingratitude/S
 ingredient/S
 ingress/S
 ingrown/P
-ing�nue/S
+ingénue/S
 inhabit/R
 inhabitant/S
 inhalant/S
@@ -15444,7 +15444,7 @@ jaguar/S
 jail/GZSDR
 jailbird/S
 jailbreak/S
-jalape�o/S
+jalapeño/S
 jalopy/S
 jalousie/S
 jam/S
@@ -15457,7 +15457,7 @@ janitor/S
 japan/S
 jape/DSG
 jar/S
-jardini�re/S
+jardinière/S
 jarful/S
 jargon/SGD
 jarring/SY
@@ -15766,7 +15766,7 @@ kimono/S
 kin/S
 kind/PSYRT
 kindergarten/S
-kinderg�rtner/S
+kindergärtner/S
 kindhearted/YP
 kindheartedness/S
 kindle/GRSD
@@ -16482,7 +16482,7 @@ litterbug/S
 little/RSPT
 littleness/S
 littoral/S
-litt�rateur/S
+littérateur/S
 liturgic/S
 liturgical/Y
 liturgist/S
@@ -16805,7 +16805,7 @@ macho/S
 mackerel/S
 mackinaw/S
 mackintosh/S
-macram�/S
+macramé/S
 macro/S
 macrobiotic/S
 macrocosm/S
@@ -17044,7 +17044,7 @@ manumission/S
 manumit/S
 manure/RSDZG
 manuscript/S
-man�ge/GSD
+manège/GSD
 map/S
 maple/S
 mapmaker/S
@@ -17186,7 +17186,7 @@ maternity/S
 mathematic/S
 mathematical/Y
 mathematician/S
-matin�e/S
+matinée/S
 matriarchy/S
 matricide/S
 matriculate/XSDGN
@@ -17201,7 +17201,7 @@ maturate/DSNGVX
 mature/RSDTPYG
 maturity/S
 matzo/SH
-mat�riel/S
+matériel/S
 maudlin/Y
 maul/RDGZS
 maunder/GDS
@@ -17970,7 +17970,7 @@ moneymaking/S
 monger/SGD
 mongolism/S
 mongoloid/S
-mongoose/SQ
+mongoose/S
 mongrel/S
 moniker/S
 monism/S
@@ -18371,8 +18371,8 @@ mythological/Y
 mythologist/S
 mythologize/SDG
 mythology/S
-m�l�e/S
-m�tier/S
+métier/S
+mêlée/S
 n/T
 nab/S
 nabob/S
@@ -18389,7 +18389,7 @@ nail/SGRD
 nailbrush/S
 naive/SRTYP
 naivety/S
-naivet�/S
+naiveté/S
 naked/TYRP
 nakedness/S
 name/DSG
@@ -20763,8 +20763,8 @@ pixmap/S
 pizazz/S
 pizza/S
 pizzeria/S
-pi�ata/S
-pi�on/S
+piñata/S
+piñon/S
 placard/DSG
 placate/NGVXDRS
 place/DSRJLGZ
@@ -21140,7 +21140,7 @@ porterhouse/S
 portfolio/S
 porthole/S
 portion/GSD
-porti�re/S
+portière/S
 portliness/S
 portly/PTR
 portmanteau/S
@@ -21820,7 +21820,7 @@ protrude/SDG
 protrusion/S
 protrusive/PY
 protuberance/S
-prot�g�/S
+protégé/S
 proud/TRY
 prov/DRGZB
 provable/P
@@ -21867,7 +21867,7 @@ prurience/S
 prurient/Y
 pry/DRSGTZ
 prying/Y
-pr�cis/DG
+précis/DG
 psalm/SGD
 psalmist/S
 psaltery/S
@@ -23031,7 +23031,6 @@ relocate/B
 reluctance/S
 reluctant/Y
 rely/DG
-rem/S
 remade/S
 remagnetization/S
 remain/GD
@@ -23791,7 +23790,7 @@ rout/GZJDRS
 route/SRDZGJ
 routine/SY
 routinize/GSD
-rou�/S
+roué/S
 rove/ZGJDRS
 row/SJZGNDR
 rowboat/S
@@ -24114,7 +24113,7 @@ saunter/DRSG
 saurian/S
 sauropod/S
 sausage/S
-saut�/DGS
+sauté/DGS
 savage/GTZYPRSD
 savageness/S
 savagery/S
@@ -24135,7 +24134,6 @@ sawdust/DSG
 sawfly/S
 sawhorse/S
 sawmill/S
-sawtooth/Q
 sawyer/S
 sax/S
 saxifrage/S
@@ -25448,7 +25446,7 @@ smugness/S
 smut/S
 smuttiness/S
 smutty/TRP
-sm�rg�sbord/S
+smörgåsbord/S
 snack/SGD
 snaffle/GDS
 snafu/DSG
@@ -25593,7 +25591,7 @@ softy/S
 sogginess/S
 soggy/RPT
 soil/SGD
-soir�e/S
+soirée/S
 sojourn/RDZGS
 sol/GSDR
 solace/GSRD
@@ -25713,7 +25711,7 @@ sorter/S
 sortie/SD
 sot/S
 sou/SH
-souffl�/S
+soufflé/S
 sough/DG
 soul/DS
 soulful/YP
@@ -25728,7 +25726,7 @@ soundproof/GSD
 soundtrack/S
 soup/GDS
 soupy/RT
-soup�on/S
+soupçon/S
 sour/TYDRPSG
 source/SDG
 sourness/S
@@ -27166,7 +27164,7 @@ systematize/ZDRSG
 systemic/S
 systemization/S
 systole/S
-s�ance/S
+séance/S
 t/XTJBG
 tab/S
 tabby/GSD
@@ -28118,7 +28116,6 @@ townhouse/S
 townie/S
 township/S
 townsman/O
-townspeople/Q
 townswoman/O
 towrope/S
 toxemia/S
@@ -28147,7 +28144,6 @@ tractor/S
 trade/SRDGZ
 trademark/GSD
 tradesman/O
-tradespeople/Q
 tradeswoman/O
 tradition/S
 traditionalism/S
@@ -29059,7 +29055,7 @@ unlucky/TP
 unmagnetized/S
 unmake/GS
 unmalicious/Y
-unman/SYO
+unman/SY
 unmanly/RPT
 unmannered/Y
 unmannerly/P
@@ -29613,7 +29609,7 @@ victor/S
 victorious/YP
 victory/S
 victual/ZGSDR
-vicu�a/S
+vicuña/S
 video/GSD
 videocassette/S
 videodisc/S
@@ -30699,8 +30695,8 @@ zwieback/S
 zydeco/S
 zygote/S
 zymurgy/S
-�clair/S
-�clat/S
-�migr�/S
-�p�e/S
-�tude/S
+éclair/S
+éclat/S
+émigré/S
+épée/S
+étude/S

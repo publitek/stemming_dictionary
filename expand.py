@@ -39,6 +39,17 @@ ADJUSTMENTS = {
     'tattoo': 'SDG',
     'terry': 'S',
     'terrier': 'S',
+    'conman': 'O',
+    'garbageman': 'O',
+    'groundsman': 'O',
+}
+
+## NEW STEMS
+NEW_STEMS = {
+    'person': ('people', 'Q'),
+    'teeth': ('tooth', 'Q'),
+    'geese': ('goose', 'Q'),
+    'men': ('man', 'O'),
 }
 
 ## MAIN
@@ -51,28 +62,40 @@ def main():
                 ## SPLIT ENTIRES INTO WORDS AND PARAMS
                 word, params = line.strip().split('/')
             except ValueError:
-                pass
-            else:
-                ## NEW WORDS LIST
-                new_words = []
-                ## REMOVE PREFIXES
-                for key, prefix in PFX_TO_REMOVE.items():
-                    if key in params:
-                        params = params.replace(key, '')
-                        ## ADD NEW WORD TO 
-                        new_words.append(prefix + word)
-                ## REMOVE SUFFIXES
-                for suffix in SFX_TO_REMOVE:
-                    params = params.replace(suffix, '')
-                ## ADD WORD TO DICTIONARY
-                dictionary[word] = params
-                ## ADD NEW WORDS TO DICTIONARY
-                for new_word in new_words:
-                    if new_word in dictionary:
-                        params = ''.join(set(dictionary[new_word] + params))
-                    dictionary[new_word] = params
+                word, params = line.strip(), ''
+            ## NEW WORDS LIST
+            new_words = []
+            ## REMOVE PREFIXES
+            for key, prefix in PFX_TO_REMOVE.items():
+                if key in params:
+                    params = params.replace(key, '')
+                    ## ADD NEW WORD TO 
+                    new_words.append(prefix + word)
+            ## REMOVE SUFFIXES
+            for suffix in SFX_TO_REMOVE:
+                params = params.replace(suffix, '')
+            ## ADD WORD TO DICTIONARY
+            dictionary[word] = params
+            ## ADD NEW WORDS TO DICTIONARY
+            for new_word in new_words:
+                if new_word in dictionary:
+                    params = ''.join(set(dictionary[new_word] + params))
+                dictionary[new_word] = params
     ## MERGE WITH ADJUSTMENTS
     dictionary.update(ADJUSTMENTS)
+    ## REMOVE WORDS
+    remove_words = []
+    ## STEM *MEN -> *MAN
+    for word, params in dictionary.items():
+        for safe_end, (old_end, new_param) in NEW_STEMS.items():
+            if word.endswith(safe_end):
+                man_word = (word.rsplit(safe_end, 1)[0] + old_end)
+                if man_word in dictionary:
+                    dictionary[man_word] += new_param
+                    remove_words.append(word)
+    ## REMOVE WORDS
+    for word in remove_words:
+        del dictionary[word]
     ## REMOVE ENTRIES WITHOUT PARAMS
     dictionary = dict((word, params) for word, params in dictionary.items() if params)
     ## WRITE CHANGE TO NEW DICTIONARY
