@@ -31,6 +31,7 @@ ADJUSTMENTS = {
     'marine': 'S',
     'mariner': 'S',
     'moth': '',
+    'mother': 'RDYZGS',
     'muffle': 'SDG',
     'muffler': 'S',
     'neut': '',
@@ -39,6 +40,8 @@ ADJUSTMENTS = {
     'tattoo': 'SDG',
     'terry': 'S',
     'terrier': 'S',
+    'tee': 'DRSM',
+    'too': '',
     'conman': 'O',
     'garbageman': 'O',
     'groundsman': 'O',
@@ -46,7 +49,7 @@ ADJUSTMENTS = {
 
 ## NEW STEMS
 NEW_STEMS = {
-    'person': ('people', 'Q'),
+    'people': ('person', 'Q'),
     'teeth': ('tooth', 'Q'),
     'geese': ('goose', 'Q'),
     'men': ('man', 'O'),

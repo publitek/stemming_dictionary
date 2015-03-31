@@ -1,4 +1,4 @@
-30701
+30700
 0/nm
 0th/pt
 1/n1
@@ -2399,7 +2399,7 @@ anchor/SGD
 anchorage/S
 anchorite/S
 anchorman/O
-anchorpeople/Q
+anchorperson/SQ
 anchorwoman/O
 anchovy/S
 ancient/SRYTP
@@ -4894,7 +4894,7 @@ bushwhack/RDGSZ
 bushy/PTR
 business/S
 businessman/O
-businesspeople/Q
+businessperson/SQ
 businesswoman/O
 busk/GR
 buskin/S
@@ -6802,7 +6802,7 @@ congregationalist/S
 congress/SDG
 congressional/Y
 congressman/O
-congresspeople/Q
+congressperson/SQ
 congresswoman/O
 congruent/Y
 congruity/S
@@ -11684,7 +11684,7 @@ forenoon/S
 forensic/S
 foreordain/DSG
 forepart/S
-forepeople/Q
+foreperson/SQ
 foreplay/S
 forequarter/S
 forerunner/S
@@ -16104,7 +16104,7 @@ layman/O
 layoff/S
 layout/S
 layover/S
-laypeople/Q
+layperson/SQ
 layup/S
 laywoman/O
 laze/DSG
@@ -18109,7 +18109,7 @@ mote/SN
 motel/S
 motet/S
 mothball/DGS
-mother/RDYZG
+mother/RDYZGS
 motherboard/S
 motherfucker/S!
 motherfucking/!
@@ -20262,7 +20262,6 @@ penury/S
 peon/S
 peonage/S
 peony/S
-people/SDGQ
 pep/S
 pepper/SGRD
 peppercorn/S
@@ -20388,6 +20387,7 @@ persimmon/S
 persist/DRSG
 persistence/S
 persistent/Y
+person/BSQ
 personable/P
 personage/S
 personal/YS
@@ -23977,7 +23977,7 @@ salesgirl/S
 saleslady/S
 salesman/O
 salesmanship/S
-salespeople/Q
+salesperson/SQ
 saleswoman/O
 salience/S
 salient/SY
@@ -25953,7 +25953,7 @@ spoilsport/S
 spoke/DSG
 spokeshave/S
 spokesman/O
-spokespeople/Q
+spokesperson/SQ
 spokeswoman/O
 spoliation/S
 sponge/GZRSD
@@ -27425,7 +27425,7 @@ teddy/S
 tedious/YP
 tediousness/S
 tedium/S
-tee/DRSH
+tee/DRSM
 teem/GSD
 teeming/PY
 teen/SR
@@ -27994,7 +27994,6 @@ tonsillectomy/S
 tonsillitis/S
 tonsure/SDG
 tony/RT
-too/H
 tool/GDS
 toolbox/S
 tooler/S
@@ -29081,7 +29080,7 @@ unorganized/YP
 unoriginal/S
 unpack/G
 unpacker/S
-unpeople/Q
+unperson/Q
 unperturbed/Y
 unpick/G
 unpin/S
@@ -29855,7 +29854,7 @@ waistcoat/GDS
 waistline/S
 wait/GSZJRD
 waiter/DG
-waitpeople/Q
+waitperson/SQ
 waitress/GSD
 waive/SRDGZ
 waiver/B
