@@ -1,1 +1,7 @@
+# PYTHON COMPILED FILES
+*.py[cod]
+
+# ECLIPSE
 /.project
+/.settings
+/.pydevproject

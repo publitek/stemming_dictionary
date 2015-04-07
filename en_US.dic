@@ -4914,9 +4914,9 @@ butch/RSZ
 butcher/DRYG
 butchery/S
 butler/SDG
-butt/SGZDR
+butt/GDS
 butte/S
-butter/RDGZ
+butter/GDS
 butterball/S
 buttercup/S
 butterfat/S
@@ -7155,12 +7155,12 @@ cork/GZDRS
 corkscrew/DGS
 corm/S
 cormorant/S
-corn/GZDRS
+corn/GDS
 cornball/S
 cornbread/S
 corncob/S
 cornea/S
-corner/GD
+corner/GDS
 cornerstone/S
 cornet/S
 cornfield/S
@@ -9682,7 +9682,7 @@ ease/LDRSG
 easel/S
 easement/S
 easiness/S
-east/GSR
+east/GS
 easter/Y
 easterly/S
 eastern/ZR
@@ -18108,6 +18108,7 @@ mot/SV
 mote/SN
 motel/S
 motet/S
+moth/S
 mothball/DGS
 mother/RDYZGS
 motherboard/S
@@ -27425,7 +27426,7 @@ teddy/S
 tedious/YP
 tediousness/S
 tedium/S
-tee/DRSM
+tee/DRS
 teem/GSD
 teeming/PY
 teen/SR
@@ -27446,8 +27447,7 @@ telegram/S
 telegraph/RDGZ
 telegraphist/S
 telegraphy/S
-telemarketer/S
-telemarketing/S
+telemarket/RGZ
 telemeter/DSG
 telemetry/S
 teleological/Y

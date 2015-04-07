@@ -14,6 +14,14 @@ SFX_TO_REMOVE = [
     'M',
 ]
 
+## NEW STEMS
+NEW_STEMS = {
+    'people': ('person', 'Q'),
+    'teeth': ('tooth', 'Q'),
+    'geese': ('goose', 'Q'),
+    'men': ('man', 'O'),
+}
+
 ## UPDATE ORIGINAL WORDS WITH THESE CHANGES
 ADJUSTMENTS = {
     'Olive': '',
@@ -30,7 +38,7 @@ ADJUSTMENTS = {
     'ling': '',
     'marine': 'S',
     'mariner': 'S',
-    'moth': '',
+    'moth': 'S',
     'mother': 'RDYZGS',
     'muffle': 'SDG',
     'muffler': 'S',
@@ -40,19 +48,24 @@ ADJUSTMENTS = {
     'tattoo': 'SDG',
     'terry': 'S',
     'terrier': 'S',
-    'tee': 'DRSM',
+    'tee': 'DRS',
     'too': '',
+    ## ADDED CONMEN/GARBAGEMEN/GROUNDSMEN
     'conman': 'O',
     'garbageman': 'O',
     'groundsman': 'O',
-}
-
-## NEW STEMS
-NEW_STEMS = {
-    'people': ('person', 'Q'),
-    'teeth': ('tooth', 'Q'),
-    'geese': ('goose', 'Q'),
-    'men': ('man', 'O'),
+    ## BUTTER -> BUTT
+    'butt': 'GDS',
+    'butter': 'GDS',
+    ## CORNER -> CORN
+    'corn': 'GDS',
+    'corner': 'GDS',
+    ## EASTER -> EAST
+    'east': 'GS',
+    ## TELEMARKET
+    'telemarket': 'RGZ',
+    'telemarketer': '',
+    'telemarketing': '',
 }
 
 ## MAIN
@@ -84,8 +97,6 @@ def main():
                 if new_word in dictionary:
                     params = ''.join(set(dictionary[new_word] + params))
                 dictionary[new_word] = params
-    ## MERGE WITH ADJUSTMENTS
-    dictionary.update(ADJUSTMENTS)
     ## REMOVE WORDS
     remove_words = []
     ## STEM *MEN -> *MAN
@@ -99,6 +110,8 @@ def main():
     ## REMOVE WORDS
     for word in remove_words:
         del dictionary[word]
+    ## MERGE WITH ADJUSTMENTS
+    dictionary.update(ADJUSTMENTS)
     ## REMOVE ENTRIES WITHOUT PARAMS
     dictionary = dict((word, params) for word, params in dictionary.items() if params)
     ## WRITE CHANGE TO NEW DICTIONARY
