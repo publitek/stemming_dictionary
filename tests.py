@@ -1,63 +1,51 @@
+import sys
+
 from unittest import TestCase, TestSuite, TextTestRunner
 from collections import OrderedDict
 from subprocess import Popen, PIPE
 
-## STEMMING TEST CASES
-SHOULD_STEM = [
-    ('men', 'man'),
-    ('women', 'woman'),
-    ('conmen', 'conman'),
-    ('congressmen', 'congressman'),
-    ('people', 'person'),
-    ('teeth', 'tooth'),
-    ('moth', ''),
-    ('mothers', 'mother'),
-    ('telemarketer', 'telemarket'),
-    ('telemarketers', 'telemarket'),
-    ('telemarketing', 'telemarket'),
-]
-SHOULD_NOT_STEM = [
-    ('butter', 'butt'),
-    ('corner', 'corn'),
-    ('easter', 'east'),
-]
+## STEM TESTS
+def stem_tests(*args):
+    def decorator(method, args=args):
+        for arg in args:
+            def method_for_arg(self, method=method, arg=arg):
+                method(self, *arg)
+            name = method.__name__ + '(' + '->'.join(arg[:2]) + ')'
+            frame = sys._getframe(1)  # pylint: disable-msg=W0212
+            frame.f_locals[name] = method_for_arg
+        return None
+    return decorator
 
 ## STEMMING TEST CASE
 class StemmingTestCase(TestCase):
-    ## INIT
-    def __init__(self, input, expected, equal=True):
-        self.input, self.expected, self.equal = input, expected, equal
-        super(StemmingTestCase, self).__init__()
     ## RUN TEST
-    def runTest(self):
+    def stem(self, input):
         process = Popen(
             args = ['hunspell', '-m', '-d', 'en_US', '-s'],
             stdin = PIPE,
             stdout = PIPE,
         )
-        (stdout, stderr) = process.communicate(self.input)
-        base = stdout.replace(self.input, '').strip()
-        if self.equal:
-            self.assertEqual(base, self.expected)
+        (stdout, stderr) = process.communicate(input)
+        return stdout.replace(input, '').strip()
+
+    ## TEST STEMMING
+    @stem_tests(
+        ('men', 'man', True),
+        ('women', 'woman', True),
+        ('conmen', 'conman', True),
+        ('congressmen', 'congressman', True),
+        ('people', 'person', True),
+        ('teeth', 'tooth', True),
+        ('mothers', 'mother', True),
+        ('telemarketer', 'telemarket', True),
+        ('telemarketers', 'telemarket', True),
+        ('telemarketing', 'telemarket', True),
+        ('butter', 'butt', False),
+        ('corner', 'corn', False),
+        ('easter', 'east', False),
+    )
+    def test_stemming(self, input, output, equal):
+        if equal:
+            self.assertEqual(self.stem(input), output, 'SHOULD STEM %s -> %s'%(input, output))
         else:
-            self.assertNotEqual(base, self.expected)
-    ## STR
-    def __str__(self):
-        connector = '==' if self.equal else '!='
-        return '"%s" %s "%s"'%(self.input, connector, self.expected)
-
-## TEST SUITE
-def suite():
-    suite = TestSuite()
-    suite.addTests(StemmingTestCase(input, expected, True) for input, expected in SHOULD_STEM)
-    suite.addTests(StemmingTestCase(input, expected, False) for input, expected in SHOULD_NOT_STEM)
-    return suite
-
-## RUN
-if __name__ == '__main__':
-    runner = TextTestRunner(
-        verbosity = 2,
-    )
-    runner.run(
-        test = suite(),
-    )
+            self.assertNotEqual(self.stem(input), output, 'SHOULD NOT STEM %s -> %s'%(input, output))

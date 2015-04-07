@@ -38,7 +38,7 @@ ADJUSTMENTS = {
     'ling': '',
     'marine': 'S',
     'mariner': 'S',
-    'moth': 'S',
+    'moth': '',
     'mother': 'RDYZGS',
     'muffle': 'SDG',
     'muffler': 'S',
