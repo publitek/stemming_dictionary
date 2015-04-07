@@ -1,6 +1,10 @@
 # stemming_dictionary
 ## Hunspell Stemming Dictionary
 
+### Status
+
+[![Build Status](https://travis-ci.org/publitek/stemming_dictionary.svg?branch=master)](https://travis-ci.org/publitek/stemming_dictionary)
+
 ### Description
 
 This project was created to make the Hunspell en_US spelling dictionaries
