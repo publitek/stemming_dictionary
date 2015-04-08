@@ -1,5 +1,15 @@
-import subprocess
+from subprocess import Popen, PIPE
+from operator import eq, ne
 
+## STEM
+def stem(input):
+    process = Popen(
+        args = ['hunspell', '-m', '-d', 'en_US', '-s'],
+        stdin = PIPE,
+        stdout = PIPE,
+    )
+    (stdout, stderr) = process.communicate(input)
+    return stdout.replace(input, '').strip()
 ## STEMMING TESTS
 STEMS = [
     ('men', 'man', True),
@@ -15,23 +25,15 @@ STEMS = [
     ('butter', 'butt', False),
     ('corner', 'corn', False),
     ('easter', 'east', False),
+    ## (BEER,BEING) -> BEE
+    ('beers', 'beer', True),
+    ('beer', 'bee', False),
+    ('being', 'bee', False),
 ]
 ## TEST STEMMING
 def test_stemming():
     for (input, output, equal) in STEMS:
-        yield check_stem, input, output, equal
-## CHECK STEM
-def check_stem(input, output, equal):
-    if equal:
-        assert stem(input) == output, 'SHOULD STEM %s -> %s'%(input, output)
-    else:
-        assert stem(input) <> output,'SHOULD NOT STEM %s -> %s'%(input, output)
-## STEM
-def stem(input):
-    process = subprocess.Popen(
-        args = ['hunspell', '-m', '-d', 'en_US', '-s'],
-        stdin = subprocess.PIPE,
-        stdout = subprocess.PIPE,
-    )
-    (stdout, stderr) = process.communicate(input)
-    return stdout.replace(input, '').strip()
+        yield validate, input, output, equal
+## VALIDATE
+def validate(input, output, equal):
+    assert (eq if equal else ne)(stem(input), output)

@@ -66,6 +66,9 @@ ADJUSTMENTS = {
     'telemarket': 'RGZ',
     'telemarketer': '',
     'telemarketing': '',
+    ## BEER/BEING -> BEE
+    'beer': 'S',
+    'bee': 'S',
 }
 
 ## MAIN
