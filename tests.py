@@ -29,6 +29,7 @@ STEMS = [
     ('beers', 'beer', True),
     ('beer', 'bee', False),
     ('being', 'bee', False),
+    ('crater', 'crate', False)
 ]
 ## TEST STEMMING
 def test_stemming():
