@@ -69,7 +69,7 @@ ADJUSTMENTS = {
     ## BEER/BEING -> BEE
     'beer': 'S',
     'bee': 'S',
-    ## CRATER -> CRATER
+    ## CRATER -> CRATE
     'crate': 'DSGZ'
 }
 
