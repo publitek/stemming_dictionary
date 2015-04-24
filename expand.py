@@ -74,6 +74,9 @@ ADJUSTMENTS = {
     ## COUPLE/COUPLES
     'couples': '',
     'couple': 'S',
+    ## CHILD/CHILDREN
+    'children': '',
+    'child': 'GDSY',
 }
 
 ## MAIN

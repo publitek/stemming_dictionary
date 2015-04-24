@@ -42,7 +42,7 @@ SFX V   0     ive        [^e]
 SFX N Y 3
 SFX N   e     ion        e
 SFX N   y     ication    y 
-SFX N   0     en         [^ey] 
+SFX N   0     en         [^ey]
 
 SFX X Y 3
 SFX X   e     ions       e
@@ -51,14 +51,14 @@ SFX X   0     ens        [^ey]
 
 SFX H N 2
 SFX H   y     ieth       y
-SFX H   0     th         [^y] 
+SFX H   0     th         [^y]
 
 SFX Y Y 1
 SFX Y   0     ly         .
 
 SFX G Y 2
 SFX G   e     ing        e
-SFX G   0     ing        [^e] 
+SFX G   0     ing        [^e]
 
 SFX J Y 2
 SFX J   e     ings       e
@@ -88,11 +88,12 @@ SFX Z   y     iers       [^aeiou]y
 SFX Z   0     ers        [aeiou]y
 SFX Z   0     ers        [^ey]
 
-SFX S Y 4
+SFX S Y 5
 SFX S   y     ies        [^aeiou]y
 SFX S   0     s          [aeiou]y
 SFX S   0     es         [sxzh]
 SFX S   0     s          [^sxzhy]
+SFX S   0     ren        .
 
 SFX P Y 3
 SFX P   y     iness      [^aeiou]y
