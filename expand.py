@@ -69,6 +69,9 @@ ADJUSTMENTS = {
     ## BEER/BEING -> BEE
     'beer': 'S',
     'bee': 'S',
+    ## COUPLE/COUPLES
+    'couples': '',
+    'couple': 'S',
 }
 
 ## MAIN

@@ -1,6 +1,9 @@
 # PYTHON COMPILED FILES
 *.py[cod]
 
+# IGNORE COMPUTED DIC
+/en_US.dic
+
 # ECLIPSE
 /.project
 /.settings
