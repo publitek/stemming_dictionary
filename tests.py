@@ -1,5 +1,4 @@
 from subprocess import Popen, PIPE
-from operator import eq
 
 def stem(input):
     process = Popen(
@@ -9,27 +8,7 @@ def stem(input):
     )
     (stdout, stderr) = process.communicate(input)
     return stdout.replace(input, '').strip()
-# STEMS = [
-#     ('men', 'man', True),
-#     ('women', 'woman', True),
-#     ('conmen', 'conman', True),
-#     ('congressmen', 'congressman', True),
-#     ('people', 'person', True),
-#     ('teeth', 'tooth', True),
-#     ('mothers', 'mother', True),
-#     ('telemarketer', 'telemarket', True),
-#     ('telemarketers', 'telemarket', True),
-#     ('telemarketing', 'telemarket', True),
-#     ('butter', 'butt', False),
-#     ('corner', 'corn', False),
-#     ('easter', 'east', False),
-#     ## (BEER,BEING) -> BEE
-#     ('beers', 'beer', True),
-#     ('beer', 'bee', False),
-#     ('being', 'bee', False),
-#     ('crater', 'crate', False),
-#     ('children', 'child', True),
-# ]
+
 STEMS = []
 with open('test_data.txt') as file:
     for line in file:
