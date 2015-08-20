@@ -77,6 +77,8 @@ ADJUSTMENTS = {
     ## CHILD/CHILDREN
     'children': '',
     'child': 'GDSY',
+    'fish': 'ZSRD',
+    'fishing': 'S',
 }
 
 ## MAIN
