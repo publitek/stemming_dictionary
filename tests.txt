@@ -1,6 +1,7 @@
 # stemming exceptions list
 # term == don't stem this term
 # term1;term2 == return term2 as the stemmed form of term1
+
 men;man
 women;woman
 conmen;conman
@@ -19,6 +20,8 @@ beer
 being
 crater
 children;child
+showers;shower
+shower
 fishing
 fishings;fishing
 pants
@@ -26,6 +29,8 @@ panting
 pantings;panting
 training
 trainings;training
+pigment
+
 hamburger
 hamburgers;hamburger
 dress

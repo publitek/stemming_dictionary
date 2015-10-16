@@ -15,6 +15,13 @@ and not stemming so there are some obvious problems.
 - unhappy -> happy
 - butter -> butt
 
+### Tests
+
+The testing code has been redone with a txt input file in the following format.
+
+`term` = Don't Stem (term doesn't stem)
+
+`term1;term2` = Should Stemp (term1 stems to term2)
 
 ### License
 

@@ -9,21 +9,18 @@ def stem(input):
     (stdout, stderr) = process.communicate(input)
     return stdout.replace(input, '').strip()
 
-STEMS = []
-with open('test_data.txt') as file:
-    for line in file:
-        if line.startswith('#'):
-            continue
-        line = line.rstrip('\n')
-        parts = line.split(';')
-        if len(parts) < 2:
-            STEMS.append((parts[0], parts[0]))
-        else:
-            STEMS.append((parts[0], parts[1]))
-
 def test_stemming():
-    for (input, output) in STEMS:
-        yield validate, input, output
+    with open('tests.txt') as file:
+        for line in file:
+            if line.startswith('#'):
+                continue
+            line = line.rstrip('\n').split('#')[0].strip()
+            try:
+                (input, output) = line.split(';')
+                yield validate, input.strip(), output.strip()
+            except ValueError:
+                if line:
+                    yield validate, line, line
 
 def validate(input, output):
     stemmed = stem(input)
