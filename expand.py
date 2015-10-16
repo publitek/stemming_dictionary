@@ -79,7 +79,7 @@ ADJUSTMENTS = {
     'child': 'GDSY',
     ## SHOWER -> SHOW
     'show': 'GDJS',
-    'shower': 'GDS'
+    'shower': 'GDS',
     ## TRAINING != TRAIN
     'train': 'S',
     ## FISH ~!= FISHING
