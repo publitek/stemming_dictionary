@@ -77,6 +77,8 @@ ADJUSTMENTS = {
     ## CHILD/CHILDREN
     'children': '',
     'child': 'GDSY',
+    ## TRAINING != TRAIN
+    'train': 'S',
 }
 
 ## MAIN
