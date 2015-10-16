@@ -82,6 +82,9 @@ ADJUSTMENTS = {
     'shower': 'GDS'
     ## TRAINING != TRAIN
     'train': 'S',
+    ## FISH ~!= FISHING
+    'fish': 'ZSRD',
+    'fishing': 'S',
 }
 
 ## MAIN
