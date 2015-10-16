@@ -85,6 +85,8 @@ ADJUSTMENTS = {
     ## FISH ~!= FISHING
     'fish': 'ZSRD',
     'fishing': 'S',
+    ## PIG != PIGMENT
+    'pig': 'S,'
 }
 
 ## MAIN
