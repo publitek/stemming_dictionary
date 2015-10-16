@@ -86,7 +86,15 @@ ADJUSTMENTS = {
     'fish': 'ZSRD',
     'fishing': 'S',
     ## PIG != PIGMENT
-    'pig': 'S,'
+    'pig': 'S',
+    ## BADGER != BADGE
+    'badge': 'DSG',
+    'badger': 'DSG',
+    ## HAMBURG != HAMBURGER
+    'hamburg': 'S',
+    'hamburger': 'S',
+    ## WEATHER != WEATHERED
+    'weather': 'RYJGS'
 }
 
 ## MAIN
