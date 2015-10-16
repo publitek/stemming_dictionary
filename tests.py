@@ -31,6 +31,8 @@ STEMS = [
     ('being', 'bee', False),
     ('crater', 'crate', False),
     ('children', 'child', True),
+    ('showers', 'shower', True),
+    ('showers', 'show', False)
 ]
 ## TEST STEMMING
 def test_stemming():
