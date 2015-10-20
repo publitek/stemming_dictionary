@@ -7,7 +7,6 @@ def stem(input):
         stdout = PIPE,
     )
     (stdout, stderr) = process.communicate(input)
-    print stdout
     return stdout.replace(input, '').strip()
 
 def test_stemming():
@@ -25,5 +24,4 @@ def test_stemming():
 
 def validate(input, output):
     stemmed = stem(input)
-    print '%r %r'%(output, stemmed)
     assert stemmed == output or (stemmed == '' and input == output), 'input: {}, expected: {}, actual: {}'.format(input, output, stemmed)
