@@ -28,6 +28,9 @@ officers;officer
 
 fishing
 fishings;fishing
+sweat
+sweatier:sweat
+sweaters;sweater
 #pants
 #panting
 #pantings;panting

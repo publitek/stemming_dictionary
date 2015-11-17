@@ -85,6 +85,14 @@ ADJUSTMENTS = {
     ## FISH ~!= FISHING
     'fish': 'ZSRD',
     'fishing': 'S',
+    ## SWEAT != SWEATER
+    'sweat': 'SGZ',
+    'sweater': 'S',
+    ## LANDSCAPING != LANDSCAPE
+    'landscape': 'ZSRD',
+    ## HAMBURGER != HAMBURG
+    'hamburger': 'S',
+    'hamburg': '',
     ## OFFICER != OFFICE
      'officer': 'S'
 }
