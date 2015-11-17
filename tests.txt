@@ -23,6 +23,8 @@ children;child
 showers;shower
 shower
 pigment
+officer
+officers;officer
 
 fishing
 fishings;fishing

@@ -93,6 +93,8 @@ ADJUSTMENTS = {
     ## HAMBURGER != HAMBURG
     'hamburger': 'S',
     'hamburg': '',
+    ## OFFICER != OFFICE
+     'officer': 'S'
 }
 
 ## MAIN
