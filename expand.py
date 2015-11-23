@@ -120,6 +120,16 @@ ADJUSTMENTS = {
     'falling': 'S',
     # ICE != ICING
     'ice': 'DS',
+    # SWEAT != SWEATER
+    'sweat': 'SGZ',
+    'sweater': 'S',
+    # LANDSCAPING != LANDSCAPE
+    'landscape': 'ZSRD',
+    # HAMBURGER != HAMBURG
+    'hamburger': 'S',
+    'hamburg': '',
+    # OFFICER != OFFICE
+    'officer': 'S',
 }
 
 # MAIN
@@ -139,7 +149,7 @@ def main():
             for key, prefix in PFX_TO_REMOVE.items():
                 if key in params:
                     params = params.replace(key, '')
-                    # ADD NEW WORD TO 
+                    # ADD NEW WORD TO
                     new_words.append(prefix + word)
             # REMOVE SUFFIXES
             for suffix in SFX_TO_REMOVE:

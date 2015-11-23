@@ -25,9 +25,13 @@ shower
 pigment
 badger
 badgers;badger
-
+officer
+officers;officer
 fishing
 fishings;fishing
+sweat
+sweatier:sweat
+sweaters;sweater
 pants
 #panting
 #pantings;panting
