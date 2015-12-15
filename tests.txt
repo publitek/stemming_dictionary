@@ -91,6 +91,9 @@ fallings;falling
 #groomings;grooming
 icing
 icings;icing
+bed
+lens
+nest
 #interested
 #interesting
 #interestings;interesting
@@ -976,7 +979,3 @@ weathered
 
 #transformer
 #transformers;transformer
-
-bed
-lens
-nest
