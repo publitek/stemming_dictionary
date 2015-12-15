@@ -154,13 +154,15 @@ def main():
             # REMOVE SUFFIXES
             for suffix in SFX_TO_REMOVE:
                 params = params.replace(suffix, '')
-            # ADD WORD TO DICTIONARY
-            dictionary[word] = params
-            # ADD NEW WORDS TO DICTIONARY
-            for new_word in new_words:
-                if new_word in dictionary:
-                    params = ''.join(set(dictionary[new_word] + params))
-                dictionary[new_word] = params
+            # ONLY ADD WORDS LONGER THEN 1 CHAR
+            if len(word) > 1:
+                # ADD WORD TO DICTIONARY
+                dictionary[word] = params
+                # ADD NEW WORDS TO DICTIONARY
+                for new_word in new_words:
+                    if new_word in dictionary:
+                        params = ''.join(set(dictionary[new_word] + params))
+                    dictionary[new_word] = params
     # REMOVE WORDS
     remove_words = []
     # STEM *MEN -> *MAN
