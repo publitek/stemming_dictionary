@@ -1,7 +1,7 @@
 language: "python"
 python: "2.7"
 install: 
-	- sudo apt-get update -qq
-	- sudo apt-get install -y hunspell
+  - sudo apt-get update -qq
+  - sudo apt-get install -y hunspell
 before_script: "python expand.py"
 script: "nosetests --verbosity=2"
