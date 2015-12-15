@@ -1,5 +1,5 @@
 language: "python"
 python: "2.7"
-install: "sudo apt-get install hunspell"
+install: "sudo apt-get install -y hunspell"
 before_script: "python expand.py"
 script: "nosetests --verbosity=2"
