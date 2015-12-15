@@ -121,7 +121,7 @@ ADJUSTMENTS = {
     # ICE != ICING
     'ice': 'DS',
     # SWEAT != SWEATER
-    'sweat': 'SGZ',
+    'sweat': '',
     'sweater': 'S',
     # LANDSCAPING != LANDSCAPE
     'landscape': 'ZSRD',
@@ -130,6 +130,7 @@ ADJUSTMENTS = {
     'hamburg': '',
     # OFFICER != OFFICE
     'officer': 'S',
+    'office': 'S',
 }
 
 # MAIN
