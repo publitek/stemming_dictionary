@@ -188,13 +188,15 @@ class Expander:
                 for suffix in SFX_TO_REMOVE:
                     params = params.replace(suffix, '')
 
-                self.dictionary[word] = params
+                # Only add words longer than 1 char
+                if len(word) > 1:
+                    self.dictionary[word] = params
 
-                # Add new words
-                for new_word in new_words:
-                    if new_word in self.dictionary:
-                        params = ''.join(set(self.dictionary[new_word] + params))
-                    self.dictionary[new_word] = params
+                    # Add new words
+                    for new_word in new_words:
+                        if new_word in self.dictionary:
+                            params = ''.join(set(self.dictionary[new_word] + params))
+                        self.dictionary[new_word] = params
 
     def write_new_dict(self):
         with open('en_US.dic', 'w') as f:
