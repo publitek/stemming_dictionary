@@ -95,7 +95,7 @@ ADJUSTMENTS = {
     'hamburger': 'S',
     # WEATHER != WEATHERED
     'weather': 'RYJGS',
-    # PANTS != PANT 
+    # PANTS != PANT
     'pant': 'DG',
     # DRESS != DRESSING != DRESSED
     'dress': 'S',
@@ -133,61 +133,76 @@ ADJUSTMENTS = {
     'office': 'S',
 }
 
-# MAIN
-def main():
+
+class Expander:
     dictionary = {}
-    # OPEN ORIGINAL DICTIONARY
-    with open('en_US.dic.orig') as f:
-        for line in f:
-            try:
-                # SPLIT ENTIRES INTO WORDS AND PARAMS
-                word, params = line.strip().split('/')
-            except ValueError:
-                word, params = line.strip(), ''
-            # NEW WORDS LIST
-            new_words = []
-            # REMOVE PREFIXES
-            for key, prefix in PFX_TO_REMOVE.items():
-                if key in params:
-                    params = params.replace(key, '')
-                    # ADD NEW WORD TO
-                    new_words.append(prefix + word)
-            # REMOVE SUFFIXES
-            for suffix in SFX_TO_REMOVE:
-                params = params.replace(suffix, '')
-            # ONLY ADD WORDS LONGER THEN 1 CHAR
-            if len(word) > 1:
-                # ADD WORD TO DICTIONARY
-                dictionary[word] = params
-                # ADD NEW WORDS TO DICTIONARY
-                for new_word in new_words:
-                    if new_word in dictionary:
-                        params = ''.join(set(dictionary[new_word] + params))
-                    dictionary[new_word] = params
-    # REMOVE WORDS
-    remove_words = []
-    # STEM *MEN -> *MAN
-    for word, params in dictionary.items():
+
+    def run(self):
+        self.load_original()
+
+        # Stem *men -> *man, etc.
+        remove_words = []
+        for word, params in self.dictionary.items():
+            remove_words += self.process_word(word)
+
+        # Remove words
+        for word in remove_words:
+            del self.dictionary[word]
+
+        # Merge with adjustments
+        self.dictionary.update(ADJUSTMENTS)
+
+        # Remove entries without params
+        self.dictionary = dict((word, params) for word, params in self.dictionary.items() if params)
+
+        self.write_new_dict()
+
+    def process_word(self, word):
+        remove_words = []
         for safe_end, (old_end, new_param) in NEW_STEMS.items():
             if word.endswith(safe_end):
                 man_word = (word.rsplit(safe_end, 1)[0] + old_end)
-                if man_word in dictionary:
-                    dictionary[man_word] += new_param
+                if man_word in self.dictionary:
+                    self.dictionary[man_word] += new_param
                     remove_words.append(word)
-    # REMOVE WORDS
-    for word in remove_words:
-        del dictionary[word]
-    # MERGE WITH ADJUSTMENTS
-    dictionary.update(ADJUSTMENTS)
-    # REMOVE ENTRIES WITHOUT PARAMS
-    dictionary = dict((word, params) for word, params in dictionary.items() if params)
-    # WRITE CHANGE TO NEW DICTIONARY
-    with open('en_US.dic', 'w') as f:
-        words = sorted(dictionary.keys())
-        f.write('%d\n'%(len(words)))
-        for word in words:
-            f.write('%s/%s\n'%(word, dictionary[word]))
+        return remove_words
 
-# RUN
+    def load_original(self):
+        with open('en_US.dic.orig') as f:
+            for line in f:
+                try:
+                    # Split entries into words and params
+                    word, params = line.strip().split('/')
+                except ValueError:
+                    word, params = line.strip(), ''
+
+                new_words = []
+
+                # Remove prefixes
+                for key, prefix in PFX_TO_REMOVE.items():
+                    if key in params:
+                        params = params.replace(key, '')
+                        new_words.append(prefix + word)
+
+                # Remove suffixes
+                for suffix in SFX_TO_REMOVE:
+                    params = params.replace(suffix, '')
+
+                self.dictionary[word] = params
+
+                # Add new words
+                for new_word in new_words:
+                    if new_word in self.dictionary:
+                        params = ''.join(set(self.dictionary[new_word] + params))
+                    self.dictionary[new_word] = params
+
+    def write_new_dict(self):
+        with open('en_US.dic', 'w') as f:
+            words = sorted(self.dictionary.keys())
+            f.write('%d\n' % (len(words)))
+            for word in words:
+                f.write('{}/{}\n'.format(word, self.dictionary[word]))
+
+
 if __name__ == "__main__":
-    main()
+    Expander().run()
