@@ -5,21 +5,22 @@ import asyncio
 
 class StemmingTester:
     @staticmethod
-    def stem(inp):
+    async def stem(inp):
         process = Popen(
             args=['hunspell', '-m', '-d', 'en_US', '-s'],
             stdin=PIPE,
             stdout=PIPE,
         )
-        stdout, stderr = process.communicate(inp)
-        return stdout.replace(inp, ''.encode('UTF-8')).strip()
+        stdout, stderr = process.communicate(inp.encode('utf-8'))
+        return stdout.decode('utf-8').replace(inp, '').strip()
 
     async def validate(self, input, output):
-        stemmed = self.stem(input)
+        stemmed = await self.stem(input)
         if not (stemmed == output or (stemmed == '' and input == output)):
             print('input: {}, expected: {}, actual: {}'.format(input, output, stemmed))
 
     async def test(self):
+        tasks = []
         with open('tests.txt') as file:
             for line in file:
                 if line.startswith('#'):
@@ -27,10 +28,11 @@ class StemmingTester:
                 line = line.rstrip('\n').split('#')[0].strip()
                 try:
                     inp, output = line.split(';')
-                    self.validate(inp.strip(), output.strip())
                 except ValueError:
-                    if line:
-                        self.validate(line, line)
+                    inp, output = line, line
+
+                tasks.append(asyncio.ensure_future(self.validate(inp, output)))
+        await asyncio.gather(*tasks)
 
 
 if __name__ == '__main__':
