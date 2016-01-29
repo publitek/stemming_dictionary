@@ -1,11 +1,10 @@
+from multiprocessing.pool import Pool
 from subprocess import Popen, PIPE
-
-import asyncio
 
 
 class StemmingTester:
     @staticmethod
-    async def stem(inp):
+    def stem(inp):
         process = Popen(
             args=['hunspell', '-m', '-d', 'en_US', '-s'],
             stdin=PIPE,
@@ -14,30 +13,23 @@ class StemmingTester:
         stdout, stderr = process.communicate(inp.encode('utf-8'))
         return stdout.decode('utf-8').replace(inp, '').strip()
 
-    async def validate(self, input, output):
-        stemmed = await self.stem(input)
-        if not (stemmed == output or (stemmed == '' and input == output)):
-            print('input: {}, expected: {}, actual: {}'.format(input, output, stemmed))
+    def validate(self, line):
+        if line.startswith('#'):
+            return
 
-    async def test(self):
-        tasks = []
-        with open('tests.txt') as file:
-            for line in file:
-                if line.startswith('#'):
-                    continue
-                line = line.rstrip('\n').split('#')[0].strip()
-                try:
-                    inp, output = line.split(';')
-                except ValueError:
-                    inp, output = line, line
+        line = line.rstrip('\n').split('#')[0].strip()
+        try:
+            _input, output = line.split(';')
+        except ValueError:
+            _input, output = line, line
 
-                tasks.append(asyncio.ensure_future(self.validate(inp, output)))
-        await asyncio.gather(*tasks)
+        stemmed = self.stem(_input)
+        if not (stemmed == output or (stemmed == '' and _input == output)):
+            print('input: {}, expected: {}, actual: {}'.format(_input, output, stemmed))
 
 
 if __name__ == '__main__':
     tester = StemmingTester()
-
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(tester.test())
-    loop.close()
+    pool = Pool(4)
+    with open('tests.txt') as file:
+        pool.map(tester.validate, file)
