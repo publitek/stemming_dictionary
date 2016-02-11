@@ -1,4 +1,4 @@
-## PREFIXES TO REMOVE
+# PREFIXES TO REMOVE
 PFX_TO_REMOVE = {
     'A': 're',
     'I': 'in',
@@ -9,12 +9,12 @@ PFX_TO_REMOVE = {
     'K': 'pro',
 }
 
-## SUFFIXES TO REMOVE
+# SUFFIXES TO REMOVE
 SFX_TO_REMOVE = [
     'M',
 ]
 
-## NEW STEMS
+# NEW STEMS
 NEW_STEMS = {
     'people': ('person', 'Q'),
     'teeth': ('tooth', 'Q'),
@@ -22,7 +22,7 @@ NEW_STEMS = {
     'men': ('man', 'O'),
 }
 
-## UPDATE ORIGINAL WORDS WITH THESE CHANGES
+# UPDATE ORIGINAL WORDS WITH THESE CHANGES
 ADJUSTMENTS = {
     'Olive': '',
     'Say': '',
@@ -50,85 +50,123 @@ ADJUSTMENTS = {
     'terrier': 'S',
     'tee': 'DRS',
     'too': '',
-    ## ADDED CONMEN/GARBAGEMEN/GROUNDSMEN
+    # ADDED CONMEN/GARBAGEMEN/GROUNDSMEN
     'conman': 'O',
     'garbageman': 'O',
     'groundsman': 'O',
-    ## BUTTER -> BUTT
+    # BUTTER -> BUTT
     'butt': 'GDS',
     'butter': 'GDS',
-    ## CORNER -> CORN
+    # CORNER -> CORN
     'corn': 'GDS',
     'corner': 'GDS',
-    ## EASTER -> EAST
+    # EASTER -> EAST
     'east': 'GS',
-    ## TELEMARKET
+    # TELEMARKET
     'telemarket': 'RGZ',
     'telemarketer': '',
     'telemarketing': '',
-    ## BEER/BEING -> BEE
+    # BEER/BEING -> BEE
     'beer': 'S',
     'bee': 'S',
-    ## CRATER -> CRATE
+    # CRATER -> CRATE
     'crate': 'DSGZ',
-    ## COUPLE/COUPLES
+    # COUPLE/COUPLES
     'couples': '',
     'couple': 'S',
-    ## CHILD/CHILDREN
+    # CHILD/CHILDREN
     'children': '',
     'child': 'GDSY',
-    ## SHOWER -> SHOW
+    # SHOWER -> SHOW
     'show': 'GDJS',
     'shower': 'GDS',
-    ## TRAINING != TRAIN
+    # TRAINING != TRAIN
     'train': 'S',
-    ## FISH ~!= FISHING
+    # FISH ~!= FISHING
     'fish': 'ZSRD',
     'fishing': 'S',
-    ## SWEAT != SWEATER
-    'sweat': 'SGZ',
+    # PIG != PIGMENT
+    'pig': 'S',
+    # BADGER != BADGE
+    'badge': 'DSG',
+    'badger': 'DSG',
+    # HAMBURG != HAMBURGER
+    'hamburg': 'S',
+    'hamburger': 'S',
+    # WEATHER != WEATHERED
+    'weather': 'RYJGS',
+    # PANTS != PANT 
+    'pant': 'DG',
+    # DRESS != DRESSING != DRESSED
+    'dress': 'S',
+    # ACCOUNTING != ACCOUNT
+    'account': 'BDS',
+    # BEARING != BEAR
+    'bear': 'ZBRS',
+    'bearing': 'S',
+    # BOND != BONDING
+    'bond': 'RSZ',
+    'bonding': 'S',
+    # BOX != BOXING
+    'box': 'DRSZ',
+    'boxing': 'S',
+    # DATE != DATING
+    'date': 'RSZV',
+    'dating': 'S',
+    # DRAFT != DRAFTING
+    'draft': 'DS',
+    # FALL != FALLING
+    'fall': 'SZRN',
+    'falling': 'S',
+    # ICE != ICING
+    'ice': 'DS',
+    # SWEAT != SWEATER
+    'sweat': '',
     'sweater': 'S',
-    ## LANDSCAPING != LANDSCAPE
+    # LANDSCAPING != LANDSCAPE
     'landscape': 'ZSRD',
-    ## HAMBURGER != HAMBURG
+    # HAMBURGER != HAMBURG
     'hamburger': 'S',
     'hamburg': '',
-    ## OFFICER != OFFICE
-     'officer': 'S'
+    # OFFICER != OFFICE
+    'officer': 'S',
+    'office': 'S',
 }
 
-## MAIN
+# MAIN
 def main():
     dictionary = {}
-    ## OPEN ORIGINAL DICTIONARY
+    # OPEN ORIGINAL DICTIONARY
     with open('en_US.dic.orig') as f:
         for line in f:
             try:
-                ## SPLIT ENTIRES INTO WORDS AND PARAMS
+                # SPLIT ENTIRES INTO WORDS AND PARAMS
                 word, params = line.strip().split('/')
             except ValueError:
                 word, params = line.strip(), ''
-            ## NEW WORDS LIST
+            # NEW WORDS LIST
             new_words = []
-            ## REMOVE PREFIXES
+            # REMOVE PREFIXES
             for key, prefix in PFX_TO_REMOVE.items():
                 if key in params:
                     params = params.replace(key, '')
-                    ## ADD NEW WORD TO
+                    # ADD NEW WORD TO
                     new_words.append(prefix + word)
-            ## REMOVE SUFFIXES
+            # REMOVE SUFFIXES
             for suffix in SFX_TO_REMOVE:
                 params = params.replace(suffix, '')
-            ## ADD WORD TO DICTIONARY
-            dictionary[word] = params
-            ## ADD NEW WORDS TO DICTIONARY
-            for new_word in new_words:
-                if new_word in dictionary:
-                    params = ''.join(set(dictionary[new_word] + params))
-                dictionary[new_word] = params
-    ## REMOVE WORDS
+            # ONLY ADD WORDS LONGER THEN 1 CHAR
+            if len(word) > 1:
+                # ADD WORD TO DICTIONARY
+                dictionary[word] = params
+                # ADD NEW WORDS TO DICTIONARY
+                for new_word in new_words:
+                    if new_word in dictionary:
+                        params = ''.join(set(dictionary[new_word] + params))
+                    dictionary[new_word] = params
+    # REMOVE WORDS
     remove_words = []
-    ## STEM *MEN -> *MAN
+    # STEM *MEN -> *MAN
     for word, params in dictionary.items():
         for safe_end, (old_end, new_param) in NEW_STEMS.items():
             if word.endswith(safe_end):
@@ -136,20 +174,20 @@ def main():
                 if man_word in dictionary:
                     dictionary[man_word] += new_param
                     remove_words.append(word)
-    ## REMOVE WORDS
+    # REMOVE WORDS
     for word in remove_words:
         del dictionary[word]
-    ## MERGE WITH ADJUSTMENTS
+    # MERGE WITH ADJUSTMENTS
     dictionary.update(ADJUSTMENTS)
-    ## REMOVE ENTRIES WITHOUT PARAMS
+    # REMOVE ENTRIES WITHOUT PARAMS
     dictionary = dict((word, params) for word, params in dictionary.items() if params)
-    ## WRITE CHANGE TO NEW DICTIONARY
+    # WRITE CHANGE TO NEW DICTIONARY
     with open('en_US.dic', 'w') as f:
         words = sorted(dictionary.keys())
         f.write('%d\n'%(len(words)))
         for word in words:
             f.write('%s/%s\n'%(word, dictionary[word]))
 
-## RUN
+# RUN
 if __name__ == "__main__":
     main()
