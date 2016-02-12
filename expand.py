@@ -95,7 +95,7 @@ ADJUSTMENTS = {
     'hamburger': 'S',
     # WEATHER != WEATHERED
     'weather': 'RYJGS',
-    # PANTS != PANT 
+    # PANTS != PANT
     'pant': 'DG',
     # DRESS != DRESSING != DRESSED
     'dress': 'S',
@@ -131,6 +131,8 @@ ADJUSTMENTS = {
     # OFFICER != OFFICE
     'officer': 'S',
     'office': 'S',
+    # BUSINESS != BUSY
+    'busy': 'DSRTG'
 }
 
 # MAIN
