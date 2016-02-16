@@ -1,3 +1,4 @@
+"""Expands the dictionary file performing the necessary modifications to make it more suitable for stemming"""
 # PREFIXES TO REMOVE
 PFX_TO_REMOVE = {
     'A': 're',
@@ -135,9 +136,11 @@ ADJUSTMENTS = {
 
 
 class Expander:
+    """Expands the dictionary file performing the necessary modifications to make it more suitable for stemming"""
     dictionary = {}
 
     def run(self):
+        """Performs the expansion"""
         self.load_original()
 
         # Stem *men -> *man, etc.
@@ -158,6 +161,11 @@ class Expander:
         self.write_new_dict()
 
     def process_word(self, word):
+        """
+        Processes a given word.
+        :param word: The word to process
+        :returns: List of words to remove from the dictionary
+        """
         remove_words = []
         for safe_end, (old_end, new_param) in NEW_STEMS.items():
             if word.endswith(safe_end):
@@ -168,6 +176,7 @@ class Expander:
         return remove_words
 
     def load_original(self):
+        """Loads in the original dictionary, removing prefix and suffixes defined above"""
         with open('en_US.dic.orig') as f:
             for line in f:
                 try:
@@ -199,6 +208,7 @@ class Expander:
                         self.dictionary[new_word] = params
 
     def write_new_dict(self):
+        """Writes the new dictionary to en_US.dic"""
         with open('en_US.dic', 'w') as f:
             words = sorted(self.dictionary.keys())
             f.write('%d\n' % (len(words)))
