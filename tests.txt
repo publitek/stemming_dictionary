@@ -94,6 +94,11 @@ icings;icing
 bed
 lens
 nest
+early
+earth
+earthly:earth
+earliest:early
+earthlier:earthly
 #interested
 #interesting
 #interestings;interesting

@@ -133,7 +133,11 @@ ADJUSTMENTS = {
     'officer': 'S',
     'office': 'S',
     # BUSINESS != BUSY
-    'busy': 'DSRTG'
+    'busy': 'DSRTG',
+    # EARLY != EARLIES
+    'early': 'PRT',
+    # EAR != EARING, EARLY, EARTH
+    'ear': 'SMD'
 }
 
 
