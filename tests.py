@@ -49,7 +49,6 @@ def assert_output(assertion, output_str):
 
 
 def test_stemming():
-    """Runs a test for every line in tests.txt"""
     with open('tests.txt') as file:
         pool = Pool(4)
         results = pool.map(validate, file)
