@@ -96,9 +96,9 @@ lens
 nest
 early
 earth
-earthly:earthly earthly\nearthly earth\n\nearth earth
-earliest:earliest early\n\nearly early
-earthlier:earthlier earthly\n\nearthly earthly\nearthly earth
+earthly;earth
+earliest;early
+earthlier;earthly
 #interested
 #interesting
 #interestings;interesting
