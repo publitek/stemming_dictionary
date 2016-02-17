@@ -96,14 +96,14 @@ lens
 nest
 mop
 map
-mopping:mopping mop\n\nmop mop
-mapping:mapping map\n\nmap map
-mops:mops mop\n\nmop mop
-mopped:mopped mop\n\nmop mop
-mapped:mapped map\n\nmap map
-moper
-mopers:moper
-moping:mope
+mopping;mop
+mapping;map
+mops;mop
+mopped;mop
+mapped;map
+moper;mope
+mopers;mope
+moping;mope
 #interested
 #interesting
 #interestings;interesting
