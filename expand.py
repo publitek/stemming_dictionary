@@ -134,6 +134,10 @@ ADJUSTMENTS = {
     'office': 'S',
     # BUSINESS != BUSY
     'busy': 'DSRTG',
+    # EARLY != EARLIES
+    'early': 'PRT',
+    # EAR != EARING, EARLY, EARTH
+    'ear': 'SMD',
     # MOP != MOPED
     'mop': 'SMGJDRZ',
     'map': 'SMGJDRZ',
@@ -142,7 +146,7 @@ ADJUSTMENTS = {
     'mopper': '',
     'mapper': '',
     'mopping': '',
-    'mapping': ''
+    'mapping': '',
 }
 
 class Expander:

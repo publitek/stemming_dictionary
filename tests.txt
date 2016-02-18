@@ -104,6 +104,11 @@ mapped;map
 moper;mope
 mopers;mope
 moping;mope
+early
+earth
+earthly;earth
+earliest;early
+earthlier;earthly
 #interested
 #interesting
 #interestings;interesting
