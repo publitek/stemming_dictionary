@@ -94,6 +94,16 @@ icings;icing
 bed
 lens
 nest
+mop
+map
+mopping;mop
+mapping;map
+mops;mop
+mopped;mop
+mapped;map
+moper;mope
+mopers;mope
+moping;mope
 #interested
 #interesting
 #interestings;interesting

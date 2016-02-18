@@ -133,9 +133,17 @@ ADJUSTMENTS = {
     'officer': 'S',
     'office': 'S',
     # BUSINESS != BUSY
-    'busy': 'DSRTG'
+    'busy': 'DSRTG',
+    # MOP != MOPED
+    'mop': 'SMGJDRZ',
+    'map': 'SMGJDRZ',
+    'mope': 'SGZDR',
+    'moper': '',
+    'mopper': '',
+    'mapper': '',
+    'mopping': '',
+    'mapping': ''
 }
-
 
 class Expander:
     """Expands the dictionary file performing the necessary modifications to make it more suitable for stemming"""
