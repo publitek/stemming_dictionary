@@ -134,10 +134,22 @@ ADJUSTMENTS = {
     'office': 'S',
     # BUSINESS != BUSY
     'busy': 'DSRTG',
+    # EARLY != EARLIES
+    'early': 'PRT',
+    # EAR != EARING, EARLY, EARTH
+    'ear': 'SMD',
+    # MOP != MOPED
+    'mop': 'SMGJDRZ',
+    'map': 'SMGJDRZ',
+    'mope': 'SGZDR',
+    'moper': '',
+    'mopper': '',
+    'mapper': '',
+    'mopping': '',
+    'mapping': '',
     # ONE != ONIONS
     'one': 'PS'
 }
-
 
 class Expander:
     """Expands the dictionary file performing the necessary modifications to make it more suitable for stemming"""

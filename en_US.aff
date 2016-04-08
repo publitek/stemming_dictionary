@@ -41,7 +41,7 @@ SFX V   0     ive        [^e]
 
 SFX N Y 3
 SFX N   e     ion        e
-SFX N   y     ication    y 
+SFX N   y     ication    y
 SFX N   0     en         [^ey]
 
 SFX X Y 3
@@ -56,19 +56,22 @@ SFX H   0     th         [^y]
 SFX Y Y 1
 SFX Y   0     ly         .
 
-SFX G Y 2
+SFX G Y 3
 SFX G   e     ing        e
-SFX G   0     ing        [^e]
+SFX G   0     ing        [^ep]
+SFX G   0     ping       p
 
-SFX J Y 2
+SFX J Y 3
 SFX J   e     ings       e
-SFX J   0     ings       [^e]
+SFX J   0     ings       [^ep]
+SFX J   0     pings       p
 
-SFX D Y 4
+SFX D Y 5
 SFX D   0     d          e
 SFX D   y     ied        [^aeiou]y
-SFX D   0     ed         [^ey]
+SFX D   0     ed         [^eyp]
 SFX D   0     ed         [aeiou]y
+SFX D   0     ped        p
 
 SFX T N 4
 SFX T   0     st         e
@@ -76,17 +79,19 @@ SFX T   y     iest       [^aeiou]y
 SFX T   0     est        [aeiou]y
 SFX T   0     est        [^ey]
 
-SFX R Y 4
+SFX R Y 5
 SFX R   0     r          e
 SFX R   y     ier        [^aeiou]y
 SFX R   0     er         [aeiou]y
-SFX R   0     er         [^ey]
+SFX R   0     er         [^eyp]
+SFX R   0     per        p
 
-SFX Z Y 4
+SFX Z Y 5
 SFX Z   0     rs         e
 SFX Z   y     iers       [^aeiou]y
 SFX Z   0     ers        [aeiou]y
-SFX Z   0     ers        [^ey]
+SFX Z   0     ers        [^eyp]
+SFX Z   0     pers       p
 
 SFX S Y 5
 SFX S   y     ies        [^aeiou]y
