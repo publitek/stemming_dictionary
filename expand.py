@@ -133,7 +133,9 @@ ADJUSTMENTS = {
     'officer': 'S',
     'office': 'S',
     # BUSINESS != BUSY
-    'busy': 'DSRTG'
+    'busy': 'DSRTG',
+    # ONE != ONIONS
+    'one': 'PS'
 }
 
 
