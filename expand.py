@@ -147,6 +147,9 @@ ADJUSTMENTS = {
     'mapper': '',
     'mopping': '',
     'mapping': '',
+    # ONE != ONIONS
+    'one': 'PS',
+    'onion': 'SGD'
 }
 
 class Expander:
