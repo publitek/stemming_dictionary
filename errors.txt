@@ -1,4 +1,4 @@
-found 86 errors
+found 51 errors
 
 5:  	1;one
 	input: 1, expected: one, actual: 
@@ -18,88 +18,18 @@ found 86 errors
 	input: 8, expected: eight, actual: 
 13:  	9;nine
 	input: 9, expected: nine, actual: 
-124:  	centre;center
-	input: centre, expected: center, actual: 
-125:  	centres;center
-	input: centres, expected: center, actual: 
-135:  	collectables;collectable
-	input: collectables, expected: collectable, actual: 
-137:  	collecter;collector
-	input: collecter, expected: collector, actual: 
-138:  	collecters;collector
-	input: collecters, expected: collector, actual: 
-139:  	collectible;collectable
-	input: collectible, expected: collectable, actual: 
-140:  	collectibles;collectable
-	input: collectibles, expected: collectable, actual: collectible
-167:  	compactation;compacted
-	input: compactation, expected: compacted, actual: 
-169:  	compacter;compactor
-	input: compacter, expected: compactor, actual: compact
-170:  	compacters;compactor
-	input: compacters, expected: compactor, actual: compact
-171:  	compacting;compacted
-	input: compacting, expected: compacted, actual: compact
-174:  	competence;competent
-	input: competence, expected: competent, actual: 
-175:  	competency;competent
-	input: competency, expected: competent, actual: 
-190:  	convertable;convertible
-	input: convertable, expected: convertible, actual: 
-204:  	cooperatively;cooperate
-	input: cooperatively, expected: cooperate, actual: cooperative
-205:  	cooperativeness;cooperate
-	input: cooperativeness, expected: cooperate, actual: cooperative
-206:  	cooperatives;cooperate
-	input: cooperatives, expected: cooperate, actual: cooperative
-232:  	dependancies;dependency
-	input: dependancies, expected: dependency, actual: 
-233:  	dependancy;dependency
-	input: dependancy, expected: dependency, actual: 
-270:  	electricitys;electricity
-	input: electricitys, expected: electricity, actual: 
-288:  	exhausting;exhausted
-	input: exhausting, expected: exhausted, actual: 
-289:  	exhaustion;exhausted
-	input: exhaustion, expected: exhausted, actual: 
-336:  	governer;governor
-	input: governer, expected: governor, actual: 
 337:  	governers;governors
 	input: governers, expected: governors, actual: 
-338:  	grey;gray
-	input: grey, expected: gray, actual: 
-359:  	importance;important
-	input: importance, expected: important, actual: 
 362:  	importation;import
 	input: importation, expected: import, actual: 
-364:  	importent;important
-	input: importent, expected: important, actual: 
-370:  	inflateable;inflatable
-	input: inflateable, expected: inflatable, actual: 
-371:  	inflatible;inflatable
-	input: inflatible, expected: inflatable, actual: 
-380:  	initialize;initiate
-	input: initialize, expected: initiate, actual: 
 402:  	internalize;internalized
 	input: internalize, expected: internalized, actual: 
 407:  	internation;international
-	input: internation, expected: international, actual: 
-422:  	irony;ironic
-	input: irony, expected: ironic, actual: 
+	input: internation, expected: international, actual: al
 448:  	liquidatation;liquidate
 	input: liquidatation, expected: liquidate, actual: 
-507:  	objected;objection
-	input: objected, expected: objection, actual: object
-508:  	objecting;objection
-	input: objecting, expected: objection, actual: object
 527:  	operation;operations
 	input: operation, expected: operations, actual: 
-582:  	peacful;peaceful
-	input: peacful, expected: peaceful, actual: 
-583:  	peacfully;peaceful
-	input: peacfully, expected: peaceful, actual: 
-584:  	peacfulness;peaceful
-	input: peacfulness, expected: peaceful, actual: 
 625:  	presentation;presentat
 	input: presentation, expected: presentat, actual: 
 626:  	presentational;presentat

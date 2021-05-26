@@ -123,7 +123,7 @@ SFX L   0     ment       .
 SFX O Y 1
 SFX O   an    en         an
 
-SFX Q Y 50      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
+SFX Q Y 87      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
 SFX Q   rson  ople       person
 SFX Q   ooth  eeth       tooth
 SFX Q   oose  eese       goose
@@ -145,6 +145,12 @@ SFX Q   and   ood        understand
 SFX Q   ed    ing        tired
 SFX Q   0     ty         admiral
 SFX Q   ate   ization    carbonate
+SFX Q   er    re         center
+SFX Q   er    res        center
+SFX Q   ible  able       collectible
+SFX Q   ible  ables      collectible
+SFX Q   or    er         collector
+SFX Q   or    ers        collector
 SFX Q   or    our        color
 SFX Q   or    ourable    color
 SFX Q   or    ourant     color
@@ -162,6 +168,21 @@ SFX Q   or    ourings    color
 SFX Q   or    ourity     color
 SFX Q   or    ourize     color
 SFX Q   or    ourized    color
+SFX Q   ed    ion        compacted
+SFX Q   ed    ing        compacted
+SFX Q   or    er         compactor
+SFX Q   or    ers        compactor
+SFX Q   t     cy         competent
+SFX Q   t     ce         competent
+SFX Q   ible  able       convertible
+SFX Q   e     ively      cooperate
+SFX Q   e     iveness    cooperate
+SFX Q   e     ives       cooperate
+SFX Q   ency  ancies     dependency
+SFX Q   ency  ancy       dependency
+SFX Q   0     s          electricity
+SFX Q   ed    ing        exhausted
+SFX Q   ed    ion        exhausted
 SFX Q   or    our        flavor
 SFX Q   or    ours       flavor
 SFX Q   or    ourable    flavor
@@ -174,6 +195,23 @@ SFX Q   or    ourful     flavor
 SFX Q   or    ourous     flavor
 SFX Q   oring ouring     flavoring
 SFX Q   oring ourings    flavoring
+SFX Q   or    er         governor
+SFX Q   ors   ers        governors
+SFX Q   ay    ey         gray
+SFX Q   t     ce         important
+SFX Q   ant   ent        important
+SFX Q   able  eable      inflatable
+SFX Q   able  ible       inflatable
+SFX Q   te    lize       initiate
+SFX Q   ed    e          internalized
+SFX Q   nal   n          international
+SFX Q   ic    y          ironic
+SFX Q   ion   ed         objection
+SFX Q   on    ng         objection
+SFX Q   eful  ful        peaceful
+SFX Q   eful  fully      peaceful
+SFX Q   eful  fulness    peaceful
+
 
 SFX W Y 2
 SFX W   f     ves        f

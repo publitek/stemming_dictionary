@@ -131,13 +131,13 @@ clipping
 clippings;clipping
 closed
 collect,
-collectable;
-collectables;collectable
+collectible;
+collectables;collectible
 collected;collect
 collecter;collector
 collecters;collector
-collectible;collectable
-collectibles;collectable
+collectable;collectible
+collectibles;collectible
 collecting;collect
 collection
 collections;collection
@@ -164,7 +164,7 @@ colourize;color
 colourized;color
 combination
 combinations
-compactation;compacted
+compaction;compacted
 compacted
 compacter;compactor
 compacters;compactor

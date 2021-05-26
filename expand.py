@@ -202,12 +202,16 @@ ADJUSTMENTS = {
     'carbonate': 'SDXNGQ',
     # CENT != CENTER
     'cent': 'S',
-    'center': 'S',
+    'center': 'QS',
     # CLOSED != CLOSE
     'close': 'SRG',
     'closed': '',
+    # COLLECTIBLE
+    'collectible': 'QS',
     # COLLECTIVE
     'collective': 'SY2',
+    # COLLECTOR
+    'collector': 'QS',
     # COMBINATIONS != COMBINATION
     'combination': '',
     'combinations': '',
@@ -215,15 +219,21 @@ ADJUSTMENTS = {
     'color': 'BDGJQRSZ8',
     # COMPACTED != COMPACT
     'compact': 'TZGSPRY',
-    'compacted': '',
+    'compacted': 'Q',
+    'compactor': 'QS',
+    # COMPETENT
+    'competent': 'QY',
     # CONCENTRIC
     'concentric': 'S',
+    # CONVERTIBLE
+    'convertible': 'QPS',
     # COOK != COOKED or COOKING
     'cook': 'ZRS',
     'cooking': '',
     'cooked': '',
     # COOPERATE
-    'cooperate': 'VNGXSD3',
+    'cooperate': 'VNGXSDQ3',
+    'cooperative': '',
     # CUSTOM != CUSTOMER
     'customer': 'S',
     'custom': '',
@@ -241,6 +251,8 @@ ADJUSTMENTS = {
     'dependable': '2',
     # DEPENDANT
     'dependant': 'S',
+    # DEPENDENCY
+    'dependency': 'QS',
     # DESERTED != DESERT
     'desert': 'ZGRS',
     'deserted': '',
@@ -258,13 +270,13 @@ ADJUSTMENTS = {
     'effect': 'SDG',
     'effective': 'PY',
     # ELECTRICITY
-    'electricity': 'S',
+    'electricity': 'QS',
     # EXECUTIVE != EXECUTE
     'execute': 'NGZBXDRS',
     'executive': 'SY',
     # EXHAUSTED != EXHAUST
     'exhaust': '',
-    'exhausted': '',
+    'exhausted': 'Q',
     # FARMING != FARM
     'farming': 'S',
     'farm': 'RDZS',
@@ -291,6 +303,10 @@ ADJUSTMENTS = {
     # GLASS != GLASSES
     'glass': 'GD',
     'glasses': '',
+    # GOVERNOR
+    'governor': 'QS',
+    # GRAY
+    'gray': 'PYRDGTSQ',
     # GROOM ! GROOMING or GROOMED
     'groom': 'ZSR',
     'grooming': 'S',
@@ -300,12 +316,14 @@ ADJUSTMENTS = {
     'hospitable': 'P',
     # HUMANE
     'humane': 'PY',
+    # IMPORTANT
+    'important': 'QY',
     # INFLATE != INFLATABLE or INFLATION
     'inflate': 'GDRS',
-    'inflatable': 'S',
+    'inflatable': 'QS',
     'inflation': 'S',
     # INITIATE
-    'initiate': 'GNS3',
+    'initiate': 'GNQS3',
     # INTEGRATE
     'integrate': 'DGNS3',
     # INTEREST != INTERESTING or INTERESTED
@@ -316,11 +334,11 @@ ADJUSTMENTS = {
     'intern': 'DGS',
     'internment': 'S',
     # INTERNALIZE
-    'internalize': 'DGJS',
+    'internalize': 'DGJQS',
     # INTERNATIONAL
-    'international': 'SY1',
+    'international': 'QSY1',
     # IRONIC
-    'ironic': '67',
+    'ironic': 'Q67',
     'ironical': 'P',
     # LIBERAL
     'liberal': 'YSP1',
@@ -356,6 +374,8 @@ ADJUSTMENTS = {
     # NEW != NEWS
     'new': 'PTGDRY',
     'news': '',
+    # OBJECTION
+    'objection': 'BQS',
     # OBJECTIVE != OBJECT
     'object': 'SGD',
     'objective': 'S',
@@ -392,7 +412,7 @@ ADJUSTMENTS = {
     'parking': 'S',
     'parked': '',
     # PEACEFUL
-    'peaceful': 'PY',
+    'peaceful': 'QPY',
     # PERFORM != PERFORMER
     'performer': 'S',
     'perform': 'SDGB',
@@ -401,7 +421,7 @@ ADJUSTMENTS = {
     'personals': '',
     # PHYSICS != PHYSIC
     'physic': '',
-    'physicS': '',
+    'physics': '',
     # POINT != POINTER
     'point': 'DGS',
     'pointer': 'S',
@@ -412,7 +432,8 @@ ADJUSTMENTS = {
     # PRESENTABLE != PRESENT
     'present': 'SLDYZP',
     'presentable': 'P2',
-    'presenter': 'S',
+    'presenter': 'QS',
+    'presentat': 'Q',
     # PRESERVER != PRESERVE
     'preserver': 'S',
     'preserve': 'DSBG',
@@ -422,25 +443,33 @@ ADJUSTMENTS = {
     # PUBLICATE
     'publicate': 'SDNX',
     'publication': '',
+    # PUBLICIZE
+    'publicize': 'DGQS',
     # PUZZLED != PUZZLE
-    'puzzle': 'RSZL',
+    'puzzle': 'QRSZL',
     'puzzled': '',
     'puzzling': '',
     # RAILING != RAIL
     'rail': 'DS',
     'railing': 'S',
     # RATIONAL
-    'rational': 'YNPS128',
+    'rational': 'NQPSY128',
     'rationalize': '',
     # RECORD != RECORDING or RECORDER
     'record': 'S',
     'recorder': 'S',
     'recording': 'S',
     # REFER
-    'refer': 'BR6',
+    'refer': 'BQR6',
+    # REFERENCE
+    'reference': 'DGQRS',
+    # REFLECTOR
+    'reflector': 'QS',
     # RESPONSIBLE
-    'responsible': 'PY24',
+    'responsible': 'QPY24',
     'responsibility': '',
+    # RESPOND
+    'respond': 'DGQRSZ',
     # ROLLED != ROLL
     'roll': 'S',
     'rolled': '',
@@ -474,17 +503,26 @@ ADJUSTMENTS = {
     # STOCKING != STOCK
     'stock': 'DS',
     'stocking': 'S',
+    # SUCCESSION
+    'succession': 'QS',
     # TENDER != TEND
     'tend': 'SDG',
     'tender': 'DGS',
+    'tenderness': 'QS',
     # TENDERIZE
     'tenderize': 'NDRG',
+    # THEATER
+    'theater': 'QS',
+    # THINK
+    'think': 'GQRS',
     # TIRE !+ TIRING or TIRED
     'tire': 'S',
     'tired': 'Q',
     # TRANSFORMER != TRANSFORM
     'transform': 'DBSG',
     'transformer': 'S',
+    # TRANQUILIZE
+    'tranquilize': 'JGZDSRQ',
     # TRANSITION
     'transition': 'DGS6',
     # TRANSITIVE != TRANSIT
