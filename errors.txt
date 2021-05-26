@@ -1,0 +1,238 @@
+found 118 errors
+
+5:  	1;one
+	input: 1, expected: one, actual: 
+6:  	2;two
+	input: 2, expected: two, actual: 
+7:  	3;three
+	input: 3, expected: three, actual: 
+8:  	4;four
+	input: 4, expected: four, actual: 
+9:  	5;five
+	input: 5, expected: five, actual: 
+10:  	6;six
+	input: 6, expected: six, actual: 
+11:  	7;seven
+	input: 7, expected: seven, actual: 
+12:  	8;eight
+	input: 8, expected: eight, actual: 
+13:  	9;nine
+	input: 9, expected: nine, actual: 
+31:  	admiralty;admiral
+	input: admiralty, expected: admiral, actual: 
+32:  	adorable
+	input: adorable, expected: adorable, actual: adore
+104:  	capitalized;capitalize
+	input: capitalized, expected: capitalize, actual: 
+105:  	capitalizes;capitalize
+	input: capitalizes, expected: capitalize, actual: 
+118:  	carbonization;carbonate
+	input: carbonization, expected: carbonate, actual: 
+124:  	centre;center
+	input: centre, expected: center, actual: 
+125:  	centres;center
+	input: centres, expected: center, actual: 
+135:  	collectables;collectable
+	input: collectables, expected: collectable, actual: 
+137:  	collecter;collector
+	input: collecter, expected: collector, actual: 
+138:  	collecters;collector
+	input: collecters, expected: collector, actual: 
+139:  	collectible;collectable
+	input: collectible, expected: collectable, actual: 
+140:  	collectibles;collectable
+	input: collectibles, expected: collectable, actual: collectible
+148:  	colour;color
+	input: colour, expected: color, actual: 
+149:  	colourable;color
+	input: colourable, expected: color, actual: 
+150:  	colourant;color
+	input: colourant, expected: color, actual: 
+151:  	colouration;color
+	input: colouration, expected: color, actual: 
+152:  	colourations;color
+	input: colourations, expected: color, actual: 
+153:  	coloure;color
+	input: coloure, expected: color, actual: 
+154:  	coloured;color
+	input: coloured, expected: color, actual: 
+155:  	colourer;color
+	input: colourer, expected: color, actual: 
+156:  	coloures;color
+	input: coloures, expected: color, actual: 
+157:  	colourful;color
+	input: colourful, expected: color, actual: 
+158:  	colourfully;color
+	input: colourfully, expected: color, actual: 
+159:  	colourfuls;color
+	input: colourfuls, expected: color, actual: 
+160:  	colouring;color
+	input: colouring, expected: color, actual: 
+161:  	colourings;color
+	input: colourings, expected: color, actual: 
+162:  	colourity;color
+	input: colourity, expected: color, actual: 
+163:  	colourize;color
+	input: colourize, expected: color, actual: 
+164:  	colourized;color
+	input: colourized, expected: color, actual: 
+167:  	compactation;compacted
+	input: compactation, expected: compacted, actual: 
+169:  	compacter;compactor
+	input: compacter, expected: compactor, actual: compact
+170:  	compacters;compactor
+	input: compacters, expected: compactor, actual: compact
+171:  	compacting;compacted
+	input: compacting, expected: compacted, actual: compact
+174:  	competence;competent
+	input: competence, expected: competent, actual: 
+175:  	competency;competent
+	input: competency, expected: competent, actual: 
+190:  	convertable;convertible
+	input: convertable, expected: convertible, actual: 
+204:  	cooperatively;cooperate
+	input: cooperatively, expected: cooperate, actual: cooperative
+205:  	cooperativeness;cooperate
+	input: cooperativeness, expected: cooperate, actual: cooperative
+206:  	cooperatives;cooperate
+	input: cooperatives, expected: cooperate, actual: cooperative
+232:  	dependancies;dependency
+	input: dependancies, expected: dependency, actual: 
+233:  	dependancy;dependency
+	input: dependancy, expected: dependency, actual: 
+270:  	electricitys;electricity
+	input: electricitys, expected: electricity, actual: 
+288:  	exhausting;exhausted
+	input: exhausting, expected: exhausted, actual: 
+289:  	exhaustion;exhausted
+	input: exhaustion, expected: exhausted, actual: 
+308:  	flavour;flavor
+	input: flavour, expected: flavor, actual: 
+309:  	flavourant;flavor
+	input: flavourant, expected: flavor, actual: 
+310:  	flavoure;flavor
+	input: flavoure, expected: flavor, actual: 
+311:  	flavoured;flavor
+	input: flavoured, expected: flavor, actual: 
+312:  	flavourer;flavor
+	input: flavourer, expected: flavor, actual: 
+313:  	flavourful;flavor
+	input: flavourful, expected: flavor, actual: 
+314:  	flavouring;flavoring
+	input: flavouring, expected: flavoring, actual: 
+315:  	flavourings;flavoring
+	input: flavourings, expected: flavoring, actual: 
+316:  	flavourous;flavor
+	input: flavourous, expected: flavor, actual: 
+317:  	flavours;flavor
+	input: flavours, expected: flavor, actual: 
+336:  	governer;governor
+	input: governer, expected: governor, actual: 
+337:  	governers;governors
+	input: governers, expected: governors, actual: 
+338:  	grey;gray
+	input: grey, expected: gray, actual: 
+359:  	importance;important
+	input: importance, expected: important, actual: 
+362:  	importation;import
+	input: importation, expected: import, actual: 
+364:  	importent;important
+	input: importent, expected: important, actual: 
+370:  	inflateable;inflatable
+	input: inflateable, expected: inflatable, actual: 
+371:  	inflatible;inflatable
+	input: inflatible, expected: inflatable, actual: 
+380:  	initialize;initiate
+	input: initialize, expected: initiate, actual: 
+402:  	internalize;internalized
+	input: internalize, expected: internalized, actual: 
+407:  	internation;international
+	input: internation, expected: international, actual: 
+422:  	irony;ironic
+	input: irony, expected: ironic, actual: 
+448:  	liquidatation;liquidate
+	input: liquidatation, expected: liquidate, actual: 
+507:  	objected;objection
+	input: objected, expected: objection, actual: object
+508:  	objecting;objection
+	input: objecting, expected: objection, actual: object
+527:  	operation;operations
+	input: operation, expected: operations, actual: 
+582:  	peacful;peaceful
+	input: peacful, expected: peaceful, actual: 
+583:  	peacfully;peaceful
+	input: peacfully, expected: peaceful, actual: 
+584:  	peacfulness;peaceful
+	input: peacfulness, expected: peaceful, actual: 
+625:  	presentation;presentat
+	input: presentation, expected: presentat, actual: 
+626:  	presentational;presentat
+	input: presentational, expected: presentat, actual: 
+627:  	presentations;presentat
+	input: presentations, expected: presentat, actual: presentation
+629:  	presenting;presentat
+	input: presenting, expected: presentat, actual: 
+630:  	presenting;presenter
+	input: presenting, expected: presenter, actual: 
+649:  	publicism;publicize
+	input: publicism, expected: publicize, actual: 
+650:  	publicity;publicize
+	input: publicity, expected: publicize, actual: 
+657:  	puzzling;puzzled
+	input: puzzling, expected: puzzled, actual: 
+663:  	rationalization;rational
+	input: rationalization, expected: rational, actual: 
+665:  	rationalizer;rational
+	input: rationalizer, expected: rational, actual: 
+666:  	rationalizing;rational
+	input: rationalizing, expected: rational, actual: 
+676:  	referance;reference
+	input: referance, expected: reference, actual: 
+677:  	referances;reference
+	input: referances, expected: reference, actual: 
+680:  	referent;refer
+	input: referent, expected: refer, actual: 
+682:  	referred;refer
+	input: referred, expected: refer, actual: 
+683:  	referring;refer
+	input: referring, expected: refer, actual: 
+686:  	relecter;reflector
+	input: relecter, expected: reflector, actual: 
+687:  	relecters;reflector
+	input: relecters, expected: reflector, actual: 
+688:  	responsability;responsible
+	input: responsability, expected: responsible, actual: 
+689:  	responsable;responsible
+	input: responsable, expected: responsible, actual: 
+690:  	response;respond
+	input: response, expected: respond, actual: 
+691:  	response;respond
+	input: response, expected: respond, actual: 
+692:  	responses;respond
+	input: responses, expected: respond, actual: response
+698:  	responsive;respond
+	input: responsive, expected: respond, actual: response
+699:  	responsiveness;respond
+	input: responsiveness, expected: respond, actual: responsive
+738:  	successive;succession
+	input: successive, expected: succession, actual: success
+739:  	successively;succession
+	input: successively, expected: succession, actual: successive
+761:  	tenderly;tenderness
+	input: tenderly, expected: tenderness, actual: 
+764:  	theatre;theater
+	input: theatre, expected: theater, actual: 
+765:  	theatres;theater
+	input: theatres, expected: theater, actual: 
+766:  	thought;think
+	input: thought, expected: think, actual: 
+767:  	thoughts;think
+	input: thoughts, expected: think, actual: thought
+779:  	tranquillized;tranquilize
+	input: tranquillized, expected: tranquilize, actual: tranquillize
+780:  	tranquillizer;tranquilize
+	input: tranquillizer, expected: tranquilize, actual: tranquillize
+781:  	tranquillizes;tranquilize
+	input: tranquillizes, expected: tranquilize, actual: tranquillize
+782:  	tranquillizing;tranquilize
+	input: tranquillizing, expected: tranquilize, actual: tranquillize

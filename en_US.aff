@@ -39,10 +39,11 @@ SFX V N 2
 SFX V   e     ive        e
 SFX V   0     ive        [^e]
 
-SFX N Y 3
+SFX N Y 4
 SFX N   e     ion        e
 SFX N   y     ication    y
 SFX N   0     en         [^ey]
+SFX N   e     ation      ze
 
 SFX X Y 3
 SFX X   e     ions       e
@@ -53,13 +54,16 @@ SFX H N 2
 SFX H   y     ieth       y
 SFX H   0     th         [^y]
 
-SFX Y Y 1
+SFX Y Y 3
 SFX Y   0     ly         .
+SFX Y   e     y          le
+SFX Y   e     ly         peaceful
 
-SFX G Y 3
+SFX G Y 4
 SFX G   e     ing        e
 SFX G   0     ing        [^ep]
 SFX G   0     ping       p
+SFX G   te    ting       te
 
 SFX J Y 3
 SFX J   e     ings       e
@@ -119,7 +123,63 @@ SFX L   0     ment       .
 SFX O Y 1
 SFX O   an    en         an
 
-SFX Q Y 3
+SFX Q Y 22      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
 SFX Q   rson  ople       person
 SFX Q   ooth  eeth       tooth
 SFX Q   oose  eese       goose
+SFX Q   ouse  ice        mouse
+SFX Q   us    i          us
+SFX Q   oot   eet        foot
+SFX Q   0     es         potato
+SFX Q   0     es         tomato
+SFX Q   0     zes        quiz
+SFX Q   ite   ote        write
+SFX Q   e     ten        write
+SFX Q   im    am         swim
+SFX Q   im    um         swim
+SFX Q   ep    pt         sleep
+SFX Q   each  aught      teach
+SFX Q   ow    ew         throw
+SFX Q   ow    own        throw
+SFX Q   and   ood        understand
+SFX Q   ed    ing        tired
+SFX Q   0     ty         admiral
+SFX Q   ate   ization    carbonate
+SFX Q   or    our        color
+
+
+SFX W Y 2
+SFX W   f     ves        f
+SFX W   fe    ves        fe
+
+SFX 1 Y 1
+SFX 1   0     ism        .
+
+SFX 2 Y 3
+SFX 2   0     ity        .
+SFX 2   e     ity        e
+SFX 2   ble   bility     ble
+
+SFX 3 Y 2
+SFX 3   e     or         te
+SFX 3   er    or         ter
+
+SFX 4 Y 3
+SFX 4   0     ities      .
+SFX 4   e     ities      e
+SFX 4   ble   bilities   ble
+
+SFX 5 Y 2
+SFX 5   e     ors        te
+SFX 5   er    ors        ter
+
+SFX 6 Y 3
+SFX 6   0     al         .
+SFX 6   0     al         operation
+SFX 6   0     als        operation
+
+SFX 7 Y 1
+SFX 7   0     ally       .
+
+SFX 8 Y 1
+SFX 8   0     ize        .
