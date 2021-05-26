@@ -123,7 +123,7 @@ SFX L   0     ment       .
 SFX O Y 1
 SFX O   an    en         an
 
-SFX Q Y 22      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
+SFX Q Y 50      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
 SFX Q   rson  ople       person
 SFX Q   ooth  eeth       tooth
 SFX Q   oose  eese       goose
@@ -146,7 +146,34 @@ SFX Q   ed    ing        tired
 SFX Q   0     ty         admiral
 SFX Q   ate   ization    carbonate
 SFX Q   or    our        color
-
+SFX Q   or    ourable    color
+SFX Q   or    ourant     color
+SFX Q   or    ouration   color
+SFX Q   or    ourations  color
+SFX Q   or    oure       color
+SFX Q   or    oured      color
+SFX Q   or    ourer      color
+SFX Q   or    oures      color
+SFX Q   or    ourful     color
+SFX Q   or    ourfully   color
+SFX Q   or    ourfuls    color
+SFX Q   or    ouring     color
+SFX Q   or    ourings    color
+SFX Q   or    ourity     color
+SFX Q   or    ourize     color
+SFX Q   or    ourized    color
+SFX Q   or    our        flavor
+SFX Q   or    ours       flavor
+SFX Q   or    ourable    flavor
+SFX Q   or    ourant     flavor
+SFX Q   or    oure       flavor
+SFX Q   or    oured      flavor
+SFX Q   or    ourer      flavor
+SFX Q   or    oures      flavor
+SFX Q   or    ourful     flavor
+SFX Q   or    ourous     flavor
+SFX Q   oring ouring     flavoring
+SFX Q   oring ourings    flavoring
 
 SFX W Y 2
 SFX W   f     ves        f

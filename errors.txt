@@ -1,4 +1,4 @@
-found 118 errors
+found 86 errors
 
 5:  	1;one
 	input: 1, expected: one, actual: 
@@ -18,16 +18,6 @@ found 118 errors
 	input: 8, expected: eight, actual: 
 13:  	9;nine
 	input: 9, expected: nine, actual: 
-31:  	admiralty;admiral
-	input: admiralty, expected: admiral, actual: 
-32:  	adorable
-	input: adorable, expected: adorable, actual: adore
-104:  	capitalized;capitalize
-	input: capitalized, expected: capitalize, actual: 
-105:  	capitalizes;capitalize
-	input: capitalizes, expected: capitalize, actual: 
-118:  	carbonization;carbonate
-	input: carbonization, expected: carbonate, actual: 
 124:  	centre;center
 	input: centre, expected: center, actual: 
 125:  	centres;center
@@ -42,40 +32,6 @@ found 118 errors
 	input: collectible, expected: collectable, actual: 
 140:  	collectibles;collectable
 	input: collectibles, expected: collectable, actual: collectible
-148:  	colour;color
-	input: colour, expected: color, actual: 
-149:  	colourable;color
-	input: colourable, expected: color, actual: 
-150:  	colourant;color
-	input: colourant, expected: color, actual: 
-151:  	colouration;color
-	input: colouration, expected: color, actual: 
-152:  	colourations;color
-	input: colourations, expected: color, actual: 
-153:  	coloure;color
-	input: coloure, expected: color, actual: 
-154:  	coloured;color
-	input: coloured, expected: color, actual: 
-155:  	colourer;color
-	input: colourer, expected: color, actual: 
-156:  	coloures;color
-	input: coloures, expected: color, actual: 
-157:  	colourful;color
-	input: colourful, expected: color, actual: 
-158:  	colourfully;color
-	input: colourfully, expected: color, actual: 
-159:  	colourfuls;color
-	input: colourfuls, expected: color, actual: 
-160:  	colouring;color
-	input: colouring, expected: color, actual: 
-161:  	colourings;color
-	input: colourings, expected: color, actual: 
-162:  	colourity;color
-	input: colourity, expected: color, actual: 
-163:  	colourize;color
-	input: colourize, expected: color, actual: 
-164:  	colourized;color
-	input: colourized, expected: color, actual: 
 167:  	compactation;compacted
 	input: compactation, expected: compacted, actual: 
 169:  	compacter;compactor
@@ -106,26 +62,6 @@ found 118 errors
 	input: exhausting, expected: exhausted, actual: 
 289:  	exhaustion;exhausted
 	input: exhaustion, expected: exhausted, actual: 
-308:  	flavour;flavor
-	input: flavour, expected: flavor, actual: 
-309:  	flavourant;flavor
-	input: flavourant, expected: flavor, actual: 
-310:  	flavoure;flavor
-	input: flavoure, expected: flavor, actual: 
-311:  	flavoured;flavor
-	input: flavoured, expected: flavor, actual: 
-312:  	flavourer;flavor
-	input: flavourer, expected: flavor, actual: 
-313:  	flavourful;flavor
-	input: flavourful, expected: flavor, actual: 
-314:  	flavouring;flavoring
-	input: flavouring, expected: flavoring, actual: 
-315:  	flavourings;flavoring
-	input: flavourings, expected: flavoring, actual: 
-316:  	flavourous;flavor
-	input: flavourous, expected: flavor, actual: 
-317:  	flavours;flavor
-	input: flavours, expected: flavor, actual: 
 336:  	governer;governor
 	input: governer, expected: governor, actual: 
 337:  	governers;governors

@@ -170,9 +170,9 @@ ADJUSTMENTS = {
     # ADD -> ADDING
     'add': 'BDGJRSZ',
     # ADMIRAL
-    'admiral': 'S2',
+    'admiral': 'QS2',
     # ADORABLE != ADORE
-    'adore': 'DSRGZB',
+    'adore': 'DSRGZ',
     'adorable': 'PY',
     # ALTERNATIVE != ALTERNATE
     'alternative': 'SY',
@@ -195,9 +195,11 @@ ADJUSTMENTS = {
     'business': '',
     'businesses': '',
     # CAPITALIZE
-    'capitalize': 'GN',
+    'capitalize': 'DGNS',
     # CAPITATE
     'capitate': 'SDGN',
+    # CARBONATE -> CARBONATION
+    'carbonate': 'SDXNGQ',
     # CENT != CENTER
     'cent': 'S',
     'center': 'S',
@@ -210,7 +212,7 @@ ADJUSTMENTS = {
     'combination': '',
     'combinations': '',
     # COLOR
-    'color': 'SRDGZJ8',
+    'color': 'BDGJQRSZ8',
     # COMPACTED != COMPACT
     'compact': 'TZGSPRY',
     'compacted': '',
@@ -272,8 +274,8 @@ ADJUSTMENTS = {
     'federation': 'S',
     'federate': 'SDVG',
     # FLAVOR != FLAVORING
-    'flavoring': 'S',
-    'flavor': 'SDRZ',
+    'flavoring': 'QS',
+    'flavor': 'SDQRZ',
     # FLYING != FLY
     'fly': 'BDRSTZ',
     'flying': '',
