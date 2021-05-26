@@ -1,4 +1,4 @@
-found 51 errors
+found 24 errors
 
 5:  	1;one
 	input: 1, expected: one, actual: 
@@ -26,72 +26,18 @@ found 51 errors
 	input: internalize, expected: internalized, actual: 
 407:  	internation;international
 	input: internation, expected: international, actual: al
-448:  	liquidatation;liquidate
-	input: liquidatation, expected: liquidate, actual: 
 527:  	operation;operations
 	input: operation, expected: operations, actual: 
-625:  	presentation;presentat
-	input: presentation, expected: presentat, actual: 
-626:  	presentational;presentat
-	input: presentational, expected: presentat, actual: 
-627:  	presentations;presentat
-	input: presentations, expected: presentat, actual: presentation
 629:  	presenting;presentat
-	input: presenting, expected: presentat, actual: 
-630:  	presenting;presenter
-	input: presenting, expected: presenter, actual: 
-649:  	publicism;publicize
-	input: publicism, expected: publicize, actual: 
-650:  	publicity;publicize
-	input: publicity, expected: publicize, actual: 
-657:  	puzzling;puzzled
-	input: puzzling, expected: puzzled, actual: 
-663:  	rationalization;rational
-	input: rationalization, expected: rational, actual: 
-665:  	rationalizer;rational
-	input: rationalizer, expected: rational, actual: 
-666:  	rationalizing;rational
-	input: rationalizing, expected: rational, actual: 
-676:  	referance;reference
-	input: referance, expected: reference, actual: 
-677:  	referances;reference
-	input: referances, expected: reference, actual: 
-680:  	referent;refer
-	input: referent, expected: refer, actual: 
-682:  	referred;refer
-	input: referred, expected: refer, actual: 
-683:  	referring;refer
-	input: referring, expected: refer, actual: 
-686:  	relecter;reflector
-	input: relecter, expected: reflector, actual: 
-687:  	relecters;reflector
-	input: relecters, expected: reflector, actual: 
-688:  	responsability;responsible
-	input: responsability, expected: responsible, actual: 
-689:  	responsable;responsible
-	input: responsable, expected: responsible, actual: 
-690:  	response;respond
-	input: response, expected: respond, actual: 
-691:  	response;respond
-	input: response, expected: respond, actual: 
+	input: presenting, expected: presentat, actual: presenter
 692:  	responses;respond
 	input: responses, expected: respond, actual: response
 698:  	responsive;respond
 	input: responsive, expected: respond, actual: response
 699:  	responsiveness;respond
 	input: responsiveness, expected: respond, actual: responsive
-738:  	successive;succession
-	input: successive, expected: succession, actual: success
 739:  	successively;succession
 	input: successively, expected: succession, actual: successive
-761:  	tenderly;tenderness
-	input: tenderly, expected: tenderness, actual: 
-764:  	theatre;theater
-	input: theatre, expected: theater, actual: 
-765:  	theatres;theater
-	input: theatres, expected: theater, actual: 
-766:  	thought;think
-	input: thought, expected: think, actual: 
 767:  	thoughts;think
 	input: thoughts, expected: think, actual: thought
 779:  	tranquillized;tranquilize

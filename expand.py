@@ -434,6 +434,7 @@ ADJUSTMENTS = {
     'presentable': 'P2',
     'presenter': 'QS',
     'presentat': 'Q',
+    'presentation': '',
     # PRESERVER != PRESERVE
     'preserver': 'S',
     'preserve': 'DSBG',
@@ -446,8 +447,8 @@ ADJUSTMENTS = {
     # PUBLICIZE
     'publicize': 'DGQS',
     # PUZZLED != PUZZLE
-    'puzzle': 'QRSZL',
-    'puzzled': '',
+    'puzzle': 'RSZL',
+    'puzzled': 'Q',
     'puzzling': '',
     # RAILING != RAIL
     'rail': 'DS',

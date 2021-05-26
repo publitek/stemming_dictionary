@@ -123,7 +123,7 @@ SFX L   0     ment       .
 SFX O Y 1
 SFX O   an    en         an
 
-SFX Q Y 87      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
+SFX Q Y 119      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
 SFX Q   rson  ople       person
 SFX Q   ooth  eeth       tooth
 SFX Q   oose  eese       goose
@@ -198,6 +198,7 @@ SFX Q   oring ourings    flavoring
 SFX Q   or    er         governor
 SFX Q   ors   ers        governors
 SFX Q   ay    ey         gray
+SFX Q   0     ation      import
 SFX Q   t     ce         important
 SFX Q   ant   ent        important
 SFX Q   able  eable      inflatable
@@ -211,7 +212,37 @@ SFX Q   on    ng         objection
 SFX Q   eful  ful        peaceful
 SFX Q   eful  fully      peaceful
 SFX Q   eful  fulness    peaceful
-
+SFX Q   0     ion        presentat
+SFX Q   0     ional      presentat
+SFX Q   0     ions       presentat
+SFX Q   at    ing        presentat
+SFX Q   er    ing        presenter
+SFX Q   ze    sm         publicize
+SFX Q   ze    ty         publicize
+SFX Q   ed    ing        puzzled
+SFX Q   0     izer       rational
+SFX Q   0     ization    rational
+SFX Q   0     izing      rational
+SFX Q   ence  ance       reference
+SFX Q   ence  ances      reference
+SFX Q   0     ent        refer
+SFX Q   0     red        refer
+SFX Q   0     ring       refer
+SFX Q   flector lecter   reflector
+SFX Q   flector lecters  reflector
+SFX Q   ible  ability    responsible
+SFX Q   ible  able       responsible
+SFX Q   d     se         respond
+SFX Q   d     sive       respond
+SFX Q   d     siveness   respond
+SFX Q   ion   ive        succession
+SFX Q   ion   ively      succession
+SFX Q   ness  ly         tenderness
+SFX Q   er    re         theater
+SFX Q   er    res        theater
+SFX Q   ink   ought      think
+SFX Q   ink   oughts     think
+SFX Q   ize   lize       tranquil
 
 SFX W Y 2
 SFX W   f     ves        f
