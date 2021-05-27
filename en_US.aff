@@ -124,8 +124,8 @@ SFX L   0     ment       .
 SFX O Y 1
 SFX O   an    en         an
 
-SFX Q Y 124      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
-SFX Q   rson  ople       person
+SFX Q Y 116      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
+SFX Q   rson  ople       person     # irregular plurals
 SFX Q   ooth  eeth       tooth
 SFX Q   oose  eese       goose
 SFX Q   ouse  ice        mouse
@@ -134,7 +134,7 @@ SFX Q   oot   eet        foot
 SFX Q   0     es         potato
 SFX Q   0     es         tomato
 SFX Q   0     zes        quiz
-SFX Q   ite   ote        write
+SFX Q   ite   ote        write      # irregular verb tenses
 SFX Q   e     ten        write
 SFX Q   im    am         swim
 SFX Q   im    um         swim
@@ -142,9 +142,10 @@ SFX Q   ep    pt         sleep
 SFX Q   each  aught      teach
 SFX Q   ow    ew         throw
 SFX Q   ow    own        throw
+SFX Q   ink   ought      think
+SFX Q   ink   oughts     think
 SFX Q   and   ood        understand
-SFX Q   ed    ing        tired
-SFX Q   0     ty         admiral
+SFX Q   0     ty         admiral    # other
 SFX Q   ate   ization    carbonate
 SFX Q   er    re         center
 SFX Q   er    res        center
@@ -205,12 +206,9 @@ SFX Q   ant   ent        important
 SFX Q   able  eable      inflatable
 SFX Q   able  ible       inflatable
 SFX Q   te    lize       initiate
-SFX Q   ed    e          internalized
-SFX Q   nal   n          international
 SFX Q   ic    y          ironic
 SFX Q   ion   ed         objection
 SFX Q   on    ng         objection
-SFX Q   ons   on         operations
 SFX Q   eful  ful        peaceful
 SFX Q   eful  fully      peaceful
 SFX Q   eful  fulness    peaceful
@@ -218,7 +216,6 @@ SFX Q   0     ion        presentat
 SFX Q   0     ional      presentat
 SFX Q   0     ions       presentat
 SFX Q   at    ing        presentat
-SFX Q   er    ing        presenter
 SFX Q   ze    sm         publicize
 SFX Q   ze    ty         publicize
 SFX Q   ed    ing        puzzled
@@ -235,15 +232,10 @@ SFX Q   flector lecters  reflector
 SFX Q   ible  ability    responsible
 SFX Q   ible  able       responsible
 SFX Q   d     se         respond
-SFX Q   d     sive       respond
-SFX Q   d     siveness   respond
-SFX Q   ion   ive        succession
-SFX Q   ion   ively      succession
 SFX Q   ness  ly         tenderness
 SFX Q   er    re         theater
 SFX Q   er    res        theater
-SFX Q   ink   ought      think
-SFX Q   ink   oughts     think
+SFX Q   ed    ing        tired
 SFX Q   ize   lize       tranquil
 SFX Q   ize   lized      tranquil
 SFX Q   ize   lizer      tranquil
@@ -285,27 +277,3 @@ SFX 7   0     ally       .
 
 SFX 8 Y 1
 SFX 8   0     ize        .
-
-REP 0
-REP 0   zero
-REP 1   one
-REP 2   two
-REP 3   three
-REP 4   four
-REP 5   five
-REP 6   six
-REP 7   seven
-REP 8   eight
-REP 9   nine
-
-MAP 10
-MAP 0(zero)
-MAP 1(one)
-MAP 2(two)
-MAP 3(three)
-MAP 4(four)
-MAP 5(five)
-MAP 6(six)
-MAP 7(seven)
-MAP 8(eight)
-MAP 9(nine)

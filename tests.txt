@@ -399,12 +399,10 @@ interestings;interesting
 internal
 internalized;internalize
 internalize
-internalize;internalized
 internalizes;internalize
 internalizing;internalize
 internally;internal
 internals;internal
-internation;international
 international
 internationalism;international
 internationally;international
@@ -524,7 +522,6 @@ operated;operate
 operates;operate
 operating;operate
 operation
-operation;operations
 operational;operation
 operationals;operation
 operative
@@ -627,7 +624,6 @@ presentational;presentat
 presentations;presentat
 presenter
 presenting;presentat
-presenting;presenter
 preservative
 preservatives;preservative
 preserver
@@ -688,15 +684,11 @@ relecters;reflector
 responsability;responsible
 responsable;responsible
 response;respond
-response;respond
-responses;respond
 responsibilities;responsible
 responsibility;responsible
 responsible
 responsibleness;responsible
 responsibly;responsible
-responsive;respond
-responsiveness;respond
 revelation
 revelations;revelation
 rolled
@@ -735,8 +727,6 @@ stocking
 stockings;stocking
 succession
 successions;succession
-successive;succession
-successively;succession
 suite
 suites;suite
 sweat

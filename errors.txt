@@ -1,4 +1,4 @@
-Found 23 errors
+Found 16 errors
 
 5:  	1;one
 	input: 1, expected: one, actual: 
@@ -20,29 +20,15 @@ Found 23 errors
 	input: 9, expected: nine, actual: 
 362:  	importation;import
 	input: importation, expected: import, actual: 
-402:  	internalize;internalized
-	input: internalize, expected: internalized, actual: 
-407:  	internation;international
-	input: internation, expected: international, actual: al
-527:  	operation;operations
-	input: operation, expected: operations, actual: 
-629:  	presenting;presentat
-	input: presenting, expected: presentat, actual: presenter
-692:  	responses;respond
-	input: responses, expected: respond, actual: response
-698:  	responsive;respond
-	input: responsive, expected: respond, actual: response
-699:  	responsiveness;respond
-	input: responsiveness, expected: respond, actual: responsive
-739:  	successively;succession
-	input: successively, expected: succession, actual: successive
-767:  	thoughts;think
+756:  	thought;think
+	input: thought, expected: think, actual: 
+757:  	thoughts;think
 	input: thoughts, expected: think, actual: thought
-779:  	tranquillized;tranquilize
+769:  	tranquillized;tranquilize
 	input: tranquillized, expected: tranquilize, actual: tranquillize
-780:  	tranquillizer;tranquilize
+770:  	tranquillizer;tranquilize
 	input: tranquillizer, expected: tranquilize, actual: tranquillize
-781:  	tranquillizes;tranquilize
+771:  	tranquillizes;tranquilize
 	input: tranquillizes, expected: tranquilize, actual: tranquillize
-782:  	tranquillizing;tranquilize
+772:  	tranquillizing;tranquilize
 	input: tranquillizing, expected: tranquilize, actual: tranquillize

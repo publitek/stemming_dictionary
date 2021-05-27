@@ -14,15 +14,7 @@ def stem(inp):
         stdin=PIPE,
         stdout=PIPE,
     )
-    # if inp.strip().__contains__(' '):
-    #     print('inp', inp)
     stdout, stderr = process.communicate(inp.encode('utf-8'))
-    # print('\n\n---------------------\n\n')
-    # print('inp', inp)
-    # print('stdout', stdout)
-    # print('decode(utf-8)', stdout.decode('utf-8'))
-    # print('replace(inp, "")', stdout.decode('utf-8').replace(inp, ''))
-    # print("strip()", stdout.decode('utf-8').replace(inp, '').strip())
     return stdout.decode('utf-8').replace(inp, '').strip()
 
 
@@ -78,21 +70,22 @@ def test_stemming():
 if __name__ == "__main__":
     all_errors = ''
     num_errors = 0
-    with open('tests.txt') as file:
-        current_line = file.readline()
-        i = 1
+    with open('tests.txt') as tests_file:
+        current_line = tests_file.readline()
+        line_num = 1
         while current_line:
-            assertion, output = validate(current_line)
-            if not assertion:
-                info = '{}:  \t{}'.format(i, current_line.replace('\n', ''))
+            valid, output = validate(current_line)
+            if not valid:
+                info = '{}:  \t{}'.format(line_num, current_line.replace('\n', ''))
+                # print(info)
                 info += '\n\t{}'.format(output.replace('\n', ''))
                 all_errors = '{}{}\n'.format(all_errors, info)
                 num_errors += 1
-            current_line = file.readline()
-            i = i + 1
+            current_line = tests_file.readline()
+            line_num = line_num + 1
     message = 'Found {} errors\n\n'.format(num_errors)
     print(message)
-    f = open("errors.txt", "w")
-    f.write(message)
-    f.write(all_errors)
-    f.close()
+    output_file = open("errors.txt", "w")
+    output_file.write(message)
+    output_file.write(all_errors)
+    output_file.close()

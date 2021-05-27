@@ -79,7 +79,7 @@ ADJUSTMENTS = {
     'children': '',
     'child': 'GDSY',
     # SHOWER -> SHOW
-    # SHOW !+ SHOWING
+    # SHOW != SHOWING
     'show': 'DS',
     'showing': 'S',
     'shower': 'GDS',
@@ -93,9 +93,6 @@ ADJUSTMENTS = {
     # BADGER != BADGE
     'badge': 'DSG',
     'badger': 'DSG',
-    # HAMBURG != HAMBURGER
-    'hamburg': 'S',
-    'hamburger': 'S',
     # WEATHER != WEATHERED
     'weather': 'RYJGS',
     # PANTS != PANT
@@ -161,7 +158,7 @@ ADJUSTMENTS = {
     'one': 'PS',
     'onion': 'SGD',
 
-    # NEW
+
     # ACTIVATE
     'activate': 'DGNSX3',
     # ADAPTER != ADAPT
@@ -169,7 +166,7 @@ ADJUSTMENTS = {
     'adapt': 'BDGSV',
     # ADD -> ADDING
     'add': 'BDGJRSZ',
-    # ADMIRAL
+    # ADMIRAL _> ADMIRALTY
     'admiral': 'QS2',
     # ADORABLE != ADORE
     'adore': 'DGRSZ',
@@ -215,17 +212,17 @@ ADJUSTMENTS = {
     # COMBINATIONS != COMBINATION
     'combination': '',
     'combinations': '',
-    # COLOR
+    # COLOR _> COLOUR
     'color': 'BDGJQRSZ8',
-    # COMPACTED != COMPACT
-    'compact': 'TZGSPRY',
+    # COMPACTED & COMPACTING != COMPACT
+    'compact': 'PSTY',
     'compacted': 'Q',
     'compactor': 'QS',
-    # COMPETENT
+    # COMPETENT -> COMPETENCE
     'competent': 'QY',
     # CONCENTRIC
     'concentric': 'S',
-    # CONVERTIBLE
+    # CONVERTIBLE _> CONVERTABLE
     'convertible': 'QPS',
     # COOK != COOKED or COOKING
     'cook': 'RSZ',
@@ -249,9 +246,9 @@ ADJUSTMENTS = {
     # DEPENDABLE != DEPEND
     'depend': 'GDS',
     'dependable': '2',
-    # DEPENDANT
+    # DEPENDANT _> DEPENDENT
     'dependant': 'S',
-    # DEPENDENCY
+    # DEPENDENCY _> DEPENDANCY
     'dependency': 'QS',
     # DESERTED != DESERT
     'desert': 'ZGRS',
@@ -269,7 +266,7 @@ ADJUSTMENTS = {
     # EFFECTIVE != EFFECT
     'effect': 'SDG',
     'effective': 'PY',
-    # ELECTRICITY
+    # ELECTRICITY _> ELECTRICITYS
     'electricity': 'QS',
     # EXECUTIVE != EXECUTE
     'execute': 'NGZBXDRS',
@@ -303,10 +300,10 @@ ADJUSTMENTS = {
     # GLASS != GLASSES
     'glass': 'GD',
     'glasses': '',
-    # GOVERNOR
+    # GOVERNOR -> GOVERNER
     'governor': 'QS',
     'governors': 'Q',
-    # GRAY
+    # GRAY -> GREY
     'gray': 'PYRDGTSQ',
     # GROOM ! GROOMING or GROOMED
     'groom': 'ZSR',
@@ -317,13 +314,13 @@ ADJUSTMENTS = {
     'hospitable': 'P',
     # HUMANE
     'humane': 'PY',
-    # IMPORTANT
+    # IMPORTANT -> IMPORTANCE
     'important': 'QY',
     # INFLATE != INFLATABLE or INFLATION
     'inflate': 'GDRS',
     'inflatable': 'QS',
     'inflation': 'S',
-    # INITIATE
+    # INITIATE -> INITIALIZATION
     'initiate': 'GNQS3',
     # INTEGRATE
     'integrate': 'DGNS3',
@@ -336,16 +333,16 @@ ADJUSTMENTS = {
     'internment': 'S',
     # INTERNALIZE
     'internalize': 'DGJQS',
-    # INTERNATIONAL
+    # INTERNATIONAL -> INTERNATIONALISM
     'international': 'QSY1',
-    # IRONIC
+    # IRONIC -> IRONY IRONICALLY
     'ironic': 'Q67',
     'ironical': 'P',
     # LEAVE != LEAVES
     'leave': 'RDZ',
     # LEAVING != LEAVE
     'leaving': 'S',
-    # LIBERAL
+    # LIBERAL -> LIBERALISM
     'liberal': 'YSP1',
     # LIBERATE
     'liberate': 'GDS35',
@@ -371,18 +368,18 @@ ADJUSTMENTS = {
     'marbles': '',
     # MEDICATE != MEDICATION
     'medication': 'S',
-    'medicate': 'DXGVS',
+    'medicate': 'DGSV',
     # MODERNIZE
     'modernize': 'SRDGZN',
     # NEW != NEWS
     'new': 'PTGDRY',
     'news': '',
-    # OBJECTION
+    # OBJECTION -> OBJECTED OBJECTING
     'objection': 'BQS',
     # OBJECTIVE != OBJECT
-    'object': 'SGD',
+    'object': 'S',
     'objective': 'S',
-    # OPERATION!= OPERATE
+    # OPERATION != OPERATE
     'operation': 'S6',
     'operate': 'GDS',
     # OPERATIVE
@@ -397,15 +394,15 @@ ADJUSTMENTS = {
     'orientation': '',
     # ORIENTEER
     'orienteer': 'GJ',
-    # ORIGINAL
+    # ORIGINAL -> ORIGINALITY
     'original': 'SY2',
-    # ORIGINATE
+    # ORIGINATE -> ORIGINATOR
     'originate': 'VGNXSD3',
     # PAINTERLY != PAINTER
     'painter': '',
     'painterly': 'P',
     # PAINTING != PAINT
-    'paint': 'DRZS',
+    'paint': 'DRSZ',
     'painting': 'S',
     # PANT != PANTING
     'pant': 'D',
@@ -414,7 +411,7 @@ ADJUSTMENTS = {
     'park': 'S',
     'parking': 'S',
     'parked': '',
-    # PEACEFUL
+    # PEACEFUL -> PEACFUL
     'peaceful': 'QPY',
     # PERFORM != PERFORMER
     'performer': 'S',
@@ -428,9 +425,9 @@ ADJUSTMENTS = {
     # POINT != POINTER
     'point': 'DGS',
     'pointer': 'S',
-    # POLITIC
+    # POLITIC -> POLITICAL
     'politic': 'S67',
-    # POSITIVE
+    # POSITIVE -> POSITIVITY
     'positive': 'RSPYT2',
     # PRESENTABLE != PRESENT
     'present': 'SLDYZP',
@@ -456,20 +453,20 @@ ADJUSTMENTS = {
     # RAILING != RAIL
     'rail': 'DS',
     'railing': 'S',
-    # RATIONAL
+    # RATIONAL -> RATIONALISM
     'rational': 'NQPSY128',
     'rationalize': '',
     # RECORD != RECORDING or RECORDER
     'record': 'S',
     'recorder': 'S',
     'recording': 'S',
-    # REFER
+    # REFER -> REFERAL
     'refer': 'BQR6',
     # REFERENCE
     'reference': 'DGQRS',
     # REFLECTOR
     'reflector': 'QS',
-    # RESPONSIBLE
+    # RESPONSIBLE -> RESPONSABLE
     'responsible': 'QPY24',
     'responsibility': '',
     # RESPOND
@@ -491,7 +488,7 @@ ADJUSTMENTS = {
     'selective': 'Y2',
     # SETTING != SETT
     'sett': '',
-    # SEVERE
+    # SEVERE -> SEVERITY
     'severe': 'PSY24',
     'severity': '',
     # SETTINGS != SETT
@@ -516,11 +513,11 @@ ADJUSTMENTS = {
     'tenderness': 'QS',
     # TENDERIZE
     'tenderize': 'NDRG',
-    # THEATER
+    # THEATER -> THEATRE
     'theater': 'QS',
     # THINK
-    'think': 'GQRS',
-    # TIRE !+ TIRING or TIRED
+    'think': 'GRS',
+    # TIRE != TIRING or TIRED
     'tire': 'S',
     'tired': 'Q',
     # TRANSFORMER != TRANSFORM
@@ -528,7 +525,7 @@ ADJUSTMENTS = {
     'transformer': 'S',
     # TRANQUILIZE
     'tranquilize': 'JGZDSRQ',
-    # TRANSITION
+    # TRANSITION -> TRANSITIONAL
     'transition': 'DGS6',
     # TRANSITIVE != TRANSIT
     'transit': 'SGD',
@@ -558,22 +555,13 @@ ADJUSTMENTS = {
     'wood': 'NDG',
     'woods': '',
 
-
-
-
     # Adding irregular plurals -f to -ves
-    # 'calf': 'W',
     'elf': 'W',
-    # 'half': 'PW',
     'hoof': 'DRSGW',
     'knife': 'DSGW',
     'leaf': 'GSDW',
-    # 'life': 'ZRW',
-        # loaf != loafer | loafing | loafed
     'loaf': 'SW',
     'scarf': 'SDGW',
-    # 'shelf': 'DGSW',
-    # 'thief': 'W',   # add thieving?
     'wharf': 'SGDW',
     'wife': 'DSYGW',
     'wolf': 'RDGSW',
@@ -596,18 +584,6 @@ ADJUSTMENTS = {
     'throw': 'SZGRQ',
     'understand': 'RGSJBQ',
     'write': 'SBRJGQ',
-
-    # # NUMBERS
-    '1': '0',
-    '2': '0',
-    '3': '0',
-    '4': '0',
-    '5': '0',
-    '6': '0',
-    '7': '0',
-    '8': '0',
-    '9': '0',
-
 }
 
 
