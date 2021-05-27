@@ -172,22 +172,22 @@ ADJUSTMENTS = {
     # ADMIRAL
     'admiral': 'QS2',
     # ADORABLE != ADORE
-    'adore': 'DSRGZ',
+    'adore': 'DGRSZ',
     'adorable': 'PY',
     # ALTERNATIVE != ALTERNATE
     'alternative': 'SY',
-    'alternate': 'SDGNYX',
+    'alternate': 'DGNSXY',
     # ARRANGEMENT != ARRANGE
     'arrangement': 'S',
-    'arrange': 'ZDSRG',
+    'arrange': 'DGRSZ',
     # AUTHORIZE -> AUTHORIZATION AUTHORIZER
-    'authorize': 'GDSRZN',
+    'authorize': 'DGNRSZ',
     # BATHING != BATH
-    'bath': 'DSRZ',
+    'bath': 'DRSZ',
     'bathing': 'S',
     # BREAKING
     'breaking': 'S',
-    'break': 'SZRB',
+    'break': 'BRSZ',
     # BUILDING != BUILD
     'build': 'S',
     'building': 'S',
@@ -197,14 +197,14 @@ ADJUSTMENTS = {
     # CAPITALIZE
     'capitalize': 'DGNS',
     # CAPITATE
-    'capitate': 'SDGN',
+    'capitate': 'DGNS',
     # CARBONATE -> CARBONATION
-    'carbonate': 'SDXNGQ',
+    'carbonate': 'DGNQSX',
     # CENT != CENTER
     'cent': 'S',
     'center': 'QS',
     # CLOSED != CLOSE
-    'close': 'SRG',
+    'close': 'GRS',
     'closed': '',
     # COLLECTIBLE
     'collectible': 'QS',
@@ -228,7 +228,7 @@ ADJUSTMENTS = {
     # CONVERTIBLE
     'convertible': 'QPS',
     # COOK != COOKED or COOKING
-    'cook': 'ZRS',
+    'cook': 'RSZ',
     'cooking': '',
     'cooked': '',
     # COOPERATE
@@ -305,6 +305,7 @@ ADJUSTMENTS = {
     'glasses': '',
     # GOVERNOR
     'governor': 'QS',
+    'governors': 'Q',
     # GRAY
     'gray': 'PYRDGTSQ',
     # GROOM ! GROOMING or GROOMED
@@ -340,6 +341,10 @@ ADJUSTMENTS = {
     # IRONIC
     'ironic': 'Q67',
     'ironical': 'P',
+    # LEAVE != LEAVES
+    'leave': 'RDZ',
+    # LEAVING != LEAVE
+    'leaving': 'S',
     # LIBERAL
     'liberal': 'YSP1',
     # LIBERATE
@@ -347,13 +352,11 @@ ADJUSTMENTS = {
     'liberator': '',
     # LIBERATION != LIBERATE
     'liberation': 'S',
-    # LEAVE != LEAVES
-    'leave': 'RDZ',
-    # LEAVING != LEAVE
-    'leaving': 'S',
     # LIQUIDATE
     'liquidate': 'DGNSX35',
     'liquidator': '',
+    # LOAFER != LOAF
+    'loafer': 'S',
     # LONGING != LONG
     'long': 'DPRSTY',
     'longing': 'SY',
@@ -505,6 +508,7 @@ ADJUSTMENTS = {
     'stock': 'DS',
     'stocking': 'S',
     # SUCCESSION
+    'success': 'S',
     'succession': 'QS',
     # TENDER != TEND
     'tend': 'SDG',
@@ -555,7 +559,6 @@ ADJUSTMENTS = {
     'woods': '',
 
 
-    'loafer': 'S',
 
 
     # Adding irregular plurals -f to -ves
@@ -594,21 +597,16 @@ ADJUSTMENTS = {
     'understand': 'RGSJBQ',
     'write': 'SBRJGQ',
 
-    # CONCENTRATE != CONCENTRATION
-
     # # NUMBERS
-    # '1': '0',
-    # '2': '0',
-    # '3': '0',
-    # '4': '0',
-    # '5': '0',
-    # '6': '0',
-    # '7': '0',
-    # '8': '0',
-    # '9': '0',
-
-
-
+    '1': '0',
+    '2': '0',
+    '3': '0',
+    '4': '0',
+    '5': '0',
+    '6': '0',
+    '7': '0',
+    '8': '0',
+    '9': '0',
 
 }
 

@@ -1,4 +1,4 @@
-found 24 errors
+Found 23 errors
 
 5:  	1;one
 	input: 1, expected: one, actual: 
@@ -18,8 +18,6 @@ found 24 errors
 	input: 8, expected: eight, actual: 
 13:  	9;nine
 	input: 9, expected: nine, actual: 
-337:  	governers;governors
-	input: governers, expected: governors, actual: 
 362:  	importation;import
 	input: importation, expected: import, actual: 
 402:  	internalize;internalized

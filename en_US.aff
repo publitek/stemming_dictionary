@@ -1,6 +1,7 @@
 SET ISO8859-1
 TRY esianrtolcdugmphbyfvkwzESIANRTOLCDUGMPHBYFVKWZ'
 NOSUGGEST !
+FULLSTRIP True
 
 # ordinal numbers
 COMPOUNDMIN 1
@@ -123,7 +124,7 @@ SFX L   0     ment       .
 SFX O Y 1
 SFX O   an    en         an
 
-SFX Q Y 119      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
+SFX Q Y 124      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
 SFX Q   rson  ople       person
 SFX Q   ooth  eeth       tooth
 SFX Q   oose  eese       goose
@@ -209,6 +210,7 @@ SFX Q   nal   n          international
 SFX Q   ic    y          ironic
 SFX Q   ion   ed         objection
 SFX Q   on    ng         objection
+SFX Q   ons   on         operations
 SFX Q   eful  ful        peaceful
 SFX Q   eful  fully      peaceful
 SFX Q   eful  fulness    peaceful
@@ -243,6 +245,10 @@ SFX Q   er    res        theater
 SFX Q   ink   ought      think
 SFX Q   ink   oughts     think
 SFX Q   ize   lize       tranquil
+SFX Q   ize   lized      tranquil
+SFX Q   ize   lizer      tranquil
+SFX Q   ize   lizes      tranquil
+SFX Q   ize   lizing     tranquil
 
 SFX W Y 2
 SFX W   f     ves        f
@@ -279,3 +285,27 @@ SFX 7   0     ally       .
 
 SFX 8 Y 1
 SFX 8   0     ize        .
+
+REP 0
+REP 0   zero
+REP 1   one
+REP 2   two
+REP 3   three
+REP 4   four
+REP 5   five
+REP 6   six
+REP 7   seven
+REP 8   eight
+REP 9   nine
+
+MAP 10
+MAP 0(zero)
+MAP 1(one)
+MAP 2(two)
+MAP 3(three)
+MAP 4(four)
+MAP 5(five)
+MAP 6(six)
+MAP 7(seven)
+MAP 8(eight)
+MAP 9(nine)

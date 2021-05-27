@@ -42,17 +42,13 @@ def validate(line):
         _input, output = line, line
 
     _input = _input.replace(',', ' ').strip()
-    # _input = _input.strip()
     output = output.replace(',', ' ').strip()
-    # output = output.strip()
 
     stemmed = stem(_input)
-    stemmed = stemmed.strip()
-    stemmed = stemmed.replace('\n', '')
-    # stemmed.replace('')
+    stemmed = stemmed.strip().replace('\n', '')
 
     if stemmed.__contains__(' ') or stemmed.__contains__('\n'):
-        print('{} has two stems, {}'.format(_input, stemmed))
+        print('{} has two stems: {}'.format(_input, stemmed))
         a, b = stemmed.split(' ')
         stemmed = a
 
@@ -94,7 +90,7 @@ if __name__ == "__main__":
                 num_errors += 1
             current_line = file.readline()
             i = i + 1
-    message = 'found {} errors\n\n'.format(num_errors)
+    message = 'Found {} errors\n\n'.format(num_errors)
     print(message)
     f = open("errors.txt", "w")
     f.write(message)
