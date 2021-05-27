@@ -18,17 +18,17 @@ Found 16 errors
 	input: 8, expected: eight, actual: 
 13:  	9;nine
 	input: 9, expected: nine, actual: 
-362:  	importation;import
+363:  	importation;import
 	input: importation, expected: import, actual: 
-756:  	thought;think
+757:  	thought;think
 	input: thought, expected: think, actual: 
-757:  	thoughts;think
+758:  	thoughts;think
 	input: thoughts, expected: think, actual: thought
-769:  	tranquillized;tranquilize
+770:  	tranquillized;tranquilize
 	input: tranquillized, expected: tranquilize, actual: tranquillize
-770:  	tranquillizer;tranquilize
+771:  	tranquillizer;tranquilize
 	input: tranquillizer, expected: tranquilize, actual: tranquillize
-771:  	tranquillizes;tranquilize
+772:  	tranquillizes;tranquilize
 	input: tranquillizes, expected: tranquilize, actual: tranquillize
-772:  	tranquillizing;tranquilize
+773:  	tranquillizing;tranquilize
 	input: tranquillizing, expected: tranquilize, actual: tranquillize

@@ -93,6 +93,7 @@ busier;busy
 busiest;busy
 business
 businesses
+busy
 busying;busy
 butter
 calculator
@@ -790,7 +791,6 @@ usefully;useful
 usefulness;useful
 usefulness;useful
 using
-usy
 vegetation
 vegetations;vegetation
 watchful

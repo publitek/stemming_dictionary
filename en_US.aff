@@ -124,7 +124,9 @@ SFX L   0     ment       .
 SFX O Y 1
 SFX O   an    en         an
 
-SFX Q Y 116      # irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add
+# Irregular words, alternate spellings, misspellings, and misc suffixes I couldn't easily add.
+#   A lot of these cases were derived from tests.txt
+SFX Q Y 116
 SFX Q   rson  ople       person     # irregular plurals
 SFX Q   ooth  eeth       tooth
 SFX Q   oose  eese       goose
