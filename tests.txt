@@ -83,6 +83,8 @@ being
 bonded
 bonding
 bondings;bonding
+bowl
+bowling
 boxing
 boxings;boxing
 breaking
@@ -120,6 +122,8 @@ carbonization;carbonate
 careful
 carefully;careful
 carefulness;careful
+caring;care
+cared;care
 celebrities;celebrity
 celebrity
 centre;center
@@ -208,6 +212,8 @@ cooperatives;cooperate
 cooperator;cooperate
 corner
 crater
+curry
+currier
 customer
 customers;customer
 customization;customize
@@ -240,6 +246,7 @@ deserted
 desertion
 designer
 designers;designer
+dickens
 distiller
 distillers;distiller
 drafting
@@ -366,6 +373,7 @@ importent;important
 importer;import
 importing;import
 imports;import
+incest
 inflatable
 inflatables;inflatable
 inflateable;inflatable
@@ -444,6 +452,8 @@ liberation
 liberations;liberation
 liberator;liberate
 liberators;liberate
+light
+lighter
 liquidation;liquidate
 liquidate
 liquidated;liquidate
@@ -595,6 +605,7 @@ photographers;photographer
 physical
 physicals;physical
 physics
+pier
 pigment
 playful
 playfully;playful
@@ -663,6 +674,8 @@ rationalizer;rational
 rationalizing;rational
 rationalness;rational
 rationals;rational
+realize
+realization;realize
 recorded
 recorder
 recorders;recorder
@@ -716,6 +729,7 @@ severe
 severely;severe
 severities;severe
 severity;severe
+shorts
 shower
 showers;shower
 showing

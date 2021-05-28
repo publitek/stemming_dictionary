@@ -46,10 +46,11 @@ SFX N   y     ication    y
 SFX N   0     en         [^ey]
 SFX N   e     ation      ze
 
-SFX X Y 3
+SFX X Y 4
 SFX X   e     ions       e
 SFX X   y     ications   y
 SFX X   0     ens        [^ey]
+SFX X   e     ations     ze
 
 SFX H N 2
 SFX H   y     ieth       y
@@ -58,18 +59,17 @@ SFX H   0     th         [^y]
 SFX Y Y 3
 SFX Y   0     ly         .
 SFX Y   e     y          le
-SFX Y   e     ly         peaceful
+SFX Y   0     ly         l
 
-SFX G Y 4
+SFX G Y 3
 SFX G   e     ing        e
 SFX G   0     ing        [^ep]
 SFX G   0     ping       p
-SFX G   te    ting       te
 
 SFX J Y 3
 SFX J   e     ings       e
 SFX J   0     ings       [^ep]
-SFX J   0     pings       p
+SFX J   0     pings      p
 
 SFX D Y 5
 SFX D   0     d          e
@@ -98,12 +98,20 @@ SFX Z   0     ers        [aeiou]y
 SFX Z   0     ers        [^eyp]
 SFX Z   0     pers       p
 
-SFX S Y 5
+SFX S Y 13
 SFX S   y     ies        [^aeiou]y
 SFX S   0     s          [aeiou]y
 SFX S   0     es         [sxzh]
 SFX S   0     s          [^sxzhy]
-SFX S   0     ren        .
+SFX S   f     ves        lf|dwarf|leaf|loaf|hoof|scarf|thief|wharf
+SFX S   fe    ves        knife|wife
+SFX S   0     ren        child
+SFX S   us    i          cactus|octopus|syllabus|fungus
+SFX S   is    es         sis
+SFX S   0     es         tomato|potato
+SFX S   ouse  ice        mouse
+SFX S   0     zes        quiz
+SFX S   oot   eet        foot
 
 SFX P Y 3
 SFX P   y     iness      [^aeiou]y
@@ -121,6 +129,7 @@ SFX B   e     able       [^aeiou]e
 SFX L Y 1
 SFX L   0     ment       .
 
+## FIX FOR MAN/MEN WOMAN/WOMEN AND ANY OTHER VARIATION
 SFX O Y 1
 SFX O   an    en         an
 
@@ -252,9 +261,9 @@ SFX 1 Y 1
 SFX 1   0     ism        .
 
 SFX 2 Y 3
-SFX 2   0     ity        .
 SFX 2   e     ity        e
 SFX 2   ble   bility     ble
+SFX 2   0     ity        .
 
 SFX 3 Y 2
 SFX 3   e     or         te
@@ -279,3 +288,94 @@ SFX 7   0     ally       .
 
 SFX 8 Y 1
 SFX 8   0     ize        .
+
+# CORRECTIONS FOR COMMON MISSPELLINGS
+REP 88
+REP a ei
+REP ei a
+REP a ey
+REP ey a
+REP ai ie
+REP ie ai
+REP are air
+REP are ear
+REP are eir
+REP air are
+REP air ere
+REP ere air
+REP ere ear
+REP ere eir
+REP ear are
+REP ear air
+REP ear ere
+REP eir are
+REP eir ere
+REP ch te
+REP te ch
+REP ch ti
+REP ti ch
+REP ch tu
+REP tu ch
+REP ch s
+REP s ch
+REP ch k
+REP k ch
+REP f ph
+REP ph f
+REP gh f
+REP f gh
+REP i igh
+REP igh i
+REP i uy
+REP uy i
+REP i ee
+REP ee i
+REP j di
+REP di j
+REP j gg
+REP gg j
+REP j ge
+REP ge j
+REP s ti
+REP ti s
+REP s ci
+REP ci s
+REP k cc
+REP cc k
+REP k qu
+REP qu k
+REP kw qu
+REP o eau
+REP eau o
+REP o ew
+REP ew o
+REP oo ew
+REP ew oo
+REP ew ui
+REP ui ew
+REP oo ui
+REP ui oo
+REP ew u
+REP u ew
+REP oo u
+REP u oo
+REP u oe
+REP oe u
+REP u ieu
+REP ieu u
+REP ue ew
+REP ew ue
+REP uff ough
+REP oo ieu
+REP ieu oo
+REP ier ear
+REP ear ier
+REP ear air
+REP air ear
+REP w qu
+REP qu w
+REP z ss
+REP ss z
+REP shun tion
+REP shun sion
+REP shun cion

@@ -47,7 +47,10 @@ released as part of Geoff Kuenning's Ispell and as
 such is covered by his BSD license.
 
 ### Original Dictionaries
-http://archive.services.openoffice.org/pub/mirror/OpenOffice.org/contrib/dictionaries/
+https://github.com/LibreOffice/dictionaries/tree/master/en
 
 ### Hunspell documentation
 https://github.com/hunspell/hunspell
+https://grammalecte.net/_misc/hunspell4.pdf
+https://spylls.readthedocs.io/en/latest/hunspell.html
+https://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/

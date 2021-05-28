@@ -40,7 +40,7 @@ def validate(line):
     stemmed = stemmed.strip().replace('\n', '')
 
     if stemmed.__contains__(' ') or stemmed.__contains__('\n'):
-        print('{} has two stems: {}'.format(_input, stemmed))
+        print('Warning: {} has two stems: {}'.format(_input, stemmed))
         a, b = stemmed.split(' ')
         stemmed = a
 
@@ -78,8 +78,8 @@ if __name__ == "__main__":
             if not valid:
                 info = '{}:  \t{}'.format(line_num, current_line.replace('\n', ''))
                 # print(info)
-                info += '\n\t{}'.format(output.replace('\n', ''))
-                all_errors = '{}{}\n'.format(all_errors, info)
+                info += '\n\t{}\n'.format(output.replace('\n', ''))
+                all_errors += info
                 num_errors += 1
             current_line = tests_file.readline()
             line_num = line_num + 1

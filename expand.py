@@ -125,7 +125,7 @@ ADJUSTMENTS = {
     'sweater': 'S',
     # LANDSCAPING != LANDSCAPE
     'landscape': 'ZSR',
-    # LANDSCPED != LANDSCAPE
+    # LANDSCAPED != LANDSCAPE
     'landscaped': '',
     # LANDING -> LANDINGS
     'landing': 'S',
@@ -148,7 +148,7 @@ ADJUSTMENTS = {
     # MOP != MOPED
     'mop': 'SMGJDRZ',
     'map': 'SMGJDRZ',
-    'mope': 'SGZDR',
+    'mope': 'GSZR',
     'moper': '',
     'mopper': '',
     'mapper': '',
@@ -182,6 +182,9 @@ ADJUSTMENTS = {
     # BATHING != BATH
     'bath': 'DRSZ',
     'bathing': 'S',
+    # BOWL != BOWLING
+    'bowl': 'S',
+    'bowling': '',
     # BREAKING
     'breaking': 'S',
     'break': 'BRSZ',
@@ -195,6 +198,9 @@ ADJUSTMENTS = {
     'capitalize': 'DGNS',
     # CAPITATE
     'capitate': 'DGNS',
+    # CAR != CARING CARER CARING CARED
+    'car': 'S',
+    'care': 'SDGRZ',
     # CARBONATE -> CARBONATION
     'carbonate': 'DGNQSX',
     # CENT != CENTER
@@ -231,6 +237,9 @@ ADJUSTMENTS = {
     # COOPERATE
     'cooperate': 'VNGXSDQ3',
     'cooperative': '',
+    # CURRY != CURRIER
+    'curry': 'SDG',
+    'currier': 'S',
     # CUSTOM != CUSTOMER
     'customer': 'S',
     'custom': '',
@@ -256,6 +265,9 @@ ADJUSTMENTS = {
     # DESIGNER != DESIGN
     'design': 'DSG',
     'designer': 'S',
+    # DICKENS != DICK
+    'dick': 'GZRDS',
+    'dickens': '',
     # DISTILLER != DISTILL
     'distiller': 'S',
     'distill': 'GSD',
@@ -266,7 +278,7 @@ ADJUSTMENTS = {
     # EFFECTIVE != EFFECT
     'effect': 'SDG',
     'effective': 'PY',
-    # ELECTRICITY _> ELECTRICITYS
+    # ELECTRICITY -> ELECTRICITYS
     'electricity': 'QS',
     # EXECUTIVE != EXECUTE
     'execute': 'NGZBXDRS',
@@ -316,6 +328,9 @@ ADJUSTMENTS = {
     'humane': 'PY',
     # IMPORTANT -> IMPORTANCE
     'important': 'QY',
+    # INC != INCEST
+    'inc': '',
+    'incest': '',
     # INFLATE != INFLATABLE or INFLATION
     'inflate': 'GDRS',
     'inflatable': 'QS',
@@ -422,6 +437,9 @@ ADJUSTMENTS = {
     # PHYSICS != PHYSIC
     'physic': '',
     'physics': '',
+    # PI != PIER
+    'pi': 'H',
+    'pier': 'S',
     # POINT != POINTER
     'point': 'DGS',
     'pointer': 'S',
@@ -456,6 +474,8 @@ ADJUSTMENTS = {
     # RATIONAL -> RATIONALISM
     'rational': 'NQPSY128',
     'rationalize': '',
+    # REALIZE -> REALIZATION
+    'realize': 'JRSDBZGNX',
     # RECORD != RECORDING or RECORDER
     'record': 'S',
     'recorder': 'S',
@@ -555,7 +575,7 @@ ADJUSTMENTS = {
     'wood': 'NDG',
     'woods': '',
 
-    # Adding irregular plurals -f to -ves
+    # Adding irregular plurals -f or -fe to -ves
     'elf': 'W',
     'hoof': 'DRSGW',
     'knife': 'DSGW',
