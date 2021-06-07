@@ -79,7 +79,9 @@ ADJUSTMENTS = {
     'children': '',
     'child': 'GDSY',
     # SHOWER -> SHOW
-    'show': 'GDJS',
+    # SHOW != SHOWING
+    'show': 'DS',
+    'showing': 'S',
     'shower': 'GDS',
     # TRAINING != TRAIN
     'train': 'S',
@@ -91,13 +93,10 @@ ADJUSTMENTS = {
     # BADGER != BADGE
     'badge': 'DSG',
     'badger': 'DSG',
-    # HAMBURG != HAMBURGER
-    'hamburg': 'S',
-    'hamburger': 'S',
     # WEATHER != WEATHERED
     'weather': 'RYJGS',
     # PANTS != PANT
-    'pant': 'DG',
+    # 'pant': 'DG',
     # DRESS != DRESSING != DRESSED
     'dress': 'S',
     # ACCOUNTING != ACCOUNT
@@ -125,7 +124,15 @@ ADJUSTMENTS = {
     'sweat': '',
     'sweater': 'S',
     # LANDSCAPING != LANDSCAPE
-    'landscape': 'ZSRD',
+    'landscape': 'ZSR',
+    # LANDSCAPED != LANDSCAPE
+    'landscaped': '',
+    # LANDING -> LANDINGS
+    'landing': 'S',
+    # LANDSCAPING -> LANDSCAPINGS
+    'landscaping': 'S',
+    # LANDED != LAND
+    'land': 'SRZ',
     # HAMBURGER != HAMBURG
     'hamburger': 'S',
     'hamburg': '',
@@ -141,7 +148,7 @@ ADJUSTMENTS = {
     # MOP != MOPED
     'mop': 'SMGJDRZ',
     'map': 'SMGJDRZ',
-    'mope': 'SGZDR',
+    'mope': 'GSZR',
     'moper': '',
     'mopper': '',
     'mapper': '',
@@ -149,8 +156,456 @@ ADJUSTMENTS = {
     'mapping': '',
     # ONE != ONIONS
     'one': 'PS',
-    'onion': 'SGD'
+    'onion': 'SGD',
+
+
+    # ACTIVATE
+    'activate': 'DGNSX3',
+    # ADAPTER != ADAPT
+    'adapter': 'S35',
+    'adapt': 'BDGSV',
+    # ADD -> ADDING
+    'add': 'BDGJRSZ',
+    # ADMIRAL _> ADMIRALTY
+    'admiral': 'QS2',
+    # ADORABLE != ADORE
+    'adore': 'DGRSZ',
+    'adorable': 'PY',
+    # ALTERNATIVE != ALTERNATE
+    'alternative': 'SY',
+    'alternate': 'DGNSXY',
+    # ARRANGEMENT != ARRANGE
+    'arrangement': 'S',
+    'arrange': 'DGRSZ',
+    # AUTHORIZE -> AUTHORIZATION AUTHORIZER
+    'authorize': 'DGNRSZ',
+    # BATHING != BATH
+    'bath': 'DRSZ',
+    'bathing': 'S',
+    # BOWL != BOWLING
+    'bowl': 'S',
+    'bowling': '',
+    # BREAKING
+    'breaking': 'S',
+    'break': 'BRSZ',
+    # BUILDING != BUILD
+    'build': 'S',
+    'building': 'S',
+    # BUSINESSES != BUSINESS
+    'business': '',
+    'businesses': '',
+    # CAPITALIZE
+    'capitalize': 'DGNS',
+    # CAPITATE
+    'capitate': 'DGNS',
+    # CAR != CARING CARER CARING CARED
+    'car': 'S',
+    'care': 'SDGRZ',
+    # CARBONATE -> CARBONATION
+    'carbonate': 'DGNQSX',
+    # CENT != CENTER
+    'cent': 'S',
+    'center': 'QS',
+    # CLOSED != CLOSE
+    'close': 'GRS',
+    'closed': '',
+    # COLLECTIBLE
+    'collectible': 'QS',
+    # COLLECTIVE
+    'collective': 'SY2',
+    # COLLECTOR
+    'collector': 'QS',
+    # COMBINATIONS != COMBINATION
+    'combination': '',
+    'combinations': '',
+    # COLOR _> COLOUR
+    'color': 'BDGJQRSZ8',
+    # COMPACTED & COMPACTING != COMPACT
+    'compact': 'PSTY',
+    'compacted': 'Q',
+    'compactor': 'QS',
+    # COMPETENT -> COMPETENCE
+    'competent': 'QY',
+    # CONCENTRIC
+    'concentric': 'S',
+    # CONVERTIBLE _> CONVERTABLE
+    'convertible': 'QPS',
+    # COOK != COOKED or COOKING
+    'cook': 'RSZ',
+    'cooking': '',
+    'cooked': '',
+    # COOPERATE
+    'cooperate': 'VNGXSDQ3',
+    'cooperative': '',
+    # CURRY != CURRIER
+    'curry': 'SDG',
+    'currier': 'S',
+    # CUSTOM != CUSTOMER
+    'customer': 'S',
+    'custom': '',
+    'customs': '',
+    # CUSTOMIZE
+    'customize': 'ZGBSRDN',
+    # DECORATE != DECORATED or DECORATING or DECORATION or DECORATIVE
+    'decorate': 'S',
+    'decorated': '',
+    'decorating': 'S',
+    'decoration': 'S',
+    'decorative': '',
+    # DEPENDABLE != DEPEND
+    'depend': 'GDS',
+    'dependable': '2',
+    # DEPENDANT _> DEPENDENT
+    'dependant': 'S',
+    # DEPENDENCY _> DEPENDANCY
+    'dependency': 'QS',
+    # DESERTED != DESERT
+    'desert': 'ZGRS',
+    'deserted': '',
+    # DESIGNER != DESIGN
+    'design': 'DSG',
+    'designer': 'S',
+    # DICKENS != DICK
+    'dick': 'GZRDS',
+    'dickens': '',
+    # DISTILLER != DISTILL
+    'distiller': 'S',
+    'distill': 'GSD',
+    # EARTH -> EARTHLY
+    'earth': 'DNGY',
+    # ECONOMIZE
+    'economize': 'GZSRDN',
+    # EFFECTIVE != EFFECT
+    'effect': 'SDG',
+    'effective': 'PY',
+    # ELECTRICITY -> ELECTRICITYS
+    'electricity': 'QS',
+    # EXECUTIVE != EXECUTE
+    'execute': 'NGZBXDRS',
+    'executive': 'SY',
+    # EXHAUSTED != EXHAUST
+    'exhaust': '',
+    'exhausted': 'Q',
+    # FARMING != FARM
+    'farming': 'S',
+    'farm': 'RDZS',
+    # FAVORABLE -> FAVORABLY
+    'favorable': 'PSY',
+    # FEDERATE != FEDERATION
+    'federation': 'S',
+    'federate': 'SDVG',
+    # FLAVOR != FLAVORING
+    'flavoring': 'QS',
+    'flavor': 'SDQRZ',
+    # FLYING != FLY
+    'fly': 'BDRSTZ',
+    'flying': '',
+    # FORMATION != FORMATE
+    'formate': 'DGS',
+    'formation': 'S',
+    # GENERATE != GENERATION
+    'generate': 'VGSD',
+    'generation': 'S',
+    # GINGERLY != GINGER
+    'ginger': 'DGS',
+    'gingerly': '',
+    # GLASS != GLASSES
+    'glass': 'GD',
+    'glasses': '',
+    # GOVERNOR -> GOVERNER
+    'governor': 'QS',
+    'governors': 'Q',
+    # GRAY -> GREY
+    'gray': 'PYRDGTSQ',
+    # GROOM ! GROOMING or GROOMED
+    'groom': 'ZSR',
+    'grooming': 'S',
+    # HARDCORAL
+    'hardcoral': 'S',
+    # HOSPITABLE
+    'hospitable': 'P',
+    # HUMANE
+    'humane': 'PY',
+    # IMPORTANT -> IMPORTANCE
+    'important': 'QY',
+    # INC != INCEST
+    'inc': '',
+    'incest': '',
+    # INFLATE != INFLATABLE or INFLATION
+    'inflate': 'GDRS',
+    'inflatable': 'QS',
+    'inflation': 'S',
+    # INITIATE -> INITIALIZATION
+    'initiate': 'GNQS3',
+    # INTEGRATE
+    'integrate': 'DGNS3',
+    # INTEREST != INTERESTING or INTERESTED
+    'interest': 'S',
+    'interesting': 'YPS',
+    'interested': '',
+    # INTERMENT != INTERN
+    'intern': 'DGS',
+    'internment': 'S',
+    # INTERNALIZE
+    'internalize': 'DGJQS',
+    # INTERNATIONAL -> INTERNATIONALISM
+    'international': 'QSY1',
+    # IRONIC -> IRONY IRONICALLY
+    'ironic': 'Q67',
+    'ironical': 'P',
+    # LEAVE != LEAVES
+    'leave': 'RDZ',
+    # LEAVING != LEAVE
+    'leaving': 'S',
+    # LIBERAL -> LIBERALISM
+    'liberal': 'YSP1',
+    # LIBERATE
+    'liberate': 'GDS35',
+    'liberator': '',
+    # LIBERATION != LIBERATE
+    'liberation': 'S',
+    # LIQUIDATE
+    'liquidate': 'DGNSX35',
+    'liquidator': '',
+    # LOAFER != LOAF
+    'loafer': 'S',
+    # LONGING != LONG
+    'long': 'DPRSTY',
+    'longing': 'SY',
+    # MAKING != MAKE
+    'make': 'S',
+    'making': 'S',
+    # MATCHING != MATCH
+    'match': 'BRSDZ',
+    'matching': 'S',
+    # MARBLE != MARBLES
+    'marble': 'JRDG',
+    'marbles': '',
+    # MEDICATE != MEDICATION
+    'medication': 'S',
+    'medicate': 'DGSV',
+    # MODERNIZE
+    'modernize': 'SRDGZN',
+    # NEW != NEWS
+    'new': 'PTGDRY',
+    'news': '',
+    # OBJECTION -> OBJECTED OBJECTING
+    'objection': 'BQS',
+    # OBJECTIVE != OBJECT
+    'object': 'S',
+    'objective': 'S',
+    # OPERATION != OPERATE
+    'operation': 'S6',
+    'operate': 'GDS',
+    # OPERATIVE
+    'operative': 'S',
+    # ORGANIZER != ORGANIZE
+    'organizer': 'S',
+    'organize': 'GDS',
+    # ORIENTAL
+    'oriental': 'SY1',
+    # ORENTATE
+    'orientate': 'SDXGN3',
+    'orientation': '',
+    # ORIENTEER
+    'orienteer': 'GJ',
+    # ORIGINAL -> ORIGINALITY
+    'original': 'SY2',
+    # ORIGINATE -> ORIGINATOR
+    'originate': 'VGNXSD3',
+    # PAINTERLY != PAINTER
+    'painter': '',
+    'painterly': 'P',
+    # PAINTING != PAINT
+    'paint': 'DRSZ',
+    'painting': 'S',
+    # PANT != PANTING
+    'pant': 'D',
+    'panting': 'S',
+    # PARK != PARKING(s) or PARKED or PARKER
+    'park': 'S',
+    'parking': 'S',
+    'parked': '',
+    # PEACEFUL -> PEACFUL
+    'peaceful': 'QPY',
+    # PERFORM != PERFORMER
+    'performer': 'S',
+    'perform': 'SDGB',
+    # PERSONALS != PERSONAL
+    'personal': 'Y8',
+    'personals': '',
+    # PHYSICS != PHYSIC
+    'physic': '',
+    'physics': '',
+    # PI != PIER
+    'pi': 'H',
+    'pier': 'S',
+    # POINT != POINTER
+    'point': 'DGS',
+    'pointer': 'S',
+    # POLITIC -> POLITICAL
+    'politic': 'S67',
+    # POSITIVE -> POSITIVITY
+    'positive': 'RSPYT2',
+    # PRESENTABLE != PRESENT
+    'present': 'SLDYZP',
+    'presentable': 'P2',
+    'presenter': 'QS',
+    'presentat': 'Q',
+    'presentation': '',
+    # PRESERVER != PRESERVE
+    'preserver': 'S',
+    'preserve': 'DSBG',
+    # PRODUCTIVE != PRODUCT
+    'product': 'S',
+    'productive': 'PY24',
+    # PUBLICATE
+    'publicate': 'SDNX',
+    'publication': '',
+    # PUBLICIZE
+    'publicize': 'DGQS',
+    # PUZZLED != PUZZLE
+    'puzzle': 'RSZL',
+    'puzzled': 'Q',
+    'puzzling': '',
+    # RAILING != RAIL
+    'rail': 'DS',
+    'railing': 'S',
+    # RATIONAL -> RATIONALISM
+    'rational': 'NQPSY128',
+    'rationalize': '',
+    # REALIZE -> REALIZATION
+    'realize': 'JRSDBZGNX',
+    # RECORD != RECORDING or RECORDER
+    'record': 'S',
+    'recorder': 'S',
+    'recording': 'S',
+    # REFER -> REFERAL
+    'refer': 'BQR6',
+    # REFERENCE
+    'reference': 'DGQRS',
+    # REFLECTOR
+    'reflector': 'QS',
+    # RESPONSIBLE -> RESPONSABLE
+    'responsible': 'QPY24',
+    'responsibility': '',
+    # RESPOND
+    'respond': 'DGQRSZ',
+    # ROLLED != ROLL
+    'roll': 'S',
+    'rolled': '',
+    'rolling': 'S',
+    # SACRED
+    'sacred': 'PYS',
+    # SEASON != SEASONING(s)
+    'season': 'RDYBZS',
+    'seasoning': 'S',
+    # SECRETED != SECRET
+    'secret': 'TVRYS',
+    'secrete': 'XNSDG',
+    # SELECTIVE != SELECT
+    'select': 'PDSGB',
+    'selective': 'Y2',
+    # SETTING != SETT
+    'sett': '',
+    # SEVERE -> SEVERITY
+    'severe': 'PSY24',
+    'severity': '',
+    # SETTINGS != SETT
+    'setting': 'S',
+    # SHORT != SHORTS
+    'short': 'GTXYRDNP',
+    'shorts': '',
+    # SHORTEN != SHORTENING (noun)
+    'shorten': 'RD',
+    # SINK != SINKING
+    'sink': 'ZSRB',
+    'sinking': 'S',
+    # STOCKING != STOCK
+    'stock': 'DS',
+    'stocking': 'S',
+    # SUCCESSION
+    'success': 'S',
+    'succession': 'QS',
+    # TENDER != TEND
+    'tend': 'SDG',
+    'tender': 'DGS',
+    'tenderness': 'QS',
+    # TENDERIZE
+    'tenderize': 'NDRG',
+    # THEATER -> THEATRE
+    'theater': 'QS',
+    # THINK
+    'think': 'GRS',
+    # TIRE != TIRING or TIRED
+    'tire': 'S',
+    'tired': 'Q',
+    # TRANSFORMER != TRANSFORM
+    'transform': 'DBSG',
+    'transformer': 'S',
+    # TRANQUILIZE
+    'tranquilize': 'JGZDSRQ',
+    # TRANSITION -> TRANSITIONAL
+    'transition': 'DGS6',
+    # TRANSITIVE != TRANSIT
+    'transit': 'SGD',
+    'transitive': 'PY',
+    # USED != USE or US
+    'us': 'RSBZ',
+    'use': 'S',
+    'used': '',
+    'using': '',
+    # VEGETATION != VEGETATE
+    'vegetation': 'S',
+    'vegetate': 'DSGV',
+    # WATCHING != WATCH
+    'watch': 'RSDZB',
+    'watching': '',
+    # WAVED != WAVE
+    'wave': 'ZRS',
+    'waved': '',
+    # WAVING != WAVE
+    'waving': 'S',
+    # WINDING != WIND
+    'wind': 'SRZ',
+    'winding': 'S',
+    # WINTERIZE
+    'winterize': 'DGNS',
+    # WOODS != WOOD
+    'wood': 'NDG',
+    'woods': '',
+
+    # Adding irregular plurals -f or -fe to -ves
+    'elf': 'W',
+    'hoof': 'DRSGW',
+    'knife': 'DSGW',
+    'leaf': 'GSDW',
+    'loaf': 'SW',
+    'scarf': 'SDGW',
+    'wharf': 'SGDW',
+    'wife': 'DSYGW',
+    'wolf': 'RDGSW',
+
+    # more irregular plurals
+    'mouse': 'SRDGZQ',
+    'cactus': 'SQ',
+    'fungus': 'SQ',
+    'octopus': 'SQ',
+    'syllabus': 'SQ',
+    'foot': 'SRDGZJQ',
+    'quiz': 'Q',
+    'potato': 'Q',
+    'tomato': 'Q',
+
+    # irregular verbs
+    'sleep': 'RGZSQ',
+    'swim': 'SQ',
+    'teach': 'GSQ',
+    'throw': 'SZGRQ',
+    'understand': 'RGSJBQ',
+    'write': 'SBRJGQ',
 }
+
 
 class Expander:
     """Expands the dictionary file performing the necessary modifications to make it more suitable for stemming"""

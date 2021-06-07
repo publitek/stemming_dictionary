@@ -1,0 +1,34 @@
+Found 16 errors
+
+5:  	1;one
+	input: 1, expected: one, actual: 
+6:  	2;two
+	input: 2, expected: two, actual: 
+7:  	3;three
+	input: 3, expected: three, actual: 
+8:  	4;four
+	input: 4, expected: four, actual: 
+9:  	5;five
+	input: 5, expected: five, actual: 
+10:  	6;six
+	input: 6, expected: six, actual: 
+11:  	7;seven
+	input: 7, expected: seven, actual: 
+12:  	8;eight
+	input: 8, expected: eight, actual: 
+13:  	9;nine
+	input: 9, expected: nine, actual: 
+370:  	importation;import
+	input: importation, expected: import, actual: 
+771:  	thought;think
+	input: thought, expected: think, actual: 
+772:  	thoughts;think
+	input: thoughts, expected: think, actual: thought
+784:  	tranquillized;tranquilize
+	input: tranquillized, expected: tranquilize, actual: tranquillize
+785:  	tranquillizer;tranquilize
+	input: tranquillizer, expected: tranquilize, actual: tranquillize
+786:  	tranquillizes;tranquilize
+	input: tranquillizes, expected: tranquilize, actual: tranquillize
+787:  	tranquillizing;tranquilize
+	input: tranquillizing, expected: tranquilize, actual: tranquillize

@@ -15,13 +15,24 @@ and not stemming so there are some obvious problems.
 - unhappy -> happy
 - butter -> butt
 
+### Setup
+`
+virtualenv ~/.virtualenvs/stemming
+source ~/.virtualenvs/stemming/bin/activate
+pip install hunspell
+`
+
 ### Tests
 
 The testing code has been redone with a txt input file in the following format.
 
 `term` = Don't Stem (term doesn't stem)
-
 `term1;term2` = Should Stemp (term1 stems to term2)
+
+### Running Tests Manually
+
+Run `python expand.py` to update the en_US.dic file
+Then run `hunspell -d en_US` to test it
 
 ### License
 
@@ -36,4 +47,10 @@ released as part of Geoff Kuenning's Ispell and as
 such is covered by his BSD license.
 
 ### Original Dictionaries
-http://archive.services.openoffice.org/pub/mirror/OpenOffice.org/contrib/dictionaries/
+https://github.com/LibreOffice/dictionaries/tree/master/en
+
+### Hunspell documentation
+https://github.com/hunspell/hunspell
+https://grammalecte.net/_misc/hunspell4.pdf
+https://spylls.readthedocs.io/en/latest/hunspell.html
+https://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/
